@@ -1,0 +1,9 @@
+/llm_based_abm/key.txt
+.DS_Store
+__pycache__/
+*.pyc
+.env
+/llm_based_abm/experiment_data/panel.csv
+/llm_based_abm/results/predictions.csv
+/llm_based_abm/results/actions.csv
+/llm_based_abm/results/return_rate_sensitivity.csv

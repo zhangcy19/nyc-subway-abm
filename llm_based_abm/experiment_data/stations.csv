@@ -1,0 +1,13 @@
+station_complex_id,station_name,borough,latitude,longitude,august_rows,august_ridership
+291,Clinton-Washington Avs (G),Brooklyn,40.688087,-73.96684,730,96303.0
+393,116 St (6),Manhattan,40.79863,-73.94162,744,210931.0
+416,Wakefield-241 St (2),Bronx,40.903126,-73.85062,741,69077.0
+430,"Simpson St (2,5)",Bronx,40.824074,-73.89307,744,104867.0
+455,69 St (7),Queens,40.746326,-73.8964,744,112276.0
+458,46 St-Bliss St (7),Queens,40.743134,-73.918434,744,237462.0
+604,"161 St-Yankee Stadium (B,D,4)",Bronx,40.82796466666667,-73.92571166666667,744,555212.0
+605,"168 St (A,C,1)",Manhattan,40.840637,-73.93984499999999,744,407532.0
+611,"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",Manhattan,40.75619716666667,-73.98749916666667,744,3757455.0
+616,"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Queens,40.746781,-73.89135533333332,744,1263060.0
+617,"Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",Brooklyn,40.684162,-73.97779,744,742698.0
+621,"Broadway Junction (A,C,J,L,Z)",Brooklyn,40.678333,-73.90532,744,162431.0

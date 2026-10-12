@@ -1,5 +1,33 @@
 # LLM-based NYC subway cohort ABM
 
+## 第二轮：动态站点模型
+
+第二轮的入口是 `v2.py`，预算上限 2,100,000 token。先看 [V2_DIAGNOSIS.md](V2_DIAGNOSIS.md) 理解旧模型的问题，再看 [V2_PROTOCOL.md](V2_PROTOCOL.md) 的固定比较方式和 [V2_LITERATURE.md](V2_LITERATURE.md) 的文献依据。实际结果见 [V2_RESULTS.md](V2_RESULTS.md)，由 `v2_analyze.py` 生成。
+
+每天零点预测该日 24 小时，输入只有此前完成的客流，以及当天实测天气。LLM 按站点、票种群体和六小时时段决定活动倍率和出行策略，Mesa 保存跨小时延迟状态。比较动态 zero-shot、历史检索、反馈 critic、统计校准和混合模型，并保留同历史库的纯数值模型与纯检索模型。反馈 critic 根据已完成反馈期的错误调整倍率，不是更新基础 LLM 的模型权重。
+
+例如某组基准需求为 100，LLM 给活动倍率 1.1、行动概率 `[0.90, 0.05, 0.03, 0.02]`，则该组本小时贡献 99，另有 5.5 延迟；下一小时按假设返回 3.3。所有组相加就是站点预测。小数表示需求的期望人数，不是对真实乘客逐个抽签。规则由我们的代码定义，Mesa 负责组织代理和保存状态；它不会自动提供纽约乘客的行为规律。
+
+使用 dev 环境，在本文件夹运行：
+
+```bash
+python v2.py prepare
+python -m unittest test_v2.py
+python v2.py development --offline
+python v2.py test --offline
+python v2_analyze.py
+```
+
+`prepare` 从共享原始数据重建本地 panel；该中间表不上传，规则和参数均在代码内。已有真实响应缓存时，`--offline` 不调用 API。首次在线运行先用 `python v2.py pilot` 检查一天；确认设计后，`development` 完成反馈和验证，`test` 才运行回顾性测试。去掉 `--offline` 会为未缓存请求消费 token。
+
+`v2_results/api_calls.jsonl.gz` 保留真实请求和响应，可离线重放；后续新请求追加到 `api_calls.jsonl`，读取时会合并两者。`v2_results/` 另保留验证期冻结选择、策略、小时预测、误差表与图。`predictions.csv.gz` 每行是一站一小时，包含 `timestamp, station_complex_id, model, seed, predicted, total_ridership`，以及四组的真实与 `pred_` 预测列。总客流直接评分；群体评分排除原始缺失观测。`seed` 仍只是独立请求样本编号。
+
+复现核对见 `v2_results/reproducibility.json`：从共享源数据重建并离线重放，82,152 行预测与在线结果逐数一致，最大差为 0，未新增 API 请求。实际用量和失败请求的保守记账分别报告在结果中。
+
+第二轮采用新的站点和固定时间划分，但复用了已知背景的 8–9 月数据，属于回顾性比较，不是新的外部盲测。第一轮文件保留在下方说明的位置。
+
+## 第一轮：固定天气策略
+
 用相同站点需求基准比较天气规则、LLM整体判断和LLM群体代理。数据为2023年8–9月，12站，最终检验为9月22–30日。完整设计见 [PROTOCOL.md](PROTOCOL.md)，文献依据见 [LITERATURE.md](LITERATURE.md)，数据口径见 [DATA_DESIGN.md](DATA_DESIGN.md)。
 
 ## 运行

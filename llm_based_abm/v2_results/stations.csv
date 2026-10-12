@@ -1,0 +1,13 @@
+station_complex_id,station_name,borough,latitude,longitude,n,volume,alias
+120,Bedford Av (L),Brooklyn,40.717304,-73.95687,912,847471.0,s0
+289,Bedford-Nostrand Avs (G),Brooklyn,40.68963,-73.95352,912,194129.0,s1
+308,Cathedral Pkwy (110 St) (1),Manhattan,40.803967,-73.96685,912,263746.0,s2
+366,Parkchester (6),Bronx,40.833225,-73.86082,912,345426.0,s3
+405,23 St (6),Manhattan,40.739864,-73.9866,912,505157.0,s4
+432,"Prospect Av (2,5)",Bronx,40.819584,-73.90177,912,118205.0,s5
+433,"Jackson Av (2,5)",Bronx,40.81649,-73.90781,909,81810.0,s6
+447,Flushing-Main St (7),Queens,40.7596,-73.83003,910,1487471.0,s7
+461,"Queensboro Plaza (7,N,W)",Queens,40.750584,-73.9402,912,292953.0,s8
+463,Hunters Point Av (7),Queens,40.742214,-73.94891,894,107064.0,s9
+49,Avenue J (Q),Brooklyn,40.62504,-73.9608,903,115909.0,s10
+610,"Grand Central-42 St (S,4,5,6,7)",Manhattan,40.751778,-73.976845,912,3204901.0,s11

@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    {
+      "alpha": 10.0,
+      "feedback_wape": 0.1870815749895671
+    },
+    {
+      "alpha": 100.0,
+      "feedback_wape": 0.20850968247999696
+    },
+    {
+      "alpha": 1000.0,
+      "feedback_wape": 0.24294644284804817
+    }
+  ],
+  "selected_alpha": 10.0,
+  "selected_on": "feedback only",
+  "forecast_origin": "daily midnight"
+}

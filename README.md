@@ -6,4 +6,6 @@
 - `rule_based_abm/`：协作者的规则模型工作区。
 - `llm_based_abm/`：已实现Mesa群体代理、Pro策略调用、zero/few-shot、5/10/20代理、重复实验和图表。
 
-LLM实验入口：[运行说明](llm_based_abm/README.md)、[正式流程](llm_based_abm/PROTOCOL.md)、[结果](llm_based_abm/RESULTS.md)。所有组在分支开发，通过Pull Request同步。LLM API密钥不上传。
+LLM实验入口：[运行说明](llm_based_abm/README.md)。第一轮：[流程](llm_based_abm/PROTOCOL.md)、[结果](llm_based_abm/RESULTS.md)。第二轮：[诊断](llm_based_abm/V2_DIAGNOSIS.md)、[动态站点模型流程](llm_based_abm/V2_PROTOCOL.md)、[结果](llm_based_abm/V2_RESULTS.md)。
+
+LLM组在 `llm` 分支开发，阶段完成后直接合入 `main` 与小组同步；PR可按需要使用。LLM API密钥不上传。

@@ -1,0 +1,73 @@
+{
+  "station_scales": {
+    "120": 1.0654673733161792,
+    "289": 1.0960698980488484,
+    "308": 1.0925953778057889,
+    "366": 1.1163460156468614,
+    "405": 1.2434454945747713,
+    "432": 1.14223192580036,
+    "433": 1.1656452817276162,
+    "447": 1.0611787117275606,
+    "461": 1.224103597340827,
+    "463": 1.246954876531801,
+    "49": 1.1281482551887987,
+    "610": 1.1294869982080522
+  },
+  "blend_candidates": [
+    {
+      "weight": 0.0,
+      "validation_wape": 0.08985861276313177
+    },
+    {
+      "weight": 0.1,
+      "validation_wape": 0.08885917553930307
+    },
+    {
+      "weight": 0.25,
+      "validation_wape": 0.08804137900541521
+    },
+    {
+      "weight": 0.5,
+      "validation_wape": 0.08942508465440727
+    },
+    {
+      "weight": 0.75,
+      "validation_wape": 0.09372885077593095
+    },
+    {
+      "weight": 1.0,
+      "validation_wape": 0.10077570732870476
+    }
+  ],
+  "selected_weight": 0.25,
+  "scale_fit_period": "Sep8-11",
+  "weight_selection_period": "Sep12-14",
+  "test_used_for_selection": false,
+  "feedback_blend_candidates": [
+    {
+      "weight": 0.0,
+      "validation_wape": 0.08985861276313177
+    },
+    {
+      "weight": 0.1,
+      "validation_wape": 0.08902709825016436
+    },
+    {
+      "weight": 0.25,
+      "validation_wape": 0.0880506565499211
+    },
+    {
+      "weight": 0.5,
+      "validation_wape": 0.08689877270972682
+    },
+    {
+      "weight": 0.75,
+      "validation_wape": 0.08692547281496874
+    },
+    {
+      "weight": 1.0,
+      "validation_wape": 0.08809203026711325
+    }
+  ],
+  "feedback_selected_weight": 0.5
+}

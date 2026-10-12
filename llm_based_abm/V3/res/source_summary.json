@@ -1,0 +1,18 @@
+{
+  "train_end": "2023-09-07",
+  "stations": [
+    "396",
+    "66"
+  ],
+  "group_profile": "previous-week observed fares, falling back to training observed-hour means; original group NaNs retained for evaluation",
+  "planned_total": "previous week same hour, falling back to training weekday-hour profile",
+  "weight": "planned daily group trip opportunities / representatives in that group",
+  "not_observed": [
+    "individual profiles",
+    "personality",
+    "OD",
+    "personal history",
+    "mode alternatives",
+    "experience delays"
+  ]
+}

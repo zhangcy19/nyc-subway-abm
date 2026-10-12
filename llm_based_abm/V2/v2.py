@@ -15,7 +15,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import Ridge
-from model import GROUPS
+GROUPS = ['students', 'fair_fare', 'seniors_disability', 'general']
 
 MODEL = 'doubao-seed-2-1-pro-260915'
 CAP = 2100000
@@ -41,15 +41,15 @@ def split_dates(x):
 
 
 def prepare():
-    os.makedirs('v2_results', exist_ok=True)
-    source = pd.read_csv('../data/station_hourly.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
-    weather = pd.read_csv('../data/weather_hourly.csv', parse_dates=['timestamp']).sort_values('timestamp')
+    os.makedirs('results', exist_ok=True)
+    source = pd.read_csv('../../data/station_hourly.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
+    weather = pd.read_csv('../../data/weather_hourly.csv', parse_dates=['timestamp']).sort_values('timestamp')
     weather['rain_6h_mm'] = weather.rain_mm.rolling(6, min_periods=1).sum()
     weather['rain_24h_mm'] = weather.rain_mm.rolling(24, min_periods=1).sum()
     weather['weather_context'] = np.select([weather.rain_6h_mm >= 30,
         (weather.rain_mm >= 5) | (weather.rain_6h_mm >= 10),
         (weather.rain_mm > .1) | (weather.rain_6h_mm > .1)], ['extreme', 'moderate', 'light'], default='dry')
-    previous = pd.read_csv('experiment_data/stations.csv', dtype={'station_complex_id': str})
+    previous = pd.read_csv('../V1/experiment_data/stations.csv', dtype={'station_complex_id': str})
     train_source = source[source.timestamp < '2023-09-08']
     coverage = train_source.groupby(['borough', 'station_complex_id']).agg(n=('timestamp', 'size'), volume=('total_ridership', 'sum')).reset_index()
     chosen = []
@@ -60,7 +60,7 @@ def prepare():
     chosen = pd.concat(chosen)
     stations = source[['station_complex_id', 'station_name', 'borough', 'latitude', 'longitude']].drop_duplicates('station_complex_id').merge(chosen)
     stations['alias'] = ['s'+str(i) for i in range(len(stations))]
-    stations.to_csv('v2_results/stations.csv', index=False)
+    stations.to_csv('results/stations.csv', index=False)
     x = source[source.station_complex_id.isin(stations.station_complex_id)].copy()
     channels = {'students': ['metrocard_students'], 'fair_fare': ['metrocard_fair_fare'],
         'seniors_disability': ['metrocard_seniors_disability', 'omny_seniors_disability'],
@@ -116,20 +116,20 @@ def prepare():
     for i, group in enumerate(GROUPS):
         x['base_'+group] = x.numeric * np.divide(raw_group[:, i], group_sum, out=np.zeros(len(x)), where=group_sum>0)
     x = x.sort_values(['timestamp', 'station_complex_id'])
-    x.to_csv('v2_results/panel.csv.gz', index=False)
-    with open('v2_results/numeric_fit.json', 'w') as f:
+    x.to_csv('results/panel.csv.gz', index=False)
+    with open('results/numeric_fit.json', 'w') as f:
         json.dump({'candidates': scores, 'selected_alpha': scores[best]['alpha'],
                    'selected_on': 'feedback only', 'forecast_origin': 'daily midnight'}, f, indent=2)
     print('Selected 12 new stations, numeric fit', scores, flush=True)
 
 
 def load():
-    return pd.read_csv('v2_results/panel.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp', 'date'])
+    return pd.read_csv('results/panel.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp', 'date'])
 
 
 def ledger():
     calls=[]
-    for name in ['v2_results/api_calls.jsonl.gz','v2_results/api_calls.jsonl']:
+    for name in ['results/api_calls.jsonl.gz','results/api_calls.jsonl']:
         if os.path.exists(name):
             opener=gzip.open if name.endswith('.gz') else open
             with opener(name,'rt') as f:
@@ -154,7 +154,7 @@ def request(prompt, offline=False):
         if used + RESERVED + reserve > CAP:
             raise RuntimeError('Budget guard: '+str(used)+' tokens used')
         RESERVED += reserve
-    with open('key.txt') as f:
+    with open('../key.txt') as f:
         key = f.read().strip().strip('\"\'')
     client = OpenAI(base_url='https://ark.cn-beijing.volces.com/api/v3', api_key=key, timeout=180, max_retries=0)
     with RATE_LOCK:
@@ -170,7 +170,7 @@ def request(prompt, offline=False):
             'usage_known':False,'budget_charge_tokens':reserve,'error_type':type(error).__name__,
             'error_code':getattr(error,'code',None),'http_status':getattr(error,'status_code',None)}
         with API_LOCK:
-            with open('v2_results/api_calls.jsonl','a') as f:
+            with open('results/api_calls.jsonl','a') as f:
                 f.write(json.dumps(failure)+'\n')
             RESERVED -= reserve
         raise
@@ -184,7 +184,7 @@ def request(prompt, offline=False):
     record = {'hash': digest, 'request': content, 'response_id': response.id, 'status': response.status,
         'parsed': parsed, 'raw': response.output_text, 'usage': response.usage.model_dump(), 'elapsed_seconds': time.time()-started}
     with API_LOCK:
-        with open('v2_results/api_calls.jsonl', 'a') as f:
+        with open('results/api_calls.jsonl', 'a') as f:
             f.write(json.dumps(record, ensure_ascii=False)+'\n')
         RESERVED -= reserve
         completed = ledger()
@@ -320,7 +320,7 @@ def run_policies(panel, stage, offline=False):
     if stage == 'pilot':
         targets = panel[panel.date == '2023-09-08']
     samples = [0,1] if stage == 'test' else [0]
-    with open('v2_results/policies.json') as f:
+    with open('results/policies.json') as f:
         saved = json.load(f)
     def one_batch(item):
         key, batch, mode, seed = item
@@ -350,7 +350,7 @@ def run_policies(panel, stage, offline=False):
                 errors.append(type(error).__name__)
                 continue
             saved[key]=item
-            with open('v2_results/policies.json','w') as f:
+            with open('results/policies.json','w') as f:
                 json.dump(saved,f)
     if errors:
         raise RuntimeError(str(len(errors))+' batches need resume; completed requests are cached. Error types: '+str(sorted(set(errors))))
@@ -399,7 +399,7 @@ def simulate(panel, saved, mode, seed, correction=None, return_rate=.6):
 
 
 def fit_feedback(panel, offline=False):
-    with open('v2_results/policies.json') as f:
+    with open('results/policies.json') as f:
         saved=json.load(f)
     predicted=simulate(panel,saved,'retrieval',0)
     feedback=predicted[predicted.split=='feedback'].copy()
@@ -427,7 +427,7 @@ def fit_feedback(panel, offline=False):
             if not .75<=value['m']<=1.25 or value['p']!=[1.,0.,0.,0.]:
                 raise ValueError('Critic must return bounded activity correction only')
             correction[key]=value['m']
-    with open('v2_results/feedback_correction.json','w') as f:
+    with open('results/feedback_correction.json','w') as f:
         json.dump(correction,f,indent=2)
     return correction
 
@@ -454,13 +454,13 @@ def wape(frame):
 
 
 def evaluate(panel, final=False):
-    with open('v2_results/policies.json') as f:
+    with open('results/policies.json') as f:
         saved = json.load(f)
     evaluated = panel[panel.split!='train']
     baselines = [frames(evaluated,'numeric',evaluated.numeric),frames(evaluated,'profile',evaluated.profile_total_ridership),
         frames(evaluated,'weekly',evaluated.weekly),retrieval_numeric(panel)]
     raw = [simulate(panel,saved,mode,seed) for mode in ['zero','retrieval'] for seed in ([0,1] if final else [0])]
-    with open('v2_results/feedback_correction.json') as f:
+    with open('results/feedback_correction.json') as f:
         correction=json.load(f)
     feedback_raw=[]
     for seed in ([0,1] if final else [0]):
@@ -516,13 +516,13 @@ def evaluate(panel, final=False):
         base_groups=evaluated.set_index(['timestamp','station_complex_id'])[['base_'+g for g in GROUPS]].reindex(idx).to_numpy()
         output.append(frames(llm,'llm_feedback_hybrid',(1-fbweight)*numeric+fbweight*llm.predicted.to_numpy(),
             (1-fbweight)*base_groups+fbweight*llm[['pred_'+g for g in GROUPS]].to_numpy(),int(llm.seed.iloc[0])))
-    with open('v2_results/calibration.json', 'w') as f:
+    with open('results/calibration.json', 'w') as f:
         json.dump(calibration,f,indent=2)
     if not final:
-        with open('v2_results/selection.json','w') as f:
+        with open('results/selection.json','w') as f:
             json.dump(calibration,f,indent=2)
     else:
-        with open('v2_results/selection.json') as f:
+        with open('results/selection.json') as f:
             frozen=json.load(f)
         if frozen != calibration:
             raise ValueError('Validation selections changed after test; inspect before continuing')
@@ -534,7 +534,7 @@ def evaluate(panel, final=False):
     support = counts[counts == len(output)].index
     common = pd.MultiIndex.from_frame(combined[['timestamp','station_complex_id']]).isin(support)
     combined = combined[common]
-    combined.to_csv('v2_results/predictions.csv.gz',index=False)
+    combined.to_csv('results/predictions.csv.gz',index=False)
     metrics = []
     for (model,seed,split), frame in combined.groupby(['model','seed','split']):
         for context in ['all','ordinary','dry','light','moderate','extreme']:
@@ -543,9 +543,9 @@ def evaluate(panel, final=False):
                 metrics.append({'model':model,'seed':seed,'split':split,'context':context,'n':len(f),
                     'wape':wape(f),'rmse':np.sqrt(((f.predicted-f.total_ridership)**2).mean()),
                     'bias':(f.predicted.sum()-f.total_ridership.sum())/f.total_ridership.sum()})
-    pd.DataFrame(metrics).to_csv('v2_results/metrics.csv',index=False)
+    pd.DataFrame(metrics).to_csv('results/metrics.csv',index=False)
     if not final:
-        pd.DataFrame(metrics).to_csv('v2_results/development_metrics.csv',index=False)
+        pd.DataFrame(metrics).to_csv('results/development_metrics.csv',index=False)
     print('Validation blend selection',grid,'selected',weight,flush=True)
     print(pd.DataFrame(metrics).query("context=='all'")[['model','seed','split','wape']].to_string(index=False),flush=True)
 
@@ -557,8 +557,8 @@ def main():
     args=parser.parse_args()
     if args.stage=='prepare':
         prepare()
-        if not os.path.exists('v2_results/policies.json'):
-            with open('v2_results/policies.json','w') as f: json.dump({},f)
+        if not os.path.exists('results/policies.json'):
+            with open('results/policies.json','w') as f: json.dump({},f)
         return
     panel=load()
     if args.stage in ['pilot','development','test']:

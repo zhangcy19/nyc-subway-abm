@@ -4,7 +4,7 @@ from openai import OpenAI
 
 model = sys.argv[1] if len(sys.argv) > 1 else 'ep-20261010131845-ps8n8'
 
-with open('key.txt', encoding='utf-8') as f:
+with open('../key.txt', encoding='utf-8') as f:
     api_key = f.read().strip().strip('\"\'')
 
 client = OpenAI(

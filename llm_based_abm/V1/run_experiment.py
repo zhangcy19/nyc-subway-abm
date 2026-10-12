@@ -69,7 +69,7 @@ def request_policy(prompt, max_tokens):
     reserve = len(SYSTEM + prompt) // 2 + max_tokens + 1000
     if used + reserve > BUDGET:
         raise RuntimeError(f'Budget guard: used {used}, reserved {reserve}, cap {BUDGET}')
-    with open('key.txt') as f:
+    with open('../key.txt') as f:
         key = f.read().strip().strip('\"\'')
     client = OpenAI(base_url='https://ark.cn-beijing.volces.com/api/v3', api_key=key, timeout=180, max_retries=0)
     started = time.time()

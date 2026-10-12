@@ -3,8 +3,10 @@
 __pycache__/
 *.pyc
 .env
-/llm_based_abm/experiment_data/panel.csv
-/llm_based_abm/results/predictions.csv
-/llm_based_abm/results/actions.csv
-/llm_based_abm/results/return_rate_sensitivity.csv
-/llm_based_abm/v2_results/panel.csv.gz
+/llm_based_abm/V1/experiment_data/panel.csv
+/llm_based_abm/V1/results/predictions.csv
+/llm_based_abm/V1/results/actions.csv
+/llm_based_abm/V1/results/return_rate_sensitivity.csv
+/llm_based_abm/V2/results/panel.csv.gz
+
+/llm_based_abm/V3/res/panel.csv.gz

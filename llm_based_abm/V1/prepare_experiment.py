@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 os.makedirs('experiment_data', exist_ok=True)
-source = pd.read_csv('../data/station_hourly.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
-weather = pd.read_csv('../data/weather_hourly.csv', parse_dates=['timestamp']).sort_values('timestamp')
+source = pd.read_csv('../../data/station_hourly.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
+weather = pd.read_csv('../../data/weather_hourly.csv', parse_dates=['timestamp']).sort_values('timestamp')
 weather['rain_6h_mm'] = weather.rain_mm.rolling(6, min_periods=1).sum()
 weather['rain_24h_mm'] = weather.rain_mm.rolling(24, min_periods=1).sum()
 weather['weather_context'] = np.select(
@@ -25,7 +25,7 @@ for borough in ['Bronx', 'Brooklyn', 'Manhattan', 'Queens']:
     candidates = coverage[(coverage.borough == borough) & (coverage.august_rows >= .98 * 744)].sort_values(['august_ridership', 'station_complex_id'], ascending=[False, True])
     chosen.append(candidates.iloc[[0, len(candidates)//3, 2*len(candidates)//3]])
 selection = pd.concat(chosen)
-stations = pd.read_csv('../data/stations.csv', dtype={'station_complex_id': str}).merge(selection, on=['station_complex_id', 'borough'])
+stations = pd.read_csv('../../data/stations.csv', dtype={'station_complex_id': str}).merge(selection, on=['station_complex_id', 'borough'])
 stations.to_csv('experiment_data/stations.csv', index=False)
 x = source[source.station_complex_id.isin(stations.station_complex_id)].copy()
 groups = {

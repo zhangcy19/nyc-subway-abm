@@ -50,7 +50,7 @@ def seed_means(frame, keys):
 
 def finish_figure(name):
     plt.tight_layout()
-    plt.savefig('v2_results/figures/'+name, dpi=180, bbox_inches='tight')
+    plt.savefig('results/figures/'+name, dpi=180, bbox_inches='tight')
     plt.close()
 
 
@@ -147,15 +147,15 @@ def paired_bootstrap(data):
 
 
 def report(data, metrics, groups, bootstrap):
-    with open('v2_results/calibration.json') as f:
+    with open('results/calibration.json') as f:
         calibration = json.load(f)
-    with open('v2_results/numeric_fit.json') as f:
+    with open('results/numeric_fit.json') as f:
         numeric_fit = json.load(f)
-    with open('v2_results/reproducibility.json') as f:
+    with open('results/reproducibility.json') as f:
         reproducibility = json.load(f)
     usage = {'calls': 0, 'usage_unknown_calls': 0, 'repair_calls': 0, 'budget_accounted_tokens': 0,
              'input_tokens': 0, 'output_tokens': 0, 'total_tokens': 0}
-    for filename in ['v2_results/api_calls.jsonl.gz', 'v2_results/api_calls.jsonl']:
+    for filename in ['results/api_calls.jsonl.gz', 'results/api_calls.jsonl']:
         if os.path.exists(filename):
             opener = gzip.open if filename.endswith('.gz') else open
             with opener(filename, 'rt') as f:
@@ -170,7 +170,7 @@ def report(data, metrics, groups, bootstrap):
                     usage['budget_accounted_tokens'] += call.get('budget_charge_tokens', reported.get('total_tokens', 0))
                     for name in ['input_tokens', 'output_tokens', 'total_tokens']:
                         usage[name] += reported.get(name, 0)
-    pd.DataFrame([usage]).to_csv('v2_results/api_usage_summary.csv', index=False)
+    pd.DataFrame([usage]).to_csv('results/api_usage_summary.csv', index=False)
     main = metrics[metrics.seed == 'mean'].pivot(index='model', columns='context', values='wape')
     numeric = main.loc['numeric', 'all']
     ordinary = main.loc['numeric', 'ordinary']
@@ -200,7 +200,7 @@ def report(data, metrics, groups, bootstrap):
                  f'\n整体总量偏差 numeric 为 {overall.loc["numeric","bias"]*100:+.2f}%，zero-shot 为 {overall.loc["llm_zero","bias"]*100:+.2f}%，retrieval 为 {overall.loc["llm_retrieval","bias"]*100:+.2f}%，统计校准后为 {overall.loc["llm_calibrated","bias"]*100:+.2f}%。负值表示少预测。检索没有自动修复少预测；本轮明显改善来自校准后的量级恢复，不能把这部分全归功于 LLM 自发理解。',
                  f'\n上一周同小时基线在普通天气 WAPE 为 {main.loc["weekly","ordinary"]*100:.2f}%，但 extreme 为 {main.loc["weekly","extreme"]*100:.2f}%。它的整体最好不能证明它擅长极端天气；少数极端小时和多数普通小时需要分开判断。',
                  '\n本轮换了站点及时间划分，不能把首轮和第二轮误差直接作同条件升级幅度。'])
-    development = pd.read_csv('v2_results/development_metrics.csv')
+    development = pd.read_csv('results/development_metrics.csv')
     validation = development[(development.split == 'validation') & (development.context == 'all')].groupby('model').wape.mean()
     validation_all = validation.idxmin()
     validation_llm = validation[validation.index.str.startswith('llm_')].idxmin()
@@ -230,27 +230,27 @@ def report(data, metrics, groups, bootstrap):
                  f'\n第二轮本地日志记录 {usage["calls"]} 次 API 调用，输入 {usage["input_tokens"]:,}、输出 {usage["output_tokens"]:,}，共 {usage["total_tokens"]:,} tokens。只统计 API 已返回 usage 的用量；另有 {usage["usage_unknown_calls"]} 次记录标记为用量未知，不能假设这些调用免费。冻结设计的预算为 2,000,000 tokens；最后因未知失败预留触发预算保护，操作上限扩至 2,100,000，仅完成原定修复，没有新增模型。此统计包括日志中的试跑与重试，不打印提示内容或密钥，不包含首轮另存的日志。',
                  f'\n日志中有 {usage["repair_calls"]} 次真实 API 格式修复调用，其中首次发现越界活动倍率 m=1.63。程序保留原始调用和用量，再向真实 API 请求符合约束的修复；没有手工裁剪或虚构策略。',
                  f'\n预算保守记账为 {usage["budget_accounted_tokens"]:,} tokens，包含无 usage 失败调用的预留额度；这个数字用于限制预算，不是已知实际计费量。',
-                 f'\n从本目录运行 `python v2_analyze.py` 可免费重做分析，读取保存预测而不调用 API。`v2_results/development_metrics.csv` 另存 feedback / validation，当前图表及结果表只报告 test。主流程另从源数据重建，并以 `test --offline` 重放：{reproducibility["rows"]:,} 行预测、{reproducibility["station_hours_per_method"]:,} 个共同站点小时、{reproducibility["output_model_samples"]} 个模型/样本组合，预测最大逐数差为 {reproducibility["max_absolute_prediction_difference"]}，校准选择保持一致，没有新增 API 请求；见 `v2_results/reproducibility.json`。',
+                 f'\n从本目录运行 `python v2_analyze.py` 可免费重做分析，读取保存预测而不调用 API。`results/development_metrics.csv` 另存 feedback / validation，当前图表及结果表只报告 test。主流程另从源数据重建，并以 `test --offline` 重放：{reproducibility["rows"]:,} 行预测、{reproducibility["station_hours_per_method"]:,} 个共同站点小时、{reproducibility["output_model_samples"]} 个模型/样本组合，预测最大逐数差为 {reproducibility["max_absolute_prediction_difference"]}，校准选择保持一致，没有新增 API 请求；见 `results/reproducibility.json`。',
                  '\n数据表：`metrics_summary.csv` 保留每次重复和平均指标；`station_metrics.csv`、`group_metrics.csv`、`daily_metrics.csv`、`paired_bootstrap.csv` 保存细分结果。',
                  '\n## 下一步优先做什么\n',
                  '1. 修复群体检索比率的缺失对齐：分子和分母使用同一批有观测小时，并在新实验中重新冻结提示。',
                  '2. 加入和 critic 相同 192 格容量的纯统计校准，对比同信息、同容量的方法，判断收益究竟来自校准还是 LLM。',
                  '3. 补充学校日历、线路服务/停运及新的月份，先冻结方法再独立验证。暂不继续无条件增加 agent 或 API 次数。',
                  '\n## 图表\n',
-                 '![天气误差](v2_results/figures/weather_wape.png)\n',
-                 '![每日误差](v2_results/figures/daily_wape.png)\n',
-                 '![站点误差](v2_results/figures/station_error_geography.png)\n',
-                 '![9月29日小时过程](v2_results/figures/september29_hourly.png)\n',
-                 '![群体误差](v2_results/figures/group_wape.png)\n'])
-    with open('V2_RESULTS.md', 'w') as f:
+                 '![天气误差](results/figures/weather_wape.png)\n',
+                 '![每日误差](results/figures/daily_wape.png)\n',
+                 '![站点误差](results/figures/station_error_geography.png)\n',
+                 '![9月29日小时过程](results/figures/september29_hourly.png)\n',
+                 '![群体误差](results/figures/group_wape.png)\n'])
+    with open('RESULTS.md', 'w') as f:
         f.write('\n'.join(rows).rstrip()+'\n')
     print('V2 reported tokens:', usage['total_tokens'])
     print('Numeric overall / ordinary WAPE:', numeric, ordinary)
 
 
 def main():
-    os.makedirs('v2_results/figures', exist_ok=True)
-    data = pd.read_csv('v2_results/predictions.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
+    os.makedirs('results/figures', exist_ok=True)
+    data = pd.read_csv('results/predictions.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
     data = data[data.split == 'test'].copy()
     data['date'] = data.timestamp.dt.strftime('%Y-%m-%d')
     metrics = []
@@ -260,22 +260,22 @@ def main():
         summary['context'] = context
         metrics.append(summary)
     metrics = seed_means(pd.concat(metrics, ignore_index=True), ['model', 'context'])
-    metrics.to_csv('v2_results/metrics_summary.csv', index=False)
+    metrics.to_csv('results/metrics_summary.csv', index=False)
     daily = summarize(data, ['model', 'seed', 'date'])
-    daily.to_csv('v2_results/daily_metrics.csv', index=False)
+    daily.to_csv('results/daily_metrics.csv', index=False)
     station = summarize(data, ['model', 'seed', 'station_complex_id'])
     station = seed_means(station, ['model', 'station_complex_id'])
     coordinates = data[['station_complex_id', 'station_name', 'borough', 'latitude', 'longitude']].drop_duplicates('station_complex_id')
     station = station.merge(coordinates, on='station_complex_id')
-    station.to_csv('v2_results/station_metrics.csv', index=False)
+    station.to_csv('results/station_metrics.csv', index=False)
     group_rows = []
     for (model, seed), subset in data.groupby(['model', 'seed']):
         for group in GROUPS:
             group_rows.append({'model': model, 'seed': seed, 'group': group, **scores(subset, group, 'pred_'+group)})
     group = seed_means(pd.DataFrame(group_rows), ['model', 'group'])
-    group.to_csv('v2_results/group_metrics.csv', index=False)
+    group.to_csv('results/group_metrics.csv', index=False)
     bootstrap = paired_bootstrap(data)
-    bootstrap.to_csv('v2_results/paired_bootstrap.csv', index=False)
+    bootstrap.to_csv('results/paired_bootstrap.csv', index=False)
     make_figures(metrics, daily, station, group, data)
     report(data, metrics, group, bootstrap)
     print(metrics[(metrics.seed == 'mean') & (metrics.context.isin(['all', 'ordinary']))][['model', 'context', 'wape']].to_string(index=False))

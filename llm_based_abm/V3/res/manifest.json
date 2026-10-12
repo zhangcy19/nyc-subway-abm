@@ -1,0 +1,41 @@
+{
+  "main_n_agents_per_station": 24,
+  "groups": [
+    "students",
+    "fair_fare",
+    "seniors_disability",
+    "general"
+  ],
+  "train_end": "2023-09-07",
+  "windows": {
+    "feedback": [
+      "2023-09-08",
+      "2023-09-09",
+      "2023-09-10"
+    ],
+    "test_ordinary": [
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24"
+    ],
+    "test_storm": [
+      "2023-09-28",
+      "2023-09-29",
+      "2023-09-30"
+    ]
+  },
+  "model_ids": {
+    "pro": "doubao-seed-2-1-pro-260915",
+    "lite": "doubao-seed-2-1-lite-260915"
+  },
+  "caps": {
+    "pro": 530000,
+    "lite": 460000
+  },
+  "rule_scale": 0.5,
+  "test_used_for_selection": false,
+  "decision": "single personal action; never aggregate demand multiplier",
+  "profile_weights": "synthetic profiles, observed training fare shares, same pre-trip planned mass across methods",
+  "memory": "last 3 synthetic personal outcomes; common training seed, reset per independent episode",
+  "code_sha256": "348c5109c569aca6f40ca65617cf44512d1156e6d87b4b6f6043f5aaaa20ba71"
+}

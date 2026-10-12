@@ -1,0 +1,5 @@
+provider,stage,responses,json_objects,structures_valid,actions_allowed,delays_allowed,all_valid,valid_fraction
+lite,executed_main_choice,264,264,264,264,264,264,1.0
+lite,first_completed_response,531,531,531,531,531,531,1.0
+pro,executed_main_choice,264,264,264,264,264,264,1.0
+pro,first_completed_response,622,617,617,617,617,617,0.9919614147909968

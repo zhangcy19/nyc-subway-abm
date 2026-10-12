@@ -87,7 +87,7 @@ WAPE 为绝对误差之和除以真实客流之和，越低越好。LLM 指标�
 
 预算保守记账为 2,029,097 tokens，包含无 usage 失败调用的预留额度；这个数字用于限制预算，不是已知实际计费量。
 
-从本目录运行 `python v2_analyze.py` 可免费重做分析，读取保存预测而不调用 API。`v2_results/development_metrics.csv` 另存 feedback / validation，当前图表及结果表只报告 test。主流程另从源数据重建，并以 `test --offline` 重放：82,152 行预测、4,564 个共同站点小时、18 个模型/样本组合，预测最大逐数差为 0.0，校准选择保持一致，没有新增 API 请求；见 `v2_results/reproducibility.json`。
+从本目录运行 `python v2_analyze.py` 可免费重做分析，读取保存预测而不调用 API。`results/development_metrics.csv` 另存 feedback / validation，当前图表及结果表只报告 test。主流程另从源数据重建，并以 `test --offline` 重放：82,152 行预测、4,564 个共同站点小时、18 个模型/样本组合，预测最大逐数差为 0.0，校准选择保持一致，没有新增 API 请求；见 `results/reproducibility.json`。
 
 数据表：`metrics_summary.csv` 保留每次重复和平均指标；`station_metrics.csv`、`group_metrics.csv`、`daily_metrics.csv`、`paired_bootstrap.csv` 保存细分结果。
 
@@ -99,12 +99,12 @@ WAPE 为绝对误差之和除以真实客流之和，越低越好。LLM 指标�
 
 ## 图表
 
-![天气误差](v2_results/figures/weather_wape.png)
+![天气误差](results/figures/weather_wape.png)
 
-![每日误差](v2_results/figures/daily_wape.png)
+![每日误差](results/figures/daily_wape.png)
 
-![站点误差](v2_results/figures/station_error_geography.png)
+![站点误差](results/figures/station_error_geography.png)
 
-![9月29日小时过程](v2_results/figures/september29_hourly.png)
+![9月29日小时过程](results/figures/september29_hourly.png)
 
-![群体误差](v2_results/figures/group_wape.png)
+![群体误差](results/figures/group_wape.png)

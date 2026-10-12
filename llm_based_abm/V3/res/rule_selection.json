@@ -1,0 +1,25 @@
+{
+  "candidates": [
+    {
+      "rain_scale": 0.5,
+      "feedback_daily_wape": 0.127117876234484
+    },
+    {
+      "rain_scale": 1.0,
+      "feedback_daily_wape": 0.13988417222622543
+    },
+    {
+      "rain_scale": 1.5,
+      "feedback_daily_wape": 0.13988417222622543
+    },
+    {
+      "rain_scale": 2.0,
+      "feedback_daily_wape": 0.13988417222622543
+    }
+  ],
+  "selected": {
+    "rain_scale": 0.5,
+    "feedback_daily_wape": 0.127117876234484
+  },
+  "selected_on": "Sep8-10 daily totals only; test never used"
+}

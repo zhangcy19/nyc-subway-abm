@@ -1,0 +1,17 @@
+provider,group,type,action,delay_min,reason,request_hash
+pro,students,fixed_attendance,subway,0,"I must attend class on time, and the subway fits my budget and usual route.",4bde366378ec0a355196944c4c2e606de80ab276b355ad53280eefb549373143
+pro,students,optional_visit,delay_subway,120,Extreme rain makes me wait; subway is cheap and my visit is optional.,e86b831fc22405edcc63e96b2a4e72f752c3487ff562deb607373e30bf8f6ab4
+pro,fair_fare,fixed_attendance,subway,0,"I must arrive on time for work, and the subway is my affordable usual route.",b96dc7a3a80e38f4c506943f718a10cf8958f02e9fefcaeea01b0144a54f3f62
+pro,fair_fare,optional_visit,delay_subway,60,"I’ll wait an hour for the extreme rain to ease, then take my usual subway.",7db18ab5b73eb8d9b02789f5c2a7d07f48e1684e1b21651a91c742c5297ff764
+pro,seniors_disability,fixed_attendance,subway,0,"I must arrive on time, and the subway is affordable and usually reliable.",c3dcc5caecf12b41e1781ea8f8fd90c88c204474b0d9d4be648d26683640c811
+pro,seniors_disability,optional_visit,delay_subway,60,Heavy rain is extreme; I’ll wait an hour and take my familiar subway.,907006e13077ba35708fe0d4add07d5ca49adf0cfb01103e22446ec7f9512e32
+pro,general,fixed_attendance,subway,0,"I must arrive on time for required work, and the subway fits my budget and habit.",b36bac3f3ee4d2ae574ab5316572da1c228047476759113c5e5a1514b53eebff
+pro,general,optional_visit,delay_subway,60,Extreme rain makes waiting safer; subway remains cheap and within my delay limit.,2f530c4bd19cd9b50630c56bd2c05b146a173327aba07a2231c549016905a0af
+lite,students,fixed_attendance,subway,0,"Subway reliably reaches required class on time, matching my usual commute.",ee184cf2b3d5135724bd65341f1c7110436cd8c363a5d37a7ede7efbb477907b
+lite,students,optional_visit,subway,0,I take the usual subway; heavy rain makes walking unappealing.,7f4c9987692c8296f35b91684799409ca6f6e75906b750acf453962e5b82de7f
+lite,fair_fare,fixed_attendance,subway,0,My usual subway trip fits budget and schedule; no verified disruption is known.,4d99f6cdc0b2ce572f8d3419e385cc34738b314d9e32ff11a33664f502fd66dd
+lite,fair_fare,optional_visit,subway,0,Extreme rain makes walking bad; subway fits my budget and usual travel plan.,a7356a634ff8e89ee12461f43915b44e568a82bb2ab8b78f9612d70d554e3203
+lite,seniors_disability,fixed_attendance,subway,0,Subway fits my habit and budget; no verified disruption means no delay.,208079321d0be6b321902269668e237840ec13140b442174dd27e48f9180aadc
+lite,seniors_disability,optional_visit,subway,0,Subway stays affordable and avoids heavy rain walking for my optional visit.,8ee2ed56dafd562bf97b18cea1aeaceb45cbbb8cb5a2c5090040b8fb1c029afa
+lite,general,fixed_attendance,subway,0,I must attend work on time; subway is my usual reliable route.,aa6ea9b76bcf50da2c7b60380517b3db8be19a1e90f314974f9c9d59b0f5035e
+lite,general,optional_visit,taxi,0,"Heavy rain warning makes taxi the safer, quicker social-visit option.",1cc541c9c5ae76486251e768ed684f305d2885e52a67ec5f92fe30110e6e4357

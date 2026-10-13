@@ -6,6 +6,9 @@ import pandas as pd
 os.makedirs('experiment_data', exist_ok=True)
 source = pd.read_csv('../../data/station_hourly.csv.gz', dtype={'station_complex_id': str}, parse_dates=['timestamp'])
 weather = pd.read_csv('../../data/weather_hourly.csv', parse_dates=['timestamp']).sort_values('timestamp')
+# Keep the published V1 experiment on its original August–September window.
+source = source[(source.timestamp >= '2023-08-01') & (source.timestamp < '2023-10-01')]
+weather = weather[(weather.timestamp >= '2023-08-01') & (weather.timestamp < '2023-10-01')].copy()
 weather['rain_6h_mm'] = weather.rain_mm.rolling(6, min_periods=1).sum()
 weather['rain_24h_mm'] = weather.rain_mm.rolling(24, min_periods=1).sum()
 weather['weather_context'] = np.select(

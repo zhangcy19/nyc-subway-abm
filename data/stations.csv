@@ -354,19 +354,19 @@ station_complex_id,station_name,borough,latitude,longitude
 6,"39 Av-Dutch Kills (N,W)",Queens,40.75288,-73.932755
 60,Fort Hamilton Pkwy (D),Brooklyn,40.640915,-73.9943
 601,"14 St (F,M,1,2,3)/6 Av (L)",Manhattan,40.73780425,-73.99749750000001
-602,"14 St-Union Sq (L,N,Q,R,W,4,5,6)",Manhattan,40.735382333333334,-73.99015666666666
+602,"14 St-Union Sq (L,N,Q,R,W,4,5,6)",Manhattan,40.73538233333333,-73.99015666666666
 603,"149 St-Grand Concourse (2,4,5)",Bronx,40.818375,-73.92735
 604,"161 St-Yankee Stadium (B,D,4)",Bronx,40.82796466666667,-73.92571166666667
 605,"168 St (A,C,1)",Manhattan,40.840637,-73.93984499999999
 606,"Court Sq (E,G,M,7)",Queens,40.74735666666667,-73.94467166666666
-607,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",Manhattan,40.749641499999996,-73.987885
+607,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",Manhattan,40.7496415,-73.987885
 608,"4 Av (F,G)/9 St (R)",Brooklyn,40.670561500000005,-73.989042
 609,"Bryant Pk (B,D,F,M)/5 Av (7)",Manhattan,40.75408933333333,-73.98283133333334
 61,50 St (D),Brooklyn,40.63626,-73.99479
 610,"Grand Central-42 St (S,4,5,6,7)",Manhattan,40.751778,-73.976845
 611,"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",Manhattan,40.75619716666667,-73.98749916666667
-612,"Lexington Av-53 St (E,M)/51 St (6)",Manhattan,40.757329999999996,-73.97048749999999
-613,"Lexington Av (N,R,W)/59 St (4,5,6)",Manhattan,40.762593499999994,-73.9676095
+612,"Lexington Av-53 St (E,M)/51 St (6)",Manhattan,40.75733,-73.97048749999999
+613,"Lexington Av (N,R,W)/59 St (4,5,6)",Manhattan,40.7625935,-73.9676095
 614,"59 St-Columbus Circle (A,B,C,D,1)",Manhattan,40.7682705,-73.9818305
 615,New Utrecht Av (N)/62 St (D),Brooklyn,40.62592933333334,-73.99653166666667
 616,"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Queens,40.746781,-73.89135533333332
@@ -374,7 +374,7 @@ station_complex_id,station_name,borough,latitude,longitude
 618,"14 St (A,C,E)/8 Av (L)",Manhattan,40.7403355,-74.002135
 619,"Broadway-Lafayette St (B,D,F,M)/Bleecker St (6)",Manhattan,40.725605,-73.99543
 62,55 St (D),Brooklyn,40.631435,-73.995476
-620,"Court St (R)/Borough Hall (2,3,4,5)",Brooklyn,40.693585199999994,-73.9904152
+620,"Court St (R)/Borough Hall (2,3,4,5)",Brooklyn,40.6935852,-73.9904152
 621,"Broadway Junction (A,C,J,L,Z)",Brooklyn,40.678333,-73.90532
 622,"Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",Manhattan,40.713153,-74.003765
 623,"Canal St (J,N,Q,R,W,Z,6)",Manhattan,40.71904833333333,-74.000305

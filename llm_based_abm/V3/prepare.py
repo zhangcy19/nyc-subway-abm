@@ -9,6 +9,8 @@ from model import GROUPS, population
 def prepare():
     os.makedirs('res',exist_ok=True)
     x=pd.read_csv('../../data/station_hourly.csv.gz',dtype={'station_complex_id':str},parse_dates=['timestamp'])
+    # Keep the published V3 experiment on its original August–September window.
+    x=x[(x.timestamp>='2023-08-01')&(x.timestamp<'2023-10-01')]
     old=pd.concat([pd.read_csv('../V1/experiment_data/stations.csv',dtype={'station_complex_id':str}),
         pd.read_csv('../V2/results/stations.csv',dtype={'station_complex_id':str})]).station_complex_id
     train=x[x.timestamp<'2023-09-08']
@@ -21,6 +23,7 @@ def prepare():
     stations=x[['station_complex_id','station_name','borough','latitude','longitude']].drop_duplicates('station_complex_id')
     stations.to_csv('res/stations.csv',index=False)
     weather=pd.read_csv('../../data/weather_hourly.csv',parse_dates=['timestamp']).sort_values('timestamp')
+    weather=weather[(weather.timestamp>='2023-08-01')&(weather.timestamp<'2023-10-01')].copy()
     weather['rain_6h_mm']=weather.rain_mm.rolling(6,min_periods=1).sum()
     weather['weather_context']=np.select([weather.rain_6h_mm>=30,(weather.rain_mm>=5)|(weather.rain_6h_mm>=10),
         (weather.rain_mm>.1)|(weather.rain_6h_mm>.1)],['extreme','moderate','light'],default='dry')

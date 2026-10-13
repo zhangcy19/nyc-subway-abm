@@ -1,0 +1,102 @@
+{
+  "status": "Complete: primary experiment and three repetitions of each subset configuration; source corrections documented; all predictions replayed identically",
+  "sha256": {
+    "prepare.py": "8af1e78a5c43963660b88d29685457b70b346b0bdaa19f9eec202b96c848143b",
+    "model.py": "1c2f54d6c7baf2eb3c28c363cc3db36eb3e736941b2373fe0ad4c90a7d3fa67d",
+    "experiment.py": "bd9e59856756c6447ee0c5142d77440c60bf38f3ea3149014b9fabf02103c899",
+    "PROTOCOL.md": "3b6db82df89c750d0db03ac47127ad8ab0f6c55a7d6604ec11c82a829b1dad6c"
+  },
+  "data_design": {
+    "train": "2023-07-01 to 2023-07-31",
+    "validation": [
+      "2023-08-04",
+      "2023-08-05",
+      "2023-08-06",
+      "2023-08-07"
+    ],
+    "test": [
+      "2023-08-12",
+      "2023-08-13",
+      "2023-08-14",
+      "2023-08-18",
+      "2023-08-19",
+      "2023-08-20",
+      "2023-08-25",
+      "2023-08-26",
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24",
+      "2023-09-25",
+      "2023-09-27",
+      "2023-09-28",
+      "2023-09-29",
+      "2023-09-30",
+      "2023-10-06",
+      "2023-10-07",
+      "2023-10-08",
+      "2023-10-09",
+      "2023-10-13",
+      "2023-10-14",
+      "2023-10-20",
+      "2023-10-21"
+    ],
+    "selection": "July coverage >=98%, two volume tercile stations per borough",
+    "main_n_agents": 8,
+    "lite_model": "doubao-seed-2-1-lite-260915",
+    "token_cap": 5000000,
+    "max_authorized_cap": 10000000,
+    "weather_definition": "research threshold: hourly rain >=10mm or trailing six-hour rain >=30mm",
+    "forecast_task": "conditional on realized target-day weather; not an operational ex-ante forecast",
+    "supplementary": "2023 ACS released after 2023; 2026 current network/ADA only retrospective contextual probes, excluded from primary forecasts"
+  },
+  "amendments": [
+    {
+      "reason": "Implementation correction during test execution, before test metrics inspected: cancel/remote choices have zero experienced travel delay. Prior API calls remain in ledger and budget; affected episodes rerun using corrected memories.",
+      "previous_model_sha256": "2d0491e601eff45d00d23cc11033ce9fcbceee925338d758f193672ca2c4f0a0"
+    },
+    {
+      "reason": "Before supplementary probes: define ADA category codes, resident fractions and GTFS adjacency in supplementary input. Primary prompts unchanged.",
+      "previous_experiment_sha256": "699d77849ac6cfb91476d15c925655ee2b38406a2bfddeef8fe252070db28a4d"
+    },
+    {
+      "reason": "Documentation clarification only: role travelers do not see aggregate demand history; their external executor uses historical trip opportunities.",
+      "previous_protocol_sha256": "4e485ef70665336a394e3f61c42ec0ed34a84d725546e167466773ea3d408010"
+    },
+    {
+      "reason": "Offline audit found cache lookup stopped at a recorded network failure despite a valid retry already stored. Reuse the recorded retry path; prompts and prediction mechanics unchanged; no new API calls.",
+      "previous_experiment_sha256": "3fc29393d57572066073e53df00e7b125720dde835182777fa07e6154b28f7b0"
+    },
+    {
+      "reason": "Fixed-subset repeat changed persona zero daily WAPE from 8.18% to 15.08%. Add repeats 1/2 for every original subset configuration (three episodes per configuration), with unchanged prompts/personas/parameters. Replicate 2 gets a distinct output filename. Primary test unchanged.",
+      "previous_experiment_sha256": "a3937140808a9a436cfcd3a5f96078c1da9879fddd5aa3a54ced963cc9769671"
+    }
+  ],
+  "post_test_diagnostics": {
+    "rule_sensitivity": "All five predeclared grid values replayed; no main-model reselection",
+    "guard_cap_tokens": 6500000,
+    "sampling_repeats": "All four original subset configurations, replicates 0/1/2; three repetitions, exploratory, not parameter selection",
+    "ensemble": "Equal average of the three repeated hourly forecasts per fixed configuration, no learned weights; subset only, not the primary model"
+  },
+  "verification": {
+    "offline_numeric_replay_equal": {
+      "res/test_probe24_predictions.csv.gz": true,
+      "res/test_probe8_enriched_repeat_predictions.csv.gz": true,
+      "res/test_probe8_predictions.csv.gz": true,
+      "res/test_probe24_repeat2_predictions.csv.gz": true,
+      "res/test_probe8_repeat_predictions.csv.gz": true,
+      "res/test_probe24_repeat_predictions.csv.gz": true,
+      "res/test_probe8_enriched_repeat2_predictions.csv.gz": true,
+      "res/test_probe16_repeat2_predictions.csv.gz": true,
+      "res/test_probe16_repeat_predictions.csv.gz": true,
+      "res/test_probe8_repeat2_predictions.csv.gz": true,
+      "res/validation_predictions.csv.gz": true,
+      "res/test_probe16_predictions.csv.gz": true,
+      "res/test_probe8_enriched_predictions.csv.gz": true,
+      "res/test_predictions.csv.gz": true
+    },
+    "actual_calls": 5671,
+    "individual_constraints_checked": 52308,
+    "no_new_API_on_replay": true
+  },
+  "input_data_git_commit": "6ad750ddca1fdfe198a0350763f743593a481055"
+}

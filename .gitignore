@@ -10,3 +10,6 @@ __pycache__/
 /llm_based_abm/V2/results/panel.csv.gz
 
 /llm_based_abm/V3/res/panel.csv.gz
+
+/llm_based_abm/V4/res/panel.csv.gz
+/llm_based_abm/V4/res/api_calls.jsonl

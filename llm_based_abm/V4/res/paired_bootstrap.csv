@@ -1,0 +1,15 @@
+method,reference,difference,lower,upper,resampling
+direct_zero,baseline,-0.009232561183560733,-0.02502945092958111,0.0012673496142898857,24 date clusters; only three extreme days
+direct_zero,ridge,-0.06401756835498296,-0.11927501042834388,-0.025128549000679023,24 date clusters; only three extreme days
+direct_zero,rule,-0.11564814402240554,-0.19110886017919598,-0.04942547027429302,24 date clusters; only three extreme days
+direct_few,baseline,-0.005949003499260833,-0.016282045586776525,0.0010767777513320607,24 date clusters; only three extreme days
+direct_few,ridge,-0.06073401067068307,-0.11116158900536738,-0.024870757626699595,24 date clusters; only three extreme days
+direct_few,rule,-0.11236458633810566,-0.18865533635563267,-0.05321233520725374,24 date clusters; only three extreme days
+direct_few,direct_zero,0.0032835576842999005,-0.0021843515794155366,0.01101721107418319,24 date clusters; only three extreme days
+persona_zero,baseline,0.01488851278713013,-0.015222131048539722,0.04144258445643368,24 date clusters; only three extreme days
+persona_zero,ridge,-0.03989649438429211,-0.09990779119609268,0.0081590075204375,24 date clusters; only three extreme days
+persona_zero,rule,-0.0915270700517147,-0.16725886193593617,-0.030686314289872778,24 date clusters; only three extreme days
+persona_few,baseline,0.013995273391900981,-0.019294415632026364,0.039975261362624866,24 date clusters; only three extreme days
+persona_few,ridge,-0.04078973377952125,-0.10222501291114036,0.0063898338011848495,24 date clusters; only three extreme days
+persona_few,rule,-0.09242030944694385,-0.15565589992547155,-0.031734528982975296,24 date clusters; only three extreme days
+persona_few,persona_zero,-0.0008932393952291488,-0.014228289189054553,0.012944921545359842,24 date clusters; only three extreme days

@@ -1,0 +1,129 @@
+method,group,identity,date,weather_class,action,reason
+persona_few,fair_fare,adult traveler,2023-08-12,wet,subway,"Clear weather, take subway now."
+persona_few,fair_fare,adult traveler,2023-08-12,wet,bus,"Light rain, bus avoids walking."
+persona_few,fair_fare,adult traveler,2023-08-12,wet,delay_subway,"Heavy rain, wait two hours."
+persona_few,fair_fare,adult traveler,2023-08-13,extreme,delay_subway,Heavy rain; wait for it to pass.
+persona_few,fair_fare,adult traveler,2023-08-13,extreme,subway,Rain stopped; take usual subway.
+persona_few,fair_fare,adult traveler,2023-08-13,extreme,cancel,heavy rain makes errand unsafe
+persona_few,fair_fare,adult traveler,2023-08-13,extreme,walk,"calm night, walk saves money"
+persona_few,fair_fare,adult traveler,2023-08-14,dry,subway,"clear calm night, usual subway"
+persona_few,fair_fare,adult traveler,2023-08-25,wet,walk,"Calm night, walking saves money."
+persona_few,fair_fare,adult traveler,2023-09-23,wet,cancel,"Heavy rain, errand optional."
+persona_few,fair_fare,adult traveler,2023-09-27,dry,delay_subway,"Late night, errand not urgent."
+persona_few,fair_fare,adult traveler,2023-09-29,extreme,bus,Light rain; bus avoids walking.
+persona_few,general,adult traveler,2023-08-12,wet,subway,"Clear night, take usual subway"
+persona_few,general,adult traveler,2023-08-12,wet,delay_subway,"Heavy rain, wait one hour"
+persona_few,general,adult traveler,2023-08-12,wet,taxi,"Steady rain, budget allows."
+persona_few,general,adult traveler,2023-08-12,wet,bus,"Steady rain, bus safer than walking"
+persona_few,general,adult traveler,2023-08-13,extreme,cancel,Heavy rain makes optional visit unwise.
+persona_few,general,adult traveler,2023-08-13,extreme,delay_subway,Wait for rain to clear first.
+persona_few,general,adult traveler,2023-08-13,extreme,subway,"Dry weather, usual subway works."
+persona_few,general,adult traveler,2023-08-13,extreme,remote,"heavy rain, attendance not required"
+persona_few,general,adult traveler,2023-08-14,dry,subway,"clear night, usual subway"
+persona_few,general,adult traveler,2023-08-14,dry,remote,"late night, work remotely now"
+persona_few,general,adult traveler,2023-08-18,wet,remote,"Late night, work remote."
+persona_few,general,adult traveler,2023-08-18,wet,cancel,"heavy rain, optional visit"
+persona_few,general,adult traveler,2023-08-25,wet,walk,"Calm dry night, walk comfortably."
+persona_few,general,adult traveler,2023-09-22,dry,cancel,"Late night, optional social visit."
+persona_few,general,adult traveler,2023-09-29,extreme,taxi,Heavy rain; taxi fits budget.
+persona_few,general,adult traveler,2023-09-29,extreme,walk,"dry weather, walk to visit"
+persona_few,general,adult traveler,2023-10-08,dry,delay_subway,"late night, optional visit"
+persona_few,seniors_disability,older adult traveling independently,2023-08-12,wet,subway,habitual subway for fixed appointment
+persona_few,seniors_disability,adult with mobility support needs,2023-08-12,wet,delay_subway,"Light rain, delay sixty minutes"
+persona_few,seniors_disability,older adult traveling independently,2023-08-13,extreme,subway,"rainy night, subway reliable choice"
+persona_few,seniors_disability,adult with mobility support needs,2023-08-13,extreme,delay_subway,Heavy rain; wait for it to ease.
+persona_few,seniors_disability,adult with mobility support needs,2023-08-13,extreme,cancel,heavy rain makes errand unsafe
+persona_few,seniors_disability,older adult traveling independently,2023-08-14,dry,subway,habitual subway suits fixed appointment
+persona_few,seniors_disability,older adult traveling independently,2023-08-18,wet,bus,"Rainy, bus avoids walking."
+persona_few,seniors_disability,adult with mobility support needs,2023-09-27,dry,delay_subway,wait for calmer midday
+persona_few,seniors_disability,adult with mobility support needs,2023-09-28,wet,cancel,"heavy rain, errand optional"
+persona_few,students,student,2023-08-12,wet,delay_subway,"Heavy rain, wait two hours."
+persona_few,students,student,2023-08-12,wet,subway,"Rainy midday, subway preferred."
+persona_few,students,student,2023-08-14,dry,subway,"early clear, subway habit"
+persona_few,students,student,2023-08-18,wet,taxi,"Heavy rain, taxi avoids walking."
+persona_few,students,student,2023-08-18,wet,cancel,"heavy rain, optional visit skipped"
+persona_few,students,student,2023-09-22,dry,cancel,"early morning, optional visit"
+persona_few,students,student,2023-09-29,extreme,cancel,"heavy rain, optional visit, stay home"
+persona_few,students,student,2023-09-29,extreme,subway,"light rain, subway reliable, go visit"
+persona_few,students,student,2023-09-29,extreme,walk,"Dry weather, walking saves budget."
+persona_few,students,student,2023-09-29,extreme,taxi,Heavy rain; taxi within budget.
+persona_few,students,student,2023-09-29,extreme,delay_subway,"Heavy rain easing, wait."
+persona_few,students,student,2023-10-14,wet,bus,Light rain; bus avoids walking.
+persona_zero,fair_fare,adult traveler,2023-08-12,wet,subway,"clear night, take usual subway"
+persona_zero,fair_fare,adult traveler,2023-08-12,wet,delay_subway,"light rain, wait one hour"
+persona_zero,fair_fare,adult traveler,2023-08-12,wet,bus,"dry windy evening, bus okay"
+persona_zero,fair_fare,adult traveler,2023-08-13,extreme,delay_subway,"heavy rain now, wait one hour"
+persona_zero,fair_fare,adult traveler,2023-08-13,extreme,subway,"rain stopped, take subway now"
+persona_zero,fair_fare,adult traveler,2023-08-13,extreme,bus,"rainy night, bus safer than subway"
+persona_zero,fair_fare,adult traveler,2023-08-13,extreme,cancel,Heavy rain makes this errand unwise now.
+persona_zero,fair_fare,adult traveler,2023-08-14,dry,delay_subway,"late night, errand not urgent"
+persona_zero,fair_fare,adult traveler,2023-08-14,dry,subway,"clear weather, usual commute"
+persona_zero,fair_fare,adult traveler,2023-08-14,dry,walk,"calm night, stroll home"
+persona_zero,fair_fare,adult traveler,2023-08-25,wet,walk,"calm dry night, walk saves cost"
+persona_zero,fair_fare,adult traveler,2023-08-25,wet,cancel,"Heavy rain, errand optional."
+persona_zero,fair_fare,adult traveler,2023-10-08,dry,cancel,"late night, errand not urgent"
+persona_zero,general,adult traveler,2023-08-12,wet,subway,"clear night, take usual subway"
+persona_zero,general,adult traveler,2023-08-12,wet,taxi,"light rain, taxi within budget"
+persona_zero,general,adult traveler,2023-08-12,wet,delay_subway,"heavy rain, wait two hours"
+persona_zero,general,adult traveler,2023-08-12,wet,remote,"Heavy rain, work remotely."
+persona_zero,general,adult traveler,2023-08-12,wet,bus,"heavy rain, take sheltered bus"
+persona_zero,general,adult traveler,2023-08-13,extreme,cancel,heavy rain makes optional visit unwise
+persona_zero,general,adult traveler,2023-08-13,extreme,subway,rain stopped; subway is reliable
+persona_zero,general,adult traveler,2023-08-13,extreme,remote,Heavy rain; remote work avoids commute.
+persona_zero,general,adult traveler,2023-08-13,extreme,delay_subway,Rain stopped; wait one hour then subway
+persona_zero,general,adult traveler,2023-08-13,extreme,taxi,Heavy rain; taxi within budget.
+persona_zero,general,adult traveler,2023-08-14,dry,subway,"clear night, take usual subway"
+persona_zero,general,adult traveler,2023-08-14,dry,remote,Late night; remote work is allowed.
+persona_zero,general,adult traveler,2023-08-19,dry,delay_subway,"Evening rush, wait an hour."
+persona_zero,general,adult traveler,2023-08-25,wet,walk,"Calm night, walk saves money."
+persona_zero,general,adult traveler,2023-09-23,wet,cancel,"Heavy rain, optional visit canceled."
+persona_zero,general,adult traveler,2023-09-29,extreme,bus,"heavy rain, bus affordable."
+persona_zero,general,adult traveler,2023-09-29,extreme,walk,"Dry weather, walk to visit."
+persona_zero,seniors_disability,older adult traveling independently,2023-08-12,wet,subway,"habitual subway, no delay allowed"
+persona_zero,seniors_disability,adult with mobility support needs,2023-08-12,wet,delay_subway,"Light rain, wait one hour."
+persona_zero,seniors_disability,older adult traveling independently,2023-08-13,extreme,subway,"rainy night, subway reliable"
+persona_zero,seniors_disability,adult with mobility support needs,2023-08-13,extreme,cancel,heavy rain blocks mobility support
+persona_zero,seniors_disability,adult with mobility support needs,2023-08-13,extreme,delay_subway,Avoid heavy rain and wind.
+persona_zero,seniors_disability,older adult traveling independently,2023-08-13,extreme,bus,heavy rain; subway unavailable now
+persona_zero,seniors_disability,older adult traveling independently,2023-08-14,dry,subway,"habitual subway, no delay allowed"
+persona_zero,seniors_disability,adult with mobility support needs,2023-08-14,dry,delay_subway,Wait for wind to ease.
+persona_zero,seniors_disability,older adult traveling independently,2023-08-18,wet,bus,"Steady rain, avoid walking."
+persona_zero,seniors_disability,adult with mobility support needs,2023-09-22,dry,cancel,"late night, skip errand entirely"
+persona_zero,seniors_disability,adult with mobility support needs,2023-09-23,wet,cancel,"heavy rain, errand optional"
+persona_zero,students,student,2023-08-12,wet,taxi,"heavy rain, taxi within budget"
+persona_zero,students,student,2023-08-12,wet,subway,"habitual subway, no delay allowed"
+persona_zero,students,student,2023-08-14,dry,subway,"Calm early morning, take subway."
+persona_zero,students,student,2023-08-18,wet,delay_subway,"heavy rain, wait for it to ease"
+persona_zero,students,student,2023-08-18,wet,bus,rainy morning; bus avoids walking.
+persona_zero,students,student,2023-09-22,dry,delay_subway,"too early, wait then subway"
+persona_zero,students,student,2023-09-22,dry,cancel,early morning optional social visit
+persona_zero,students,student,2023-09-28,wet,cancel,"heavy rain, skip optional visit"
+persona_zero,students,student,2023-09-29,extreme,delay_subway,wait for rain to ease
+persona_zero,students,student,2023-09-29,extreme,subway,"rain easing, go now"
+persona_zero,students,student,2023-09-29,extreme,cancel,heavy rain; optional social visit
+persona_zero,students,student,2023-09-29,extreme,taxi,"heavy rain, budget allows taxi"
+persona_zero,students,student,2023-10-07,extreme,bus,"Heavy rain, bus avoids walking."
+rule,fair_fare,adult traveler,2023-08-12,wet,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-08-12,wet,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-08-13,extreme,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-08-13,extreme,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-08-13,extreme,delay_subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-08-14,dry,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,fair_fare,adult traveler,2023-09-28,wet,delay_subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-12,wet,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-12,wet,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-12,wet,remote,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-13,extreme,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-13,extreme,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-13,extreme,remote,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,general,adult traveler,2023-08-14,dry,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,seniors_disability,older adult traveling independently,2023-08-12,wet,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,seniors_disability,adult with mobility support needs,2023-08-12,wet,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,seniors_disability,older adult traveling independently,2023-08-13,extreme,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,seniors_disability,adult with mobility support needs,2023-08-13,extreme,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,seniors_disability,older adult traveling independently,2023-08-14,dry,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,students,student,2023-08-12,wet,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,students,student,2023-08-12,wet,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,students,student,2023-08-14,dry,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,students,student,2023-09-29,extreme,cancel,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."
+rule,students,student,2023-09-29,extreme,subway,"Highest assumed utility given my attendance, budget, accessibility, rain and previous experience."

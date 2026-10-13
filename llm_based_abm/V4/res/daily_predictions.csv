@@ -1,0 +1,1345 @@
+method,station_complex_id,station_name,borough,date,weather_class,actual,predicted,observed_hours
+baseline,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,8799.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6489.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,15572.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,15240.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9334.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7066.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15176.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,9506.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,14971.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,9421.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,7827.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,15271.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,19317.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,19549.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,15914.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,9351.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,15769.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,9382.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,7322.0,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,16329.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,16071.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,9420.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,15774.5,24
+baseline,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,9206.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,2285.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1709.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4314.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,4258.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2297.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1783.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4245.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2330.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4403.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,2292.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1801.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4386.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4825.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4969.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,4710.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,2286.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4637.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,2338.5,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1846.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4646.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4724.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,2287.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,4682.0,24
+baseline,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,2188.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,7294.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,5660.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6899.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6951.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5568.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4639.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,6920.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5524.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8010.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,7573.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6214.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,8417.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,9437.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,9509.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,8521.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,7485.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,8304.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,7831.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6374.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,8764.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,8509.0,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,5851.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,8820.5,24
+baseline,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,5532.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,4909.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4210.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,4431.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,4702.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4502.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4163.5,22
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,4573.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,4217.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,4305.0,23
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,4809.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,4005.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,4327.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4734.0,23
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4955.0,23
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,3922.0,21
+baseline,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4440.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4588.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,4528.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3836.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4281.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4651.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,4056.5,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,4719.0,24
+baseline,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3833.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2529.5,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2220.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3730.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3552.5,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2546.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2334.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,3586.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2517.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3705.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,2432.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,2067.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,3759.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,4177.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4254.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,4003.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2316.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3957.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,2175.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1834.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3905.5,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3888.5,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,2077.0,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,3890.5,24
+baseline,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,2038.5,24
+baseline,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,2191.5,24
+baseline,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1628.0,24
+baseline,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3334.5,24
+baseline,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,3367.0,24
+baseline,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2130.5,24
+baseline,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1691.0,24
+baseline,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,3298.5,24
+baseline,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2085.5,24
+baseline,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3483.5,24
+baseline,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,2146.5,24
+baseline,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1661.5,24
+baseline,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,3529.0,24
+baseline,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,4063.0,23
+baseline,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4196.0,24
+baseline,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,3893.5,24
+baseline,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2118.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3822.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,2178.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1682.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3875.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3903.5,24
+baseline,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,2123.0,24
+baseline,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,3773.5,23
+baseline,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,2057.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1591.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1131.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2580.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2653.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1574.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1161.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2663.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1548.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2624.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1537.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,1179.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2604.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2730.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2811.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,2840.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1465.5,23
+baseline,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2756.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1414.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,1110.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2793.5,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2605.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1375.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2523.0,24
+baseline,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1296.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,6449.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,4910.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8102.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,8703.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6395.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4998.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,8576.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6300.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9242.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,6510.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,5076.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,8517.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9560.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,10107.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,9894.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,6309.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9681.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,6451.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4860.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,9192.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9783.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,6151.5,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,9713.0,24
+baseline,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,5974.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,8803.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6868.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,14997.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,15270.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9423.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7115.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15132.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,9605.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,14801.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,9118.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,7317.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,15175.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,18909.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,19549.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,14300.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,9351.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,15770.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,9382.5,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,6994.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,15947.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,15054.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,9190.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,15188.0,24
+direct_few,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,9200.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,2278.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1710.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4189.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,4274.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2306.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1800.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4250.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2334.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4435.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,2210.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1864.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4401.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4806.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4846.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,4439.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,2208.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4528.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,2108.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1796.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4639.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4723.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,2182.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,4641.0,24
+direct_few,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,2196.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,7295.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,5660.5,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6899.5,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6960.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5574.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4481.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,6920.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5416.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8043.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,7200.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6320.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,8375.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,9418.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,9106.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,7793.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,7488.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,7861.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,7036.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6384.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,8555.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,8314.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,5626.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,8708.0,24
+direct_few,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,5473.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,5027.5,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4344.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,4420.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,4684.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4567.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4113.875227502528,22
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,4468.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,4317.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,4281.356164383562,23
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,4776.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,4074.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,4198.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4701.523076923077,23
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4891.842105263158,23
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,3443.008486562942,21
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4332.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4726.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,3956.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3788.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4194.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4758.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,3660.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,4660.0,24
+direct_few,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3867.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2548.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2364.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3735.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3557.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2570.4,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2315.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,3553.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2559.5,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3717.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,2385.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,2020.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,3760.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,4185.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4141.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,4005.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2319.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3959.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,1994.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1831.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3841.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3915.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,1974.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,3793.0,24
+direct_few,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,2059.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,2148.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1713.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3339.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,3347.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2142.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1703.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,3288.0,24
+direct_few,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2104.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3569.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,2042.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1642.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,3530.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,4063.935483870968,23
+direct_few,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4183.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,3657.0,24
+direct_few,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2103.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3821.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,1964.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1667.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3780.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3949.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,2021.0,24
+direct_few,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,3662.3870967741937,23
+direct_few,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,2057.9,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1586.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1168.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2574.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2660.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1602.75,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1180.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2611.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1545.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2630.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1453.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,1193.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2559.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2719.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2768.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,2760.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1470.7142857142858,23
+direct_few,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2685.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1287.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,1135.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2745.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2606.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1304.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2523.0,24
+direct_few,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1297.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,6435.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,4928.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8094.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,8727.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6353.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4986.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,8394.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6273.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9243.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,6487.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,5010.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,8686.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9534.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,10077.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,9896.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,6265.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9462.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,5853.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4863.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,8932.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9527.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,6151.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,9570.0,24
+direct_few,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,6000.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,9110.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6480.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,15580.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,15216.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9423.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7118.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15340.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,9643.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,14807.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,8999.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,7730.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,14660.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,19319.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,19103.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,14050.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,9352.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,15400.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,8705.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,7125.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,15895.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,15002.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,9060.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,15307.0,24
+direct_zero,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,8940.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,2277.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1715.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4316.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,4267.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2306.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1800.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4340.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2330.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4435.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,2085.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1645.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4545.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4833.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4938.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,4281.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,2254.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4637.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,2125.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1781.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4644.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4565.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,2180.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,4465.0,24
+direct_zero,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,2196.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,7165.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,5662.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6898.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6900.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5569.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4465.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,6805.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5440.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,7997.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,6770.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6216.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,8120.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,9411.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,9372.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,7400.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,7429.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,7786.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,6800.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6408.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,8765.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,7911.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,5638.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,8481.0,24
+direct_zero,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,5457.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,4902.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4170.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,4416.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,4700.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4571.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4159.875227502527,22
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,4488.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,4246.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,4248.356164383562,23
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,4535.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,3965.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,4208.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4702.523076923077,23
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4846.8421052631575,23
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,3428.008486562942,21
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4510.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4723.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,4292.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3841.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4165.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4698.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,3845.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,4445.0,24
+direct_zero,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3853.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2548.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2215.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3732.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3554.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2570.4,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2335.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,3526.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2533.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3706.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,2283.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,1990.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,3728.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,4153.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4155.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,3500.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2292.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3814.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,1848.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1832.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3855.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3921.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,1906.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,3720.0,24
+direct_zero,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,2034.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,2168.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1628.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3332.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,3360.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2143.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1703.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,3328.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2102.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3522.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,2050.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1634.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,3529.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,4070.935483870968,23
+direct_zero,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4125.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,3692.5,24
+direct_zero,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2088.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3822.5,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,1880.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1668.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3762.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3950.0000000000005,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,2041.0,24
+direct_zero,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,3665.3870967741937,23
+direct_zero,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,2060.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1590.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1151.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2572.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2692.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1605.75,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1178.75,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2603.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1550.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2595.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1464.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,1124.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2645.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2745.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2800.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,2665.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1446.7142857142858,23
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2756.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1262.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,1132.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2746.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2603.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1335.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2441.0,24
+direct_zero,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1284.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,6370.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,4952.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8095.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,8653.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6353.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4982.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,8340.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6300.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9260.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,6180.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,5025.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,9021.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9593.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,10050.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,8380.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,6314.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9633.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,5752.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4861.7,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,9427.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9784.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,5965.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,9429.0,24
+direct_zero,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,6020.0,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,8792.150221324766,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6342.118102272465,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,15536.680012585482,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,15240.0,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9334.0,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,6906.465848588261,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15176.0,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,8569.087352996894,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,14965.540006724013,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,6435.367219781947,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,7302.810362526564,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,15271.5,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,19317.5,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,18234.29047674488,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,13985.39597836559,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,9347.502696188478,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,14695.19463551221,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,6777.406776320392,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,6639.6795169693405,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,15404.8894785503,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,14575.743700940802,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,8062.652763283767,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,15759.982169844221,24
+persona_few,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,9206.0,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,1712.5110941408477,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1658.0804950993584,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,3811.7403539906336,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,4242.672740633929,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2196.420485067114,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1758.3062558356676,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4134.864103721431,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2003.4265161840283,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,3893.922041398453,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,1562.2142764810364,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1033.0766464575836,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4386.0392156862745,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4825.0,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4761.345695470159,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,2367.3392503415807,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,1955.7727997690076,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4016.961548424388,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,1095.6167121652325,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1771.4955999953127,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4047.694690755211,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4612.093547288058,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,1509.6397907218595,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,3328.88706890417,24
+persona_few,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,1871.8321858320244,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,6306.921906762033,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,5553.495350467289,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6134.37259117761,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6359.522099517502,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5261.771947916496,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4409.39457934067,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,6920.0,24
+persona_few,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5524.0,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8010.5,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,6850.536351443997,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6177.258278145695,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,8417.5,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,8523.456369109681,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,9163.899853146853,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,4840.74963301866,24
+persona_few,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,7437.650452053429,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,7398.516928118936,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,7786.698365296609,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6079.689897148042,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,7029.755443499143,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,8184.193715640249,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,4438.875020365773,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,7184.77185936505,24
+persona_few,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,5278.798036984667,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,4250.837911726411,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4123.098868421052,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,3933.771413198115,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,4476.5757734450535,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4040.8401427080953,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,3650.767562992011,22
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,3270.1080370635877,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,4147.943827303677,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,3841.0364393051113,23
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,2336.514516512309,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,3304.1795552788444,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,3897.6961728101824,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4441.879561550328,23
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4367.6397339262685,23
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,1596.73112074451,21
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4440.0,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4447.579396902984,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,2921.2953990582087,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3508.1269100746294,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4066.084808601212,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4321.400778824967,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,2516.7594667220797,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,3701.0517202487426,24
+persona_few,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3827.2345106483112,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2034.4274573760342,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2138.52,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3574.907986724814,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3081.4705800484808,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2346.408733510654,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2145.7734901906047,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,2975.3726400259043,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2510.70487283979,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3031.243801534565,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,1905.291980954433,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,1170.39957073276,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,3197.383002783098,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,3493.1674852873757,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4012.049838154035,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,2493.578085711547,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2316.0,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3260.0522490547173,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,1467.983936278272,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1834.0,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3905.5,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3747.264309005743,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,1426.6464325514044,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,3170.222437354376,24
+persona_few,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,1846.0973424431045,24
+persona_few,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,2180.434157557866,24
+persona_few,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1607.239199447895,24
+persona_few,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3334.5,24
+persona_few,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,2605.709954193094,24
+persona_few,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2035.8096312576313,24
+persona_few,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1556.6797733421697,24
+persona_few,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,2844.0950919242077,24
+persona_few,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2051.5660325088684,24
+persona_few,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3082.01200487999,24
+persona_few,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,1352.2233729057386,24
+persona_few,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1515.7107572326568,24
+persona_few,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,3269.0216156274105,24
+persona_few,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,3993.1580256452407,23
+persona_few,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4068.287214611872,24
+persona_few,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,1262.4513712048758,24
+persona_few,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2118.5,24
+persona_few,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3822.5,24
+persona_few,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,1054.031078409854,24
+persona_few,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1682.5,24
+persona_few,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3318.3669108940526,24
+persona_few,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3903.5,24
+persona_few,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,1318.9046370624148,24
+persona_few,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,2805.522792718087,23
+persona_few,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,1978.1808305006482,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1387.9921807153712,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1111.484065934066,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2503.450349299398,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2314.2702383292217,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1574.5,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1150.819658119658,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2385.673416037942,24
+persona_few,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1482.3158704352888,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2548.114370932685,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1407.2387272833605,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,1159.4811320754716,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2604.0,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2657.7627949516645,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2724.573067502962,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,1356.3031176022726,24
+persona_few,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1465.5,23
+persona_few,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2111.9123135613736,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1250.2832844919687,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,970.142468593613,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2722.8738858160514,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2530.0419597559303,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1226.4175555981597,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2076.223041144563,24
+persona_few,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1280.8024970145154,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,6449.5,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,4850.680426462548,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8102.0,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,7964.46135346279,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6395.5,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4945.063877881084,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,4973.714245277228,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6235.346568913155,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9242.5,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,6510.0,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,5051.508810572687,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,8493.20093457944,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9525.729480135777,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,9823.721049103744,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,8672.481078879151,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,6309.5,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9681.5,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,4728.229023026485,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4812.151237465981,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,9192.0,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9783.0,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,4395.599165809239,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,8316.046991856618,24
+persona_few,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,5951.025798254271,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,6982.970160629453,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6188.118102272465,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,14675.360350748713,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,14987.572660098522,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,8379.575443293465,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7066.0,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15157.725247273595,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,9503.340796703298,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,13641.692755962682,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,7928.1836098909735,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,5984.458302130148,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,15171.074977709388,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,18217.486041299606,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,17223.09320553177,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,6537.051530894328,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,9325.24129018742,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,15769.5,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,8078.954667238135,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,6698.567374463976,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,15404.8894785503,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,14575.743700940802,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,6544.50969294125,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,14525.760273773541,24
+persona_zero,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,9196.253523859616,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,2003.462691946705,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1677.2358563136431,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4223.762268047213,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,3759.218409353087,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2276.6512445887447,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1783.5,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4222.954361149474,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2328.2113970588234,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4288.938927610841,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,2075.8523689448493,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1792.7820346320345,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4367.708012807744,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4812.370629370629,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4811.227124041588,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,2797.7880802189015,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,2286.5,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4523.4492146953135,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,1711.6387149393788,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1826.0363016917292,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4545.650222062509,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4612.093547288058,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,1987.3124591479634,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,4664.916204638118,24
+persona_zero,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,2106.606666387212,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,6273.340977861958,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,5603.617349799733,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6666.98707855288,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6879.942116697619,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5523.895022624434,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4600.109069407604,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,6331.330470047746,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5233.745775869351,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8010.5,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,6096.912631008878,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6130.145161339671,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,6873.266293115918,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,9144.852866501598,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,7819.800058138276,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,5906.030552753405,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,6457.5635639041375,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,7984.50909174403,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,4766.440254728076,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6079.689897148042,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,8509.397152294374,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,8184.193715640249,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,4439.863689387401,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,7822.257679423,24
+persona_zero,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,4801.398672686393,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,4909.0,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4166.113,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,3713.5913199725046,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,4147.767212074476,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4040.8401427080953,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4116.721590909091,22
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,4570.267804589591,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,3802.7937129463494,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,3934.3866142420334,23
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,4084.49319481058,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,2955.14459406679,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,4313.75,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4734.0,23
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4385.121620617944,23
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,2894.845458082864,21
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4141.055310782971,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4588.0,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,3891.811953634041,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3805.866961521451,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4066.084808601212,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4635.523809523809,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,2538.7985530162787,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,4220.677884910734,24
+persona_zero,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3519.37447857553,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2256.57004189204,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2140.7,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3053.440731064394,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3390.243810238616,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2346.408733510654,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2298.3868834490318,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,3061.7756848213194,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2487.502051282051,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3551.787237659276,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,1671.0881352006465,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,1795.1201455145515,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,3197.383002783098,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,3384.5693785339254,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4186.267496192066,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,2630.825667747078,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2316.0,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3378.712016696714,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,1699.7526789696844,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1560.5987318089751,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3511.2844766170842,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3193.681615232556,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,1426.6464325514044,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,3225.0068698340074,24
+persona_zero,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,1840.6938952943117,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,1884.4027292451108,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1615.8152173913043,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3334.5,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,3367.0,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2035.8096312576313,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1622.4783147765809,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,3265.8327426939536,24
+persona_zero,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2085.5,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3476.1367521367524,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,1727.8199870921615,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1603.2048877422953,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,2969.325731522234,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,3789.2951923074306,23
+persona_zero,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4059.148206742841,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,2647.3643113543276,24
+persona_zero,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2017.655185209524,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3283.818104389335,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,1872.769582610551,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1558.7994460400712,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3816.275385844888,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3896.2738095238096,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,1570.5059666867219,24
+persona_zero,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,2287.1020395303144,23
+persona_zero,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,2044.0580008522352,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1404.4604583762878,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1112.6710622710623,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2284.0278075776273,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2638.587946051151,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1563.8014492753623,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1100.2143949617634,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2636.344288810776,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1351.842753543627,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2172.3282573516503,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1238.8776265188596,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,975.6739682783544,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2604.0,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2714.676811594203,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2392.1237160101546,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,2022.637763454569,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1120.8448765813155,23
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2677.466137802229,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1062.1839225339263,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,970.142468593613,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2358.509411302115,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2588.514177489177,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1218.7616903450817,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2523.0,24
+persona_zero,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1296.5,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,4813.131909249584,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,4849.18123356505,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,6354.199993319234,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,8681.73747125836,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6395.5,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4998.0,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,7350.446367392886,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6300.0,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9204.02966110546,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,6432.740339534441,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,4365.770830536728,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,8517.014018691589,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9560.5,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,9789.748646506341,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,6834.316670060355,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,5538.139117986815,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9347.115497018673,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,4730.270240626871,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4809.671175478173,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,8951.690849979792,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9742.516019151695,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,4622.190837969567,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,9713.0,24
+persona_zero,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,5951.025798254271,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,9287.205807593038,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,6757.559518625875,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,15714.05848129247,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,15825.474698180122,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9816.215002291241,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7415.251374591345,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,15931.261445871969,24
+ridge,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,9888.127756025035,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,15811.259838182472,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,10571.067842278539,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,8557.330612156076,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,16190.6423139063,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,20160.806911410815,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,20553.325104837455,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,20534.196849412147,24
+ridge,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,10082.213378533163,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,16425.721710196285,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,10794.242671303633,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,8025.761004738991,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,17220.191018210422,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,17053.448194197532,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,10615.034123893807,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,17023.94376417155,24
+ridge,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,9986.107778354506,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,2452.749546569735,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1830.121776247344,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4518.437262602492,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,4598.226746993396,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2481.7358482406285,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1911.2890560635385,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,4627.826564388951,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,2486.4628123969173,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4813.611473161755,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,2570.7951954413506,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,1998.053905205401,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,4819.372262257977,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,5279.057505100808,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,5445.652680598834,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,5958.227759722462,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,2528.0282723311693,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,5022.322813830791,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,2634.5202091132046,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,2064.1320021550005,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,5106.983841369937,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,5210.5112628671595,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,2576.8917661072255,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,5199.7809569560495,24
+ridge,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,2424.689586702081,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,7777.616208602982,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,6003.766647728264,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,7171.985027013482,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,7437.386726399804,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5960.599029552809,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4928.670480975881,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,7499.526943645527,24
+ridge,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5847.700306905554,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8662.942028266958,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,8516.056164572177,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,6862.780297004264,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,9132.564014714962,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,10148.15234466754,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,10262.292880218396,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,11034.454923484043,24
+ridge,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,8228.740151368569,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,8892.292390425033,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,8969.258763231113,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,7077.200624436723,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,9486.542087515016,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,9276.352148171018,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,6595.758341354876,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,9740.912317114933,24
+ridge,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,6094.088437489785,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,5208.929010978519,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,4404.4654651729,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,4597.968152564244,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,5003.502221186414,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4783.951539389339,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4388.793382048639,22
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,4907.602093491464,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,4437.403961477103,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,4650.24240205261,23
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,5372.9974021992175,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,4387.341715403049,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,4704.0723748832825,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,5114.495324021026,23
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,5363.472721941389,23
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,4754.950524651825,21
+ridge,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4815.21776153171,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4898.993307036713,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,5149.237611122176,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,4224.469198362556,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4650.277260086142,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,5054.663677378,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,4557.161365389201,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,5175.957318382013,24
+ridge,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,4203.774857506555,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2709.3261835669005,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,2366.4854849268504,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3919.3235908775955,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,3843.9431018703444,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2737.388644638679,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2490.421643170492,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,3907.049486534864,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2676.601882885967,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,4066.201239798866,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,2727.4652839657188,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,2289.0192093109617,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,4142.85115488897,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,4593.96727843691,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4676.824968438635,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,5048.462840413114,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2557.5155650378756,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,4300.221078310425,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,2449.5918772892237,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,2055.7083217567133,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,4316.3752585239745,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,4313.544842522395,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,2343.066450603205,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,4330.392320180382,24
+ridge,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,2257.9866277217848,24
+ridge,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,2345.5637270233756,24
+ridge,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1737.1459872921284,24
+ridge,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3509.8985000570988,24
+ridge,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,3644.2990987781955,24
+ridge,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2293.907512556605,24
+ridge,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1807.2743068161742,24
+ridge,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,3600.9517086836922,24
+ridge,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,2219.075951837342,24
+ridge,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3817.0770603489937,24
+ridge,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,2406.0657470825863,24
+ridge,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,1841.5377969473516,24
+ridge,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,3892.6526600908724,24
+ridge,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,4463.777941506583,23
+ridge,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4612.835035773519,24
+ridge,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,4905.307339116757,24
+ridge,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,2338.9818932527296,24
+ridge,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,4149.49183614573,24
+ridge,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,2453.4597671276033,24
+ridge,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1879.86203718756,24
+ridge,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,4277.872029240071,24
+ridge,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,4315.842666373566,24
+ridge,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,2389.488446375218,24
+ridge,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,4194.9844914289,23
+ridge,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,2277.4882467239418,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1711.916536229853,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,1217.6869519857528,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2720.4946890160427,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,2873.022200068841,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1704.4222765163913,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1247.5662382104676,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,2901.6029007527213,24
+ridge,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1654.2906162165762,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2884.207890796576,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,1725.7537594508628,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,1309.8490442821474,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2872.6252892278208,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,3009.259233573335,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,3101.28415718835,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,3540.960625933582,24
+ridge,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1623.8352157407037,23
+ridge,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,3004.0438739589026,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,1587.8636505530033,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,1245.5561998841022,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,3091.0456640810717,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2899.017759680972,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,1551.1335080158026,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,2814.2875521072865,24
+ridge,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1440.601483886602,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,6872.34208903908,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,5206.25017259358,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8424.056418704484,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,9303.825899748652,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6838.84061919732,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,5312.0663634672355,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,9315.574704121369,24
+ridge,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,6665.911127936273,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,10005.062488538382,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,7313.167917433692,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,5603.513348615879,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,9296.937049624843,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,10354.819342305242,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,10963.177712379798,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,13061.676366531925,24
+ridge,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,6929.989354304782,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,10375.317087873058,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,7366.307913938161,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,5403.156517109548,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,10005.811691696446,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,10679.266456521402,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,6936.370358334823,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,10733.481270814516,24
+ridge,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,6585.417460112415,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-12,wet,10232.0,6982.970160629453,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-13,extreme,7692.0,5686.261727340667,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-14,dry,15214.0,15572.0,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-18,wet,14808.0,14729.786945812808,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-19,dry,9560.0,9334.0,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-20,dry,7021.0,7066.0,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-25,wet,14322.0,10455.592031391236,24
+rule,228,"23 St (F,M)",Manhattan,2023-08-26,wet,9896.0,8798.128128079987,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-22,dry,16596.0,14971.0,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-23,wet,9763.0,1634.2563462923094,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-24,wet,7112.0,5440.617004708151,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-25,wet,14710.0,13452.523492895984,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-27,dry,20063.0,19317.5,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-28,wet,19936.0,17203.364322634065,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-29,extreme,10876.0,2737.2002503310205,24
+rule,228,"23 St (F,M)",Manhattan,2023-09-30,wet,9157.0,8743.50870981258,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-06,dry,16330.0,15769.5,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-07,extreme,7026.0,2283.843850521279,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-08,dry,6051.0,7322.0,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-09,dry,13792.0,16329.5,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-13,dry,15123.0,16071.5,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-14,wet,9750.0,3801.524756986098,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-20,wet,16598.0,8351.847258502943,24
+rule,228,"23 St (F,M)",Manhattan,2023-10-21,wet,11339.0,8636.712804587265,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-12,wet,2358.0,1412.8089392111872,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-13,extreme,1865.0,1337.5149914718456,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-14,dry,4316.0,4314.5,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-18,wet,4276.0,2755.0068448562515,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-19,dry,2463.0,2297.0,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-20,dry,1901.0,1783.5,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-25,wet,4125.0,1757.2520843799646,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-08-26,wet,1822.0,1870.7003039739693,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-22,dry,4989.0,4403.5,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-23,wet,1668.0,546.8198233429442,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-24,wet,1239.0,670.059312899385,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-25,wet,3931.0,3213.226971728167,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-27,dry,5192.0,4825.0,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-28,wet,5085.0,4777.550077281812,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-29,extreme,3667.0,534.7965392117574,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-09-30,wet,2340.0,1648.7963281808638,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-06,dry,4775.0,4637.5,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-07,extreme,2433.0,592.3154423930891,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-08,dry,2070.0,1846.0,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-09,dry,3758.0,4646.0,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-13,dry,4739.0,4724.0,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-14,wet,2254.0,552.9483439075685,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-20,wet,4656.0,1628.3926711354081,24
+rule,269,"Northern Blvd (M,R)",Queens,2023-10-21,wet,2007.0,1873.9822934220088,24
+rule,305,137 St-City College (1),Manhattan,2023-08-12,wet,5345.0,6306.921906762033,24
+rule,305,137 St-City College (1),Manhattan,2023-08-13,extreme,4509.0,4596.719060217067,24
+rule,305,137 St-City College (1),Manhattan,2023-08-14,dry,6405.0,6899.5,24
+rule,305,137 St-City College (1),Manhattan,2023-08-18,wet,6842.0,6383.25,24
+rule,305,137 St-City College (1),Manhattan,2023-08-19,dry,5462.0,5568.0,24
+rule,305,137 St-City College (1),Manhattan,2023-08-20,dry,4486.0,4639.0,24
+rule,305,137 St-City College (1),Manhattan,2023-08-25,wet,7562.0,4705.299544798506,24
+rule,305,137 St-City College (1),Manhattan,2023-08-26,wet,5411.0,5273.773194166847,24
+rule,305,137 St-City College (1),Manhattan,2023-09-22,dry,9086.0,8010.5,24
+rule,305,137 St-City College (1),Manhattan,2023-09-23,wet,5044.0,4429.7449606927585,24
+rule,305,137 St-City College (1),Manhattan,2023-09-24,wet,4155.0,4329.265211312501,24
+rule,305,137 St-City College (1),Manhattan,2023-09-25,wet,6221.0,7862.437012725806,24
+rule,305,137 St-City College (1),Manhattan,2023-09-27,dry,9866.0,9437.0,24
+rule,305,137 St-City College (1),Manhattan,2023-09-28,wet,9885.0,8923.562545454546,24
+rule,305,137 St-City College (1),Manhattan,2023-09-29,extreme,5321.0,1236.6729080923972,24
+rule,305,137 St-City College (1),Manhattan,2023-09-30,wet,6072.0,6525.935280602073,24
+rule,305,137 St-City College (1),Manhattan,2023-10-06,dry,9003.0,8304.5,24
+rule,305,137 St-City College (1),Manhattan,2023-10-07,extreme,5518.0,2825.056549077311,24
+rule,305,137 St-City College (1),Manhattan,2023-10-08,dry,4762.0,6374.5,24
+rule,305,137 St-City College (1),Manhattan,2023-10-09,dry,5915.0,8764.0,24
+rule,305,137 St-City College (1),Manhattan,2023-10-13,dry,8848.0,8509.0,24
+rule,305,137 St-City College (1),Manhattan,2023-10-14,wet,5488.0,3388.6515440301455,24
+rule,305,137 St-City College (1),Manhattan,2023-10-20,wet,8575.0,4283.224367084675,24
+rule,305,137 St-City College (1),Manhattan,2023-10-21,wet,5821.0,4849.446818350351,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-12,wet,4133.0,3115.1228288960065,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-13,extreme,3820.0,3705.256014914755,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-14,dry,3874.0,4431.0,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-18,wet,3993.0,3912.769744833547,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-19,dry,4335.0,4502.0,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-20,dry,3562.0,4163.5,22
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-25,wet,3704.0,2796.630144236186,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-08-26,wet,5130.0,3798.0323711679002,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-22,dry,4933.0,4305.0,23
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-23,wet,3017.0,804.0591360626303,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-24,wet,2741.0,1533.923187165185,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-25,wet,3517.0,3577.947979058974,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-27,dry,5325.0,4734.0,23
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-28,wet,5167.0,4374.263935308972,23
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-29,extreme,1102.0,903.4058437031687,21
+rule,334,"Clark St (2,3)",Brooklyn,2023-09-30,wet,4654.0,4137.7933977625,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-06,dry,4579.0,4588.0,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-07,extreme,3659.0,1128.9443794813674,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-08,dry,4191.0,3836.0,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-09,dry,4054.0,4281.5,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-13,dry,4925.0,4651.0,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-14,wet,4262.0,679.4689681164205,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-20,wet,4342.0,2340.1695840071693,24
+rule,334,"Clark St (2,3)",Brooklyn,2023-10-21,wet,3912.0,3471.1599671601057,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-12,wet,2405.0,2020.573708686887,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-13,extreme,2341.0,1823.3197124126993,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-14,dry,3667.0,3730.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-18,wet,3522.0,2236.4203204219375,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-19,dry,2615.0,2546.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-20,dry,2312.0,2334.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-25,wet,3300.0,1585.7639730315352,24
+rule,360,Pelham Bay Park (6),Bronx,2023-08-26,wet,2367.0,2130.6104894953373,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-22,dry,4265.0,3705.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-23,wet,1920.0,715.988014421742,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-24,wet,1545.0,925.617633927017,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-25,wet,3312.0,2810.5317137301804,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-27,dry,4369.0,4177.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-28,wet,4247.0,4002.959393507344,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-29,extreme,2977.0,610.3138866338763,24
+rule,360,Pelham Bay Park (6),Bronx,2023-09-30,wet,1987.0,2083.010175025463,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-06,dry,3859.0,3957.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-07,extreme,2044.0,777.7157110669433,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-08,dry,2009.0,1834.0,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-09,dry,3157.0,3905.5,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-13,dry,4130.0,3888.5,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-14,wet,2285.0,859.053240239012,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-20,wet,3779.0,2020.340781308347,24
+rule,360,Pelham Bay Park (6),Bronx,2023-10-21,wet,2230.0,1846.0973424431045,24
+rule,37,77 St (R),Brooklyn,2023-08-12,wet,2026.0,1273.9651186845033,24
+rule,37,77 St (R),Brooklyn,2023-08-13,extreme,1678.0,1312.5560365858134,24
+rule,37,77 St (R),Brooklyn,2023-08-14,dry,3286.0,3334.5,24
+rule,37,77 St (R),Brooklyn,2023-08-18,wet,3283.0,2142.367657769787,24
+rule,37,77 St (R),Brooklyn,2023-08-19,dry,2132.0,2130.5,24
+rule,37,77 St (R),Brooklyn,2023-08-20,dry,1627.0,1691.0,24
+rule,37,77 St (R),Brooklyn,2023-08-25,wet,3070.0,1348.2352769729448,24
+rule,37,77 St (R),Brooklyn,2023-08-26,wet,2087.0,1705.4337227101018,24
+rule,37,77 St (R),Brooklyn,2023-09-22,dry,4048.0,3483.5,24
+rule,37,77 St (R),Brooklyn,2023-09-23,wet,1860.0,468.85526500862613,24
+rule,37,77 St (R),Brooklyn,2023-09-24,wet,1541.0,765.8547271307526,24
+rule,37,77 St (R),Brooklyn,2023-09-25,wet,3185.0,2501.847001279632,24
+rule,37,77 St (R),Brooklyn,2023-09-27,dry,4424.0,4063.0,23
+rule,37,77 St (R),Brooklyn,2023-09-28,wet,4399.0,4068.287214611872,24
+rule,37,77 St (R),Brooklyn,2023-09-29,extreme,2641.0,485.9213485557531,24
+rule,37,77 St (R),Brooklyn,2023-09-30,wet,2092.0,1834.3659262232752,24
+rule,37,77 St (R),Brooklyn,2023-10-06,dry,3879.0,3822.5,24
+rule,37,77 St (R),Brooklyn,2023-10-07,extreme,2162.0,496.41204075172385,24
+rule,37,77 St (R),Brooklyn,2023-10-08,dry,1812.0,1682.5,24
+rule,37,77 St (R),Brooklyn,2023-10-09,dry,2902.0,3875.5,24
+rule,37,77 St (R),Brooklyn,2023-10-13,dry,3715.0,3903.5,24
+rule,37,77 St (R),Brooklyn,2023-10-14,wet,2121.0,450.5009089440221,24
+rule,37,77 St (R),Brooklyn,2023-10-20,wet,3858.0,1673.7311131958595,23
+rule,37,77 St (R),Brooklyn,2023-10-21,wet,4847.0,1778.1638018533167,24
+rule,418,"233 St (2,5)",Bronx,2023-08-12,wet,1565.0,1404.4604583762878,24
+rule,418,"233 St (2,5)",Bronx,2023-08-13,extreme,1176.0,907.1613345599918,24
+rule,418,"233 St (2,5)",Bronx,2023-08-14,dry,2639.0,2580.0,24
+rule,418,"233 St (2,5)",Bronx,2023-08-18,wet,2522.0,1957.1462932531108,24
+rule,418,"233 St (2,5)",Bronx,2023-08-19,dry,1544.0,1574.5,24
+rule,418,"233 St (2,5)",Bronx,2023-08-20,dry,1243.0,1161.0,24
+rule,418,"233 St (2,5)",Bronx,2023-08-25,wet,2287.0,1401.2616447837229,24
+rule,418,"233 St (2,5)",Bronx,2023-08-26,wet,1518.0,1548.0,24
+rule,418,"233 St (2,5)",Bronx,2023-09-22,dry,2958.0,2624.0,24
+rule,418,"233 St (2,5)",Bronx,2023-09-23,wet,1260.0,534.7249489723508,24
+rule,418,"233 St (2,5)",Bronx,2023-09-24,wet,1007.0,816.03500240668,24
+rule,418,"233 St (2,5)",Bronx,2023-09-25,wet,2311.0,2281.6624268168807,24
+rule,418,"233 St (2,5)",Bronx,2023-09-27,dry,2832.0,2730.5,24
+rule,418,"233 St (2,5)",Bronx,2023-09-28,wet,2726.0,2703.1679499886077,24
+rule,418,"233 St (2,5)",Bronx,2023-09-29,extreme,2123.0,444.01082900381346,24
+rule,418,"233 St (2,5)",Bronx,2023-09-30,wet,1338.0,1302.05102874677,23
+rule,418,"233 St (2,5)",Bronx,2023-10-06,dry,2354.0,2756.0,24
+rule,418,"233 St (2,5)",Bronx,2023-10-07,extreme,1397.0,478.01146396770537,24
+rule,418,"233 St (2,5)",Bronx,2023-10-08,dry,1321.0,1110.0,24
+rule,418,"233 St (2,5)",Bronx,2023-10-09,dry,2074.0,2793.5,24
+rule,418,"233 St (2,5)",Bronx,2023-10-13,dry,2723.0,2605.0,24
+rule,418,"233 St (2,5)",Bronx,2023-10-14,wet,1179.0,786.1354140520042,24
+rule,418,"233 St (2,5)",Bronx,2023-10-20,wet,2418.0,1863.580095858413,24
+rule,418,"233 St (2,5)",Bronx,2023-10-21,wet,1497.0,1296.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-12,wet,6348.0,5574.109876607342,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-13,extreme,5025.0,3984.0876517848033,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-14,dry,7738.0,8102.0,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-18,wet,8256.0,7946.75,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-19,dry,6311.0,6395.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-20,dry,4810.0,4998.0,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-25,wet,8337.0,6642.449121804827,24
+rule,458,46 St-Bliss St (7),Queens,2023-08-26,wet,6584.0,5999.713384247034,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-22,dry,10148.0,9242.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-23,wet,5602.0,3708.1865995651315,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-24,wet,4272.0,3476.8763433881204,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-25,wet,7630.0,7740.177613438413,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-27,dry,10156.0,9560.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-28,wet,9996.0,9540.70458250397,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-29,extreme,8082.0,1342.8156360520254,24
+rule,458,46 St-Bliss St (7),Queens,2023-09-30,wet,6473.0,5497.2072805181915,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-06,dry,9784.0,9681.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-07,extreme,5808.0,2305.7232380177106,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-08,dry,5073.0,4860.5,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-09,dry,7353.0,9192.0,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-13,dry,9856.0,9783.0,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-14,wet,6161.0,3530.208020984841,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-20,wet,9636.0,6216.082103122761,24
+rule,458,46 St-Bliss St (7),Queens,2023-10-21,wet,6419.0,5974.0,24

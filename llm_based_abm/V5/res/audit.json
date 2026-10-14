@@ -1,0 +1,87 @@
+{
+  "primary_replay": [
+    {
+      "task": "Extreme",
+      "method": "weekday_mean",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "task": "Extreme",
+      "method": "ridge",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Extreme",
+      "method": "rule_abm",
+      "max_absolute_difference": 4.547473508864641e-13
+    },
+    {
+      "task": "Extreme",
+      "method": "role_no_history",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Extreme",
+      "method": "role_with_history",
+      "max_absolute_difference": 9.094947017729282e-13
+    },
+    {
+      "task": "Normal_A",
+      "method": "weekday_mean",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "task": "Normal_A",
+      "method": "ridge",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_A",
+      "method": "rule_abm",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_A",
+      "method": "role_no_history",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_A",
+      "method": "role_with_history",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_B",
+      "method": "weekday_mean",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "task": "Normal_B",
+      "method": "ridge",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_B",
+      "method": "rule_abm",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "task": "Normal_B",
+      "method": "role_no_history",
+      "max_absolute_difference": 1.8189894035458565e-12
+    },
+    {
+      "task": "Normal_B",
+      "method": "role_with_history",
+      "max_absolute_difference": 3.637978807091713e-12
+    }
+  ],
+  "training_and_validation_refit_matches": true,
+  "all_direct_outputs_match_real_API": true,
+  "api_hashes_valid": true,
+  "valid_role_outputs_pass_constraints": true,
+  "equal_observed_samples_across_methods": true,
+  "total_calls": 4168,
+  "charged_tokens": 2788506,
+  "missing_station_days_excluded": 8
+}

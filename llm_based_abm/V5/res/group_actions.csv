@@ -1,0 +1,241 @@
+task,method,condition,group,action,probability
+Extreme,role_no_history,Extreme peak,fair_fare,subway,0.3320969600356638
+Extreme,role_no_history,Extreme peak,fair_fare,bus,0.09983140364122686
+Extreme,role_no_history,Extreme peak,fair_fare,taxi,0.0
+Extreme,role_no_history,Extreme peak,fair_fare,walk,0.058195466769909415
+Extreme,role_no_history,Extreme peak,fair_fare,stay_home,0.5098761695531998
+Extreme,role_no_history,Extreme peak,general,subway,0.19840703160907078
+Extreme,role_no_history,Extreme peak,general,bus,0.08286841444229785
+Extreme,role_no_history,Extreme peak,general,taxi,0.041697800964571166
+Extreme,role_no_history,Extreme peak,general,walk,0.008103987317606046
+Extreme,role_no_history,Extreme peak,general,stay_home,0.6689227656664541
+Extreme,role_no_history,Extreme peak,seniors_disability,subway,0.24910007617034646
+Extreme,role_no_history,Extreme peak,seniors_disability,bus,0.1252748030708178
+Extreme,role_no_history,Extreme peak,seniors_disability,taxi,0.12478956875685827
+Extreme,role_no_history,Extreme peak,seniors_disability,walk,0.00822398929700998
+Extreme,role_no_history,Extreme peak,seniors_disability,stay_home,0.4926115627049673
+Extreme,role_no_history,Extreme peak,students,subway,0.28712267293389604
+Extreme,role_no_history,Extreme peak,students,bus,0.08374175516871615
+Extreme,role_no_history,Extreme peak,students,taxi,0.0
+Extreme,role_no_history,Extreme peak,students,walk,0.01701831696099075
+Extreme,role_no_history,Extreme peak,students,stay_home,0.6121172549363971
+Extreme,role_no_history,Extreme surrounding,fair_fare,subway,0.5887377563611186
+Extreme,role_no_history,Extreme surrounding,fair_fare,bus,0.12436010990194113
+Extreme,role_no_history,Extreme surrounding,fair_fare,taxi,0.0
+Extreme,role_no_history,Extreme surrounding,fair_fare,walk,0.16367637374585614
+Extreme,role_no_history,Extreme surrounding,fair_fare,stay_home,0.12322575999108401
+Extreme,role_no_history,Extreme surrounding,general,subway,0.5380227940080123
+Extreme,role_no_history,Extreme surrounding,general,bus,0.1335564524894797
+Extreme,role_no_history,Extreme surrounding,general,taxi,0.03127335072342837
+Extreme,role_no_history,Extreme surrounding,general,walk,0.15266448194712767
+Extreme,role_no_history,Extreme surrounding,general,stay_home,0.14448292083195186
+Extreme,role_no_history,Extreme surrounding,seniors_disability,subway,0.5499247036579523
+Extreme,role_no_history,Extreme surrounding,seniors_disability,bus,0.19595710907141395
+Extreme,role_no_history,Extreme surrounding,seniors_disability,taxi,0.027037739897319304
+Extreme,role_no_history,Extreme surrounding,seniors_disability,walk,0.10356238850686936
+Extreme,role_no_history,Extreme surrounding,seniors_disability,stay_home,0.12351805886644511
+Extreme,role_no_history,Extreme surrounding,students,subway,0.47273075839560763
+Extreme,role_no_history,Extreme surrounding,students,bus,0.08914652572742117
+Extreme,role_no_history,Extreme surrounding,students,taxi,0.02993131139628468
+Extreme,role_no_history,Extreme surrounding,students,walk,0.15690385690949354
+Extreme,role_no_history,Extreme surrounding,students,stay_home,0.25128754757119304
+Extreme,role_with_history,Extreme peak,fair_fare,subway,0.34317641100524116
+Extreme,role_with_history,Extreme peak,fair_fare,bus,0.12954410275131029
+Extreme,role_with_history,Extreme peak,fair_fare,taxi,0.0
+Extreme,role_with_history,Extreme peak,fair_fare,walk,0.009848034250436764
+Extreme,role_with_history,Extreme peak,fair_fare,stay_home,0.5174314519930119
+Extreme,role_with_history,Extreme peak,general,subway,0.20583897077897542
+Extreme,role_with_history,Extreme peak,general,bus,0.08464527319098947
+Extreme,role_with_history,Extreme peak,general,taxi,0.0
+Extreme,role_with_history,Extreme peak,general,walk,0.01154842439699649
+Extreme,role_with_history,Extreme peak,general,stay_home,0.6979673316330386
+Extreme,role_with_history,Extreme peak,seniors_disability,subway,0.322582488234244
+Extreme,role_with_history,Extreme peak,seniors_disability,bus,0.07232047686166665
+Extreme,role_with_history,Extreme peak,seniors_disability,taxi,0.04145261180938333
+Extreme,role_with_history,Extreme peak,seniors_disability,walk,0.0
+Extreme,role_with_history,Extreme peak,seniors_disability,stay_home,0.563644423094706
+Extreme,role_with_history,Extreme peak,students,subway,0.286180535617407
+Extreme,role_with_history,Extreme peak,students,bus,0.12659721937391527
+Extreme,role_with_history,Extreme peak,students,taxi,0.0
+Extreme,role_with_history,Extreme peak,students,walk,0.024999999999999998
+Extreme,role_with_history,Extreme peak,students,stay_home,0.5622222450086778
+Extreme,role_with_history,Extreme surrounding,fair_fare,subway,0.5501862397530575
+Extreme,role_with_history,Extreme surrounding,fair_fare,bus,0.14280393149912649
+Extreme,role_with_history,Extreme surrounding,fair_fare,taxi,0.0
+Extreme,role_with_history,Extreme surrounding,fair_fare,walk,0.08143995718695407
+Extreme,role_with_history,Extreme surrounding,fair_fare,stay_home,0.22556987156086217
+Extreme,role_with_history,Extreme surrounding,general,subway,0.5504110292210246
+Extreme,role_with_history,Extreme surrounding,general,bus,0.1302984243969965
+Extreme,role_with_history,Extreme surrounding,general,taxi,0.0
+Extreme,role_with_history,Extreme surrounding,general,walk,0.09809684879399298
+Extreme,role_with_history,Extreme surrounding,general,stay_home,0.22119369758798596
+Extreme,role_with_history,Extreme surrounding,seniors_disability,subway,0.5250487138577089
+Extreme,role_with_history,Extreme surrounding,seniors_disability,bus,0.13898389791859636
+Extreme,role_with_history,Extreme surrounding,seniors_disability,taxi,0.04145261180938334
+Extreme,role_with_history,Extreme surrounding,seniors_disability,walk,0.08273846286486689
+Extreme,role_with_history,Extreme surrounding,seniors_disability,stay_home,0.21177631354944465
+Extreme,role_with_history,Extreme surrounding,students,subway,0.5
+Extreme,role_with_history,Extreme surrounding,students,bus,0.12220486609564825
+Extreme,role_with_history,Extreme surrounding,students,taxi,0.0
+Extreme,role_with_history,Extreme surrounding,students,walk,0.09135417093912708
+Extreme,role_with_history,Extreme surrounding,students,stay_home,0.2864409629652246
+Extreme,rule_abm,Extreme peak,fair_fare,subway,0.4568848661782509
+Extreme,rule_abm,Extreme peak,fair_fare,bus,0.03292017196700687
+Extreme,rule_abm,Extreme peak,fair_fare,taxi,1.8819569389459858e-44
+Extreme,rule_abm,Extreme peak,fair_fare,walk,0.004302891080688954
+Extreme,rule_abm,Extreme peak,fair_fare,stay_home,0.5058920707740531
+Extreme,rule_abm,Extreme peak,general,subway,0.44041905724213964
+Extreme,rule_abm,Extreme peak,general,bus,0.031727087667333044
+Extreme,rule_abm,Extreme peak,general,taxi,0.04389159515958706
+Extreme,rule_abm,Extreme peak,general,walk,0.00415062545924683
+Extreme,rule_abm,Extreme peak,general,stay_home,0.4798116344716933
+Extreme,rule_abm,Extreme peak,seniors_disability,subway,0.41841902846941853
+Extreme,rule_abm,Extreme peak,seniors_disability,bus,0.03015350586471778
+Extreme,rule_abm,Extreme peak,seniors_disability,taxi,0.05467358155267617
+Extreme,rule_abm,Extreme peak,seniors_disability,walk,0.003937372957940578
+Extreme,rule_abm,Extreme peak,seniors_disability,stay_home,0.49281651115524683
+Extreme,rule_abm,Extreme peak,students,subway,0.4370062162966332
+Extreme,rule_abm,Extreme peak,students,bus,0.0280832882362131
+Extreme,rule_abm,Extreme peak,students,taxi,1.9784475045043848e-44
+Extreme,rule_abm,Extreme peak,students,walk,0.0030806303629936998
+Extreme,rule_abm,Extreme peak,students,stay_home,0.5318298651041597
+Extreme,rule_abm,Extreme surrounding,fair_fare,subway,0.5060823178236653
+Extreme,rule_abm,Extreme surrounding,fair_fare,bus,0.16241937111793217
+Extreme,rule_abm,Extreme surrounding,fair_fare,taxi,6.159448734289529e-45
+Extreme,rule_abm,Extreme surrounding,fair_fare,walk,0.1659251137905894
+Extreme,rule_abm,Extreme surrounding,fair_fare,stay_home,0.16557319726781294
+Extreme,rule_abm,Extreme surrounding,general,subway,0.49323849313275403
+Extreme,rule_abm,Extreme surrounding,general,bus,0.1589317796860353
+Extreme,rule_abm,Extreme surrounding,general,taxi,0.03015420883092465
+Extreme,rule_abm,Extreme surrounding,general,walk,0.16057040955677626
+Extreme,rule_abm,Extreme surrounding,general,stay_home,0.15710510879350983
+Extreme,rule_abm,Extreme surrounding,seniors_disability,subway,0.4883126366382544
+Extreme,rule_abm,Extreme surrounding,seniors_disability,bus,0.15869983688051528
+Extreme,rule_abm,Extreme surrounding,seniors_disability,taxi,0.0375616012514387
+Extreme,rule_abm,Extreme surrounding,seniors_disability,walk,0.15819414101537935
+Extreme,rule_abm,Extreme surrounding,seniors_disability,stay_home,0.15723178421441214
+Extreme,rule_abm,Extreme surrounding,students,subway,0.4612776643163984
+Extreme,rule_abm,Extreme surrounding,students,bus,0.14347950931048417
+Extreme,rule_abm,Extreme surrounding,students,taxi,9.005324272411169e-45
+Extreme,rule_abm,Extreme surrounding,students,walk,0.15316916093030386
+Extreme,rule_abm,Extreme surrounding,students,stay_home,0.2420736654428135
+Normal_A,role_no_history,Normal_A,fair_fare,subway,0.6734272770885527
+Normal_A,role_no_history,Normal_A,fair_fare,bus,0.11536515127285818
+Normal_A,role_no_history,Normal_A,fair_fare,taxi,0.0
+Normal_A,role_no_history,Normal_A,fair_fare,walk,0.1378731596885735
+Normal_A,role_no_history,Normal_A,fair_fare,stay_home,0.07333441195001555
+Normal_A,role_no_history,Normal_A,general,subway,0.6481256067987515
+Normal_A,role_no_history,Normal_A,general,bus,0.1497794831527943
+Normal_A,role_no_history,Normal_A,general,taxi,0.0
+Normal_A,role_no_history,Normal_A,general,walk,0.15077180896522
+Normal_A,role_no_history,Normal_A,general,stay_home,0.05132310108323424
+Normal_A,role_no_history,Normal_A,seniors_disability,subway,0.7057142857142857
+Normal_A,role_no_history,Normal_A,seniors_disability,bus,0.12571428571428572
+Normal_A,role_no_history,Normal_A,seniors_disability,taxi,0.0
+Normal_A,role_no_history,Normal_A,seniors_disability,walk,0.10714285714285714
+Normal_A,role_no_history,Normal_A,seniors_disability,stay_home,0.06142857142857143
+Normal_A,role_no_history,Normal_A,students,subway,0.4559792957887915
+Normal_A,role_no_history,Normal_A,students,bus,0.13069104399981202
+Normal_A,role_no_history,Normal_A,students,taxi,0.0
+Normal_A,role_no_history,Normal_A,students,walk,0.176932478729741
+Normal_A,role_no_history,Normal_A,students,stay_home,0.23639718148165562
+Normal_A,role_with_history,Normal_A,fair_fare,subway,0.6434279282869769
+Normal_A,role_with_history,Normal_A,fair_fare,bus,0.1212378335986391
+Normal_A,role_with_history,Normal_A,fair_fare,taxi,0.0
+Normal_A,role_with_history,Normal_A,fair_fare,walk,0.08352385440641406
+Normal_A,role_with_history,Normal_A,fair_fare,stay_home,0.15181038370797026
+Normal_A,role_with_history,Normal_A,general,subway,0.5706274613447393
+Normal_A,role_with_history,Normal_A,general,bus,0.1499009863941331
+Normal_A,role_with_history,Normal_A,general,taxi,0.0005220717400254292
+Normal_A,role_with_history,Normal_A,general,walk,0.07867944341419247
+Normal_A,role_with_history,Normal_A,general,stay_home,0.2002700371069097
+Normal_A,role_with_history,Normal_A,seniors_disability,subway,0.546279578249231
+Normal_A,role_with_history,Normal_A,seniors_disability,bus,0.16593004115494467
+Normal_A,role_with_history,Normal_A,seniors_disability,taxi,0.013387133767641685
+Normal_A,role_with_history,Normal_A,seniors_disability,walk,0.05049940988230811
+Normal_A,role_with_history,Normal_A,seniors_disability,stay_home,0.2239038369458747
+Normal_A,role_with_history,Normal_A,students,subway,0.43183414205884957
+Normal_A,role_with_history,Normal_A,students,bus,0.14027038042018541
+Normal_A,role_with_history,Normal_A,students,taxi,0.0
+Normal_A,role_with_history,Normal_A,students,walk,0.13921950818017143
+Normal_A,role_with_history,Normal_A,students,stay_home,0.2886759693407937
+Normal_A,rule_abm,Normal_A,fair_fare,subway,0.5122735383404302
+Normal_A,rule_abm,Normal_A,fair_fare,bus,0.17926384893605732
+Normal_A,rule_abm,Normal_A,fair_fare,taxi,3.59684466976778e-45
+Normal_A,rule_abm,Normal_A,fair_fare,walk,0.2117752145909854
+Normal_A,rule_abm,Normal_A,fair_fare,stay_home,0.0966873981325271
+Normal_A,rule_abm,Normal_A,general,subway,0.51227353834043
+Normal_A,rule_abm,Normal_A,general,bus,0.17926384893605724
+Normal_A,rule_abm,Normal_A,general,taxi,3.5968446697677787e-45
+Normal_A,rule_abm,Normal_A,general,walk,0.2117752145909854
+Normal_A,rule_abm,Normal_A,general,stay_home,0.09668739813252707
+Normal_A,rule_abm,Normal_A,seniors_disability,subway,0.5122735383404301
+Normal_A,rule_abm,Normal_A,seniors_disability,bus,0.1792638489360573
+Normal_A,rule_abm,Normal_A,seniors_disability,taxi,3.59684466976778e-45
+Normal_A,rule_abm,Normal_A,seniors_disability,walk,0.2117752145909854
+Normal_A,rule_abm,Normal_A,seniors_disability,stay_home,0.09668739813252707
+Normal_A,rule_abm,Normal_A,students,subway,0.4512329626157697
+Normal_A,rule_abm,Normal_A,students,bus,0.15790344726252048
+Normal_A,rule_abm,Normal_A,students,taxi,7.600959991375462e-45
+Normal_A,rule_abm,Normal_A,students,walk,0.18654088165096006
+Normal_A,rule_abm,Normal_A,students,stay_home,0.20432270847074954
+Normal_B,role_no_history,Normal_B,fair_fare,subway,0.6611117954837202
+Normal_B,role_no_history,Normal_B,fair_fare,bus,0.11470693758008785
+Normal_B,role_no_history,Normal_B,fair_fare,taxi,0.0
+Normal_B,role_no_history,Normal_B,fair_fare,walk,0.14975758435874834
+Normal_B,role_no_history,Normal_B,fair_fare,stay_home,0.07442368257744349
+Normal_B,role_no_history,Normal_B,general,subway,0.7155050505050506
+Normal_B,role_no_history,Normal_B,general,bus,0.10510101010101011
+Normal_B,role_no_history,Normal_B,general,taxi,0.0
+Normal_B,role_no_history,Normal_B,general,walk,0.1151010101010101
+Normal_B,role_no_history,Normal_B,general,stay_home,0.06429292929292928
+Normal_B,role_no_history,Normal_B,seniors_disability,subway,0.5235423802469623
+Normal_B,role_no_history,Normal_B,seniors_disability,bus,0.2302905872793516
+Normal_B,role_no_history,Normal_B,seniors_disability,taxi,0.03512986656682802
+Normal_B,role_no_history,Normal_B,seniors_disability,walk,0.06880398814142198
+Normal_B,role_no_history,Normal_B,seniors_disability,stay_home,0.14223317776543595
+Normal_B,role_no_history,Normal_B,students,subway,0.601285085431048
+Normal_B,role_no_history,Normal_B,students,bus,0.09614664914234912
+Normal_B,role_no_history,Normal_B,students,taxi,0.0
+Normal_B,role_no_history,Normal_B,students,walk,0.13293565045667294
+Normal_B,role_no_history,Normal_B,students,stay_home,0.16963261496992996
+Normal_B,role_with_history,Normal_B,fair_fare,subway,0.6221553644569601
+Normal_B,role_with_history,Normal_B,fair_fare,bus,0.13023972351024618
+Normal_B,role_with_history,Normal_B,fair_fare,taxi,0.0
+Normal_B,role_with_history,Normal_B,fair_fare,walk,0.10199454447703951
+Normal_B,role_with_history,Normal_B,fair_fare,stay_home,0.14561036755575413
+Normal_B,role_with_history,Normal_B,general,subway,0.6297772613765904
+Normal_B,role_with_history,Normal_B,general,bus,0.1162682714428936
+Normal_B,role_with_history,Normal_B,general,taxi,0.011833249513813529
+Normal_B,role_with_history,Normal_B,general,walk,0.11046520490835875
+Normal_B,role_with_history,Normal_B,general,stay_home,0.13165601275834374
+Normal_B,role_with_history,Normal_B,seniors_disability,subway,0.5771401845941659
+Normal_B,role_with_history,Normal_B,seniors_disability,bus,0.16396039394584125
+Normal_B,role_with_history,Normal_B,seniors_disability,taxi,0.02089733490322345
+Normal_B,role_with_history,Normal_B,seniors_disability,walk,0.05762730493276231
+Normal_B,role_with_history,Normal_B,seniors_disability,stay_home,0.18037478162400705
+Normal_B,role_with_history,Normal_B,students,subway,0.6276985934420621
+Normal_B,role_with_history,Normal_B,students,bus,0.09126400318471758
+Normal_B,role_with_history,Normal_B,students,taxi,0.0038070991647778957
+Normal_B,role_with_history,Normal_B,students,walk,0.09966734354798146
+Normal_B,role_with_history,Normal_B,students,stay_home,0.17756296066046098
+Normal_B,rule_abm,Normal_B,fair_fare,subway,0.5218466605980411
+Normal_B,rule_abm,Normal_B,fair_fare,bus,0.1826138457908516
+Normal_B,rule_abm,Normal_B,fair_fare,taxi,2.9688708170926367e-45
+Normal_B,rule_abm,Normal_B,fair_fare,walk,0.2157327682584638
+Normal_B,rule_abm,Normal_B,fair_fare,stay_home,0.07980672535264345
+Normal_B,rule_abm,Normal_B,general,subway,0.521846660598041
+Normal_B,rule_abm,Normal_B,general,bus,0.18261384579085155
+Normal_B,rule_abm,Normal_B,general,taxi,2.968870817092636e-45
+Normal_B,rule_abm,Normal_B,general,walk,0.21573276825846377
+Normal_B,rule_abm,Normal_B,general,stay_home,0.07980672535264342
+Normal_B,rule_abm,Normal_B,seniors_disability,subway,0.5218466605980411
+Normal_B,rule_abm,Normal_B,seniors_disability,bus,0.18261384579085158
+Normal_B,rule_abm,Normal_B,seniors_disability,taxi,2.968870817092636e-45
+Normal_B,rule_abm,Normal_B,seniors_disability,walk,0.21573276825846374
+Normal_B,rule_abm,Normal_B,seniors_disability,stay_home,0.07980672535264344
+Normal_B,rule_abm,Normal_B,students,subway,0.496787973639256
+Normal_B,rule_abm,Normal_B,students,bus,0.17384486528081325
+Normal_B,rule_abm,Normal_B,students,taxi,4.612660561862447e-45
+Normal_B,rule_abm,Normal_B,students,walk,0.20537344182271414
+Normal_B,rule_abm,Normal_B,students,stay_home,0.12399371925721663

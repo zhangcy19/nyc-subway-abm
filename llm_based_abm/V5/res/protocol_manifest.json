@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-14T08:15:03.801666+00:00",
+  "sha256": {
+    "prepare.py": "172f777dcdfe00ce0907ad259b2a73b5512fe0a282f700e1f120a6e0acb096e1",
+    "model.py": "45d690918c27f73fb8b21f50ba3c6dd1c2dd81820684823fd1477cc3d37dbaf8",
+    "api.py": "ccd48ad825f90c6d1e2b386849ff2080d6be5fa26faa66af6dcbdac8b14aa8f3",
+    "experiment.py": "f8356dca826743fc5ce7dae505cfb816610fa3424035d685671ba66beecba4b2",
+    "PROTOCOL.md": "a7f2ae52d2a0b744ea38579367541492f91e586bd82fab1e1e31b826d94eed95",
+    "res/dates.csv": "09fbe39fb15e0c5a4b53463eaf86bdd92186117764faa72b4cf4d8f4f8fa2628",
+    "res/panel.csv": "781ca3477a322e949082cceade8086448375a2b04fcda2d56c5ec1707f4bbb73"
+  },
+  "preflight": "2 calls, numeric weekday ambiguity corrected to weekday name; sparse fare cells verified as zero contributions. Both pilot calls remain charged.",
+  "operational_amendments": [
+    {
+      "utc": "2026-10-14T08:28:28.340599+00:00",
+      "change": "Added V5_WORKERS environment setting; main process remains 6 workers, later repetition/transfer may use 12. Prompts, retrieval, fitting, splits and scoring unchanged.",
+      "experiment_py_sha256": "9f83e2f2485c5b54fc297fc9a93a2dde53acd21f4bf3b6c1babb671c43996686"
+    }
+  ]
+}

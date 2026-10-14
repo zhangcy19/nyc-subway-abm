@@ -4,9 +4,11 @@
 
 - data/：两组共享的 2023 年 7–10 月站点客流、票种、坐标和 JFK 天气；[数据说明与附件取舍](data/README.md)。
 - rule_based_abm/：协作者的规则模型工作区。
-- llm_based_abm/：四个独立版本；[版本入口](llm_based_abm/README.md)。
+- llm_based_abm/：五个独立版本；[版本入口](llm_based_abm/README.md)。
 
-当前多月份、三次强降雨的 Lite 对比实验：[V4说明](llm_based_abm/V4/README.md)、[流程](llm_based_abm/V4/PROTOCOL.md)、[结果](llm_based_abm/V4/RESULTS.md)。包含直接预测和画像式个人决策，各做 zero-shot / few-shot。
+当前逐日实验：[V5说明](llm_based_abm/V5/README.md)、[实验设定](llm_based_abm/V5/PROTOCOL.md)、[结果与图](llm_based_abm/V5/RESULTS.md)。Normal 与 Extreme 分开训练和测试；比较规则 ABM、LLM 直接 few-shot、角色无历史/有历史，以及两个数值对照。ABM 从训练集校准固定代表规模，测试日不再输入统一的历史计划客流。另有重复推断、跨任务迁移和网页动画数据小样。
+
+此前的小时/四小时天气对比保留在 [V4](llm_based_abm/V4/README.md)，不与 V5 混用指标。
 
 历史固定策略实验：[V1](llm_based_abm/V1/README.md)。动态群体预测：[V2](llm_based_abm/V2/README.md)。早期个人决策实验：[V3](llm_based_abm/V3/README.md)。各版本分别保存真实 API 响应和结果，不混用指标。
 

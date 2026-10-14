@@ -1,0 +1,195 @@
+{
+  "python": "3.11.11",
+  "versions": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scipy": "1.16.2",
+    "mesa": "3.3.1",
+    "scikit-learn": "1.7.2",
+    "openai": "3.28.0",
+    "networkx": "3.5",
+    "matplotlib": "3.10.6"
+  },
+  "sha256": {
+    "PROTOCOL.md": "a7f2ae52d2a0b744ea38579367541492f91e586bd82fab1e1e31b826d94eed95",
+    "README.md": "043cbf83378099b81470e823102625b9fdbb53ee66376ee0666c76d717ae397e",
+    "RESULTS.md": "159f0dcdbda1faaa66c62281d76ca677d425fb7758e3d670e7fa2e9e3747c62c",
+    "analyze.py": "2a87d2d8f46f4aa4c22b67b99663960263f4cc52a518adc88fd205abca9f3453",
+    "animation_demo.py": "72f099369081cc905447fc04d0076138cd92b6689022be5ce8b3659b0cdf1544",
+    "api.py": "ccd48ad825f90c6d1e2b386849ff2080d6be5fa26faa66af6dcbdac8b14aa8f3",
+    "audit.py": "8c1bc2a13df9b010e38882af5001bf9d32bc9e8921e60aff906428a27c06a93c",
+    "experiment.py": "9f83e2f2485c5b54fc297fc9a93a2dde53acd21f4bf3b6c1babb671c43996686",
+    "model.py": "45d690918c27f73fb8b21f50ba3c6dd1c2dd81820684823fd1477cc3d37dbaf8",
+    "prepare.py": "172f777dcdfe00ce0907ad259b2a73b5512fe0a282f700e1f120a6e0acb096e1",
+    "res/Extreme_role_no_history_policy.json": "e18f6098b5d8800516ac795231469413f730c261ea8ab41e8ad8548a2bf7b465",
+    "res/Extreme_role_with_history_policy.json": "2d0e507b7f3847c98496e526db07b8eed271250b7fa997a3760396617b0bf8e1",
+    "res/Extreme_rule_abm_policy.json": "b6952f6868eac50bf58fa9e99d1c80dadc9f67241ca433e0de358a65608fccc7",
+    "res/Normal_A_role_no_history_policy.json": "dda9109c00d96f20e3e14859104679266bcdfc53124809b823c1d82dedd948db",
+    "res/Normal_A_role_with_history_policy.json": "ccab1652889ba4f8c968a7213faaeddc55850851e271ba441b5f3b75210fb091",
+    "res/Normal_A_rule_abm_policy.json": "f229e7137101ea693c1392a3bbf296fc6ac56ea1bc4be97561ea7474ef1c6315",
+    "res/Normal_B_role_no_history_policy.json": "b0ede26ed67d5716c7fa738514c3f5651c70cec4f2c61a8bf0729b455189945e",
+    "res/Normal_B_role_with_history_policy.json": "b92f8a2f801b183eecc22851a69b78161b0cd046f576518116a948e98837ba45",
+    "res/Normal_B_rule_abm_policy.json": "f1b93d062db46c9b2d0130220562b71a862b990d55d4d4a46cb61306d537180e",
+    "res/animation_demo/agents.csv": "6cffeeab1bdb972fb603a455a3af6287d88eefd312b31798e82330a16e46a995",
+    "res/animation_demo/edges.csv": "b4ee6d83df6ff8c3f277fbe8578f51cfbd664e6b107bd6298d7a891fe9de7343",
+    "res/animation_demo/feasibility.json": "a639d3629e5731a8033a0cbdbda2b7d055b62475d53792e0dcef9315161b60dc",
+    "res/animation_demo/nodes.csv": "285f05baeabed30a342fa91bdb7157452946d1a65f4fd4e793e90a2e14fed4cb",
+    "res/animation_demo/trips.csv": "c0d8302fe81b94b99463faede66f9126f8e3a48e09534d79671d44b7ce3133aa",
+    "res/animation_demo/waypoints.csv": "cbef3d5ffcf45ce40a44d9d6fe73bb24368bd8f734889aca1df96964fcf24b78",
+    "res/api_calls.jsonl.gz": "5d868c4434dbe640253f2f1ac265f564cab12a9ac06f1c31a03a336f0b1199b1",
+    "res/api_cost.csv": "bee05b20106ea6430762a7c21f6241c85db411e51bb107b755926ec2b5e2fe9c",
+    "res/audit.json": "b954bf3c71309243dd04807630f5300e682e0980717dad3df08a4b63ac26e3cb",
+    "res/budget.json": "4dfe5c4fb74c3321f6d8aba1e861706f0c32cb60585f69a0330d6cc19725366b",
+    "res/capacity_diagnostic.csv": "673c95c7eb67ab33705aae4890b3c1d0de0c75a87f86105f2aa98260d82e86fd",
+    "res/daily.csv": "d0b45f9d522f30706e6e52cb3d9f555659e88a3e7d675d2c5316ace9fe008120",
+    "res/dataset_summary.csv": "6602f9488cff2b419aba39fe4da4e8a3b648b0867af0c202e33c629aa9c662b5",
+    "res/dates.csv": "09fbe39fb15e0c5a4b53463eaf86bdd92186117764faa72b4cf4d8f4f8fa2628",
+    "res/decisions.csv": "673793c5b967fcad305f3a70f1e22fbab09a8b12d9e8bd4517123da5ce074a0c",
+    "res/design.json": "78f6ba8c70fcbb232578748810a19963148fc5cc17a7b17e2ff0b8469333d39e",
+    "res/ensemble_metrics.csv": "fe05be2545a441eb59da4cea70e112415251337d4485e0736ab63cb55d167922",
+    "res/event_metrics.csv": "a27f07e20b6cacf8b690ea8db40df4965eb0bd2d7d1f1c3828e56c9323c0f6b3",
+    "res/extreme_metrics.csv": "58534e9cb15c654548a4d82f76703694d949ec52528c7d3557708373bdee958e",
+    "res/figures/01_dataset_calendar.png": "39ad3fca158824a966ac0948d2dc6b24c76ea5ca194cff50b9541e2a733d1657",
+    "res/figures/02_actual_distribution.png": "a7754f7db5930eef2f1327c91684d25c1da877acd5f98f3c9f5baaa7bd228fc6",
+    "res/figures/03_accuracy.png": "59a6d19ddef332cf1518e73c1b813c665b0957c8eb2376ebe685ebf36154ab24",
+    "res/figures/04_event_predictions.png": "8d0f525024faa47ea62f5a4b70b57a28a290bbbc8615abb85d437092b68c1b73",
+    "res/figures/05_group_choices.png": "3ff6500139202ff11b190bdbc18e99c64e1330b60836237324a26f0273c9c0b2",
+    "res/figures/06_reason_words.png": "8155ae6bdceb582fb1d8403ab58e4eb722a7a499ce6b58e044bcc81a3cec56a7",
+    "res/figures/07_repeats.png": "9a0e2942915984656a019c90e59374a451dfc7bfbb11bcc46f3c88743cc2b37f",
+    "res/figures/08_cost.png": "d7f41e024dc49062484e1e13bfeaf91e822a0a3f4c6426318b1e6528b7cb1e73",
+    "res/figures/09_group_entry_errors.png": "6cd39499fbc995273c79bbe54fe3bfea43a11a7ea3fbbdb75438e2cea077434a",
+    "res/figures/10_transfer.png": "971c9a6ab90ba954c71aee2406425f383c9b1a1212e7359588e318a46119bcd4",
+    "res/figures/11_animation_feasibility.png": "75d99c339546515d3c8c6ef0f091d59198e27d0b063293f4d7e50c58df6d7639",
+    "res/figures/12_weather_sensitivity.png": "2b5f864c96f49ce85b07efd940bd1fb3347aea51638cdb5b68098d90a5e517fd",
+    "res/group_actions.csv": "0fe34c3129bd679d6458ee370d9ab09b882f9fbe1447f3e57cb4d37c7a50a2b7",
+    "res/group_metrics.csv": "c02592803a176a07e6ec90be3215d11e1897e942e01bff6ca09ffa3bfeabb186",
+    "res/metrics.csv": "db1affbc010b34af85919886e31c65d56cb214a9eeaf668fde9b4aead286a2fd",
+    "res/panel.csv": "781ca3477a322e949082cceade8086448375a2b04fcda2d56c5ec1707f4bbb73",
+    "res/personas.csv": "bd370e497beffc8d10c6fa6114e298e67e44d59a99b8727de7853a5f25922b82",
+    "res/populations.csv": "594cfa8768d76694c6e846d930d878c2a85a75d794a1c55949603ef7e1d1cb4e",
+    "res/predictions.csv": "23f41d5baae4b094b8493d094e648bcae8b800d2b5e428bbaf6d49c5bd751c9e",
+    "res/protocol_manifest.json": "06216ee71d92b96936b87d4522b9f9da76a47867d1f0c59d663b605b664c11ba",
+    "res/reason_examples.csv": "3981e21319267c51d4fb3c19cd3a4c451a22f5e71bdb689fe17323f906add48a",
+    "res/reason_words.csv": "f36cd65ec6db6914339dc52ef50b550e79155a143a05191a96460d634646d905",
+    "res/repeat1_decisions.csv": "c26f79a892d8fdc77baa8ccaf01936f1056e7781befaa46fb50037a2aeb3f056",
+    "res/repeat1_predictions.csv": "9d81593fcb27310bc626d0f0bda8f3cb1855a57d405271378cc770e35bf53128",
+    "res/repeat1_runtime.csv": "b90f326cabce2038dcb5fac9db0773d0dbe89c5674806a99e15cb2dfe41add0f",
+    "res/repeat2_decisions.csv": "ec43517ed9019dd4078f6720cb8cf95f3da9d4d68f30047b5df0126ab2042387",
+    "res/repeat2_predictions.csv": "91c025eea90d3e896f111d6050def8963e173e428e4be952a09d16a96986b7d0",
+    "res/repeat2_runtime.csv": "31e156495d875828a68a2e993eca0c96c07ab77b12fef872d3e1f89bfb7d8c73",
+    "res/repeat_event_summary.csv": "326d2295c869275c0ed38447f97672a6b9472e452146534cd904d486324a13f5",
+    "res/repeat_metrics.csv": "f8fbeaf05e87df81cf12a5b801df16bb98eaa6e05c59df97c94440de2d5b297a",
+    "res/repeat_summary.csv": "0e92e3c4a350195596ed960240ac2722b631c4163b21768ee958a3a0f25f754c",
+    "res/runtime.csv": "d676ec4b0bae972aa56214837398cd664848fbbe8f3cf806e8169b139463480b",
+    "res/station_metrics.csv": "685a33ccdc3fb60249a7c72b8d7a7c890ac1dbc3761fb30c56da15fe7e23a3a9",
+    "res/stations.csv": "59f90091d5b698cb819616a4f24c3c9bd52a377a0f7a348e7857da9b68b7f9d2",
+    "res/supplementary_runtime.json": "1a48bec02c402943ef47e4a4336e9ffda23ce21a15225d838851d0744708aaee",
+    "res/transfer_decisions.csv": "890e68e75543ee89b6580f6eafa0c65028a0b827eb1dea03fffc7aacf8892775",
+    "res/transfer_metrics.csv": "0be12de8e74643d9248526167ffcc31e8c74d0de877f19f7fc34a36ae6882855",
+    "res/transfer_predictions.csv": "e59b3a52e76145da7a0bdfb41b2b57c0ca9b5677658713421e8f4ca317086699",
+    "res/transfer_runtime.csv": "ae86819db4a124274361dba736619bc815f20f6b9c810f85b258eda4fa333cbe",
+    "res/validation.csv": "df4724834ba72ab466a4b1969c00a931456f6c1773477bc56f45c31c33705dd2",
+    "res/weather_daily.csv": "7d8fb6b33590c7c61293221caa135ca1ac0b9eccd974a7ac69d6d41d82cd014c",
+    "res/weather_probe_decisions.csv": "58debf84ac84a51a8a5eab7c6edf999de9259e8d48de356ce2f7b0a68e4d2ac9",
+    "res/weather_probe_design.json": "e3ddf9e8cf7be37c852b09b8c513c3ca6edb333b5bf106b71dfd345646300e7b",
+    "res/weather_probe_summary.csv": "2a8191f340ff2da9907a15f863c4838a7c1434fded13c83aa05e0ee994d9edea",
+    "sensitivity.py": "df835143d05bc586a7f784c3730f4c540d662e6a21a377136a5aae2e8ed181f3",
+    "test_experiment.py": "06c43f23a9da4272cf6aaf7280d577b75c5fe5a716f272f1bc9cb8cba8df5d7e"
+  },
+  "main_workers": 6,
+  "supplementary_workers": 12,
+  "budget": {
+    "real_calls": 4168,
+    "reported_tokens": 2784663,
+    "conservative_tokens": 2788506,
+    "cap": 4000000
+  },
+  "verification": {
+    "primary_replay": [
+      {
+        "task": "Extreme",
+        "method": "weekday_mean",
+        "max_absolute_difference": 0.0
+      },
+      {
+        "task": "Extreme",
+        "method": "ridge",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Extreme",
+        "method": "rule_abm",
+        "max_absolute_difference": 4.547473508864641e-13
+      },
+      {
+        "task": "Extreme",
+        "method": "role_no_history",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Extreme",
+        "method": "role_with_history",
+        "max_absolute_difference": 9.094947017729282e-13
+      },
+      {
+        "task": "Normal_A",
+        "method": "weekday_mean",
+        "max_absolute_difference": 0.0
+      },
+      {
+        "task": "Normal_A",
+        "method": "ridge",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_A",
+        "method": "rule_abm",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_A",
+        "method": "role_no_history",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_A",
+        "method": "role_with_history",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_B",
+        "method": "weekday_mean",
+        "max_absolute_difference": 0.0
+      },
+      {
+        "task": "Normal_B",
+        "method": "ridge",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_B",
+        "method": "rule_abm",
+        "max_absolute_difference": 0.0
+      },
+      {
+        "task": "Normal_B",
+        "method": "role_no_history",
+        "max_absolute_difference": 1.8189894035458565e-12
+      },
+      {
+        "task": "Normal_B",
+        "method": "role_with_history",
+        "max_absolute_difference": 3.637978807091713e-12
+      }
+    ],
+    "training_and_validation_refit_matches": true,
+    "all_direct_outputs_match_real_API": true,
+    "api_hashes_valid": true,
+    "valid_role_outputs_pass_constraints": true,
+    "equal_observed_samples_across_methods": true,
+    "total_calls": 4168,
+    "charged_tokens": 2788506,
+    "missing_station_days_excluded": 8
+  },
+  "files": 84
+}

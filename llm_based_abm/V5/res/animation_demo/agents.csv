@@ -1,0 +1,81 @@
+id,origin_station,profile_id,group,identity,action,represented_opportunities,reason,synthetic
+demo_228_00,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_01,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_02,228,general_2,general,"adult, general fare",taxi,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_03,228,general_0,general,"adult, general fare",bus,1246.7082332209443,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_228_04,228,general_0,general,"adult, general fare",stay_home,1246.7082332209443,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_228_05,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_06,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_07,228,general_2,general,"adult, general fare",stay_home,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_08,228,general_2,general,"adult, general fare",stay_home,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_09,228,general_2,general,"adult, general fare",stay_home,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_10,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_11,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_12,228,general_0,general,"adult, general fare",bus,1246.7082332209443,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_228_13,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_14,228,general_0,general,"adult, general fare",subway,1246.7082332209443,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_228_15,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_16,228,general_2,general,"adult, general fare",taxi,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_17,228,general_2,general,"adult, general fare",stay_home,1246.7082332209443,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_228_18,228,general_1,general,"adult, general fare",bus,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_228_19,228,general_1,general,"adult, general fare",stay_home,1246.7082332209443,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_269_00,269,general_0,general,"adult, general fare",walk,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_01,269,general_0,general,"adult, general fare",subway,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_02,269,general_1,general,"adult, general fare",stay_home,339.6694570282391,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_269_03,269,general_1,general,"adult, general fare",stay_home,339.6694570282391,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_269_04,269,general_1,general,"adult, general fare",stay_home,339.6694570282391,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_269_05,269,general_0,general,"adult, general fare",stay_home,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_06,269,seniors_disability_1,seniors_disability,adult with mobility limitations,bus,339.6694570282391,Heavy rain and mobility limits make staying home most likely; taxi is unaffordable.,True
+demo_269_07,269,general_0,general,"adult, general fare",walk,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_08,269,general_2,general,"adult, general fare",stay_home,339.6694570282391,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_269_09,269,fair_fare_0,fair_fare,income-qualified discounted-fare adult,subway,339.6694570282391,"Extreme heavy rain and wind make walking unpleasant; subway is fastest and affordable, taxi too costly.",True
+demo_269_10,269,general_1,general,"adult, general fare",stay_home,339.6694570282391,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_269_11,269,general_0,general,"adult, general fare",stay_home,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_12,269,general_0,general,"adult, general fare",subway,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_13,269,general_2,general,"adult, general fare",stay_home,339.6694570282391,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_269_14,269,general_2,general,"adult, general fare",stay_home,339.6694570282391,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_269_15,269,general_2,general,"adult, general fare",stay_home,339.6694570282391,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_269_16,269,general_0,general,"adult, general fare",subway,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_17,269,general_0,general,"adult, general fare",bus,339.6694570282391,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_269_18,269,general_2,general,"adult, general fare",stay_home,339.6694570282391,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_269_19,269,general_1,general,"adult, general fare",stay_home,339.6694570282391,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_360_00,360,general_0,general,"adult, general fare",bus,313.36125698672305,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_360_01,360,general_2,general,"adult, general fare",stay_home,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_02,360,seniors_disability_1,seniors_disability,adult with mobility limitations,subway,313.36125698672305,Heavy rain and mobility limits make staying home most likely; taxi is unaffordable.,True
+demo_360_03,360,general_1,general,"adult, general fare",stay_home,313.36125698672305,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_360_04,360,general_0,general,"adult, general fare",bus,313.36125698672305,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_360_05,360,general_2,general,"adult, general fare",taxi,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_06,360,general_2,general,"adult, general fare",subway,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_07,360,general_1,general,"adult, general fare",stay_home,313.36125698672305,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_360_08,360,general_2,general,"adult, general fare",subway,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_09,360,general_2,general,"adult, general fare",stay_home,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_10,360,general_2,general,"adult, general fare",taxi,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_11,360,general_1,general,"adult, general fare",stay_home,313.36125698672305,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_360_12,360,fair_fare_1,fair_fare,income-qualified discounted-fare adult,stay_home,313.36125698672305,Extreme heavy Friday rain makes staying home the sensible choice for my flexible errands.,True
+demo_360_13,360,general_2,general,"adult, general fare",stay_home,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_14,360,general_1,general,"adult, general fare",stay_home,313.36125698672305,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_360_15,360,general_0,general,"adult, general fare",subway,313.36125698672305,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_360_16,360,general_0,general,"adult, general fare",bus,313.36125698672305,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_360_17,360,general_2,general,"adult, general fare",stay_home,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_18,360,general_2,general,"adult, general fare",taxi,313.36125698672305,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_360_19,360,general_0,general,"adult, general fare",stay_home,313.36125698672305,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_00,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_01,37,general_0,general,"adult, general fare",subway,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_02,37,general_2,general,"adult, general fare",stay_home,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_37_03,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_04,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_05,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_06,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_07,37,general_2,general,"adult, general fare",stay_home,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_37_08,37,fair_fare_1,fair_fare,income-qualified discounted-fare adult,stay_home,277.6888880645105,Extreme heavy Friday rain makes staying home the sensible choice for my flexible errands.,True
+demo_37_09,37,general_0,general,"adult, general fare",subway,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_10,37,general_0,general,"adult, general fare",subway,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_11,37,general_0,general,"adult, general fare",subway,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_12,37,general_2,general,"adult, general fare",subway,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_37_13,37,general_1,general,"adult, general fare",stay_home,277.6888880645105,Torrential rain and wind make outdoor travel unpleasant; I stay home since taxi is unaffordable.,True
+demo_37_14,37,general_2,general,"adult, general fare",stay_home,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_37_15,37,general_0,general,"adult, general fare",bus,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_16,37,general_0,general,"adult, general fare",subway,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_17,37,general_2,general,"adult, general fare",stay_home,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True
+demo_37_18,37,general_0,general,"adult, general fare",stay_home,277.6888880645105,"Heavy rain and wind make walking unpleasant; subway is fastest affordable option, taxi out of budget.",True
+demo_37_19,37,general_2,general,"adult, general fare",taxi,277.6888880645105,"Extreme heavy rain makes me stay home; rare trips favor taxi over subway, bus, or walking.",True

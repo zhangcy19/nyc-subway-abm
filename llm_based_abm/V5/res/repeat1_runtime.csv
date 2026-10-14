@@ -1,0 +1,10 @@
+task,method,replicate,seconds
+Extreme,role_no_history,1,35.90346720791422
+Extreme,role_with_history,1,33.15909737488255
+Extreme,direct_few,1,11.563344249967486
+Normal_A,role_no_history,1,27.6658043328207
+Normal_A,role_with_history,1,25.113919999916106
+Normal_A,direct_few,1,9.193320916034281
+Normal_B,role_no_history,1,32.63043275009841
+Normal_B,role_with_history,1,35.49754104204476
+Normal_B,direct_few,1,12.502205458004028

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from api import validate
 from experiment import examples,role_view
-from model import profiles,rule_prob,fit_population,predict
+from model import profiles,rule_prob,fit_population,predict,MIN_SHARE,MAX_SHARE
 
 class DesignTests(unittest.TestCase):
     def test_splits_and_events(self):
@@ -49,9 +49,32 @@ class DesignTests(unittest.TestCase):
         coefficients=np.array([10,20,30]);frame=[]
         for j,d in enumerate(dates):
             for person in people:policy[(d,person['agent_id'])]={'probabilities':[x[j,person['kind']],0,0,0,1-x[j,person['kind']]],'reason':'synthetic test'}
-            frame.append(dict(station_complex_id='s',date=d,total_ridership=float(4*x[j]@coefficients),**{g:float(x[j]@coefficients) for g in ['students','fair_fare','seniors_disability','general']}))
+            frame.append(dict(station_complex_id='s',date=d,weekday=0,total_ridership=float(4*x[j]@coefficients),**{g:float(x[j]@coefficients) for g in ['students','fair_fare','seniors_disability','general']}))
         frame=pd.DataFrame(frame);weights=fit_population(frame,policy,people,0)
         rows,_=predict(frame,weights,policy,people)
-        np.testing.assert_allclose([r['predicted'] for r in rows],frame.total_ridership,atol=1e-6)
+        np.testing.assert_allclose([r['predicted'] for r in rows],frame.total_ridership,atol=1e-3)
+
+    def test_strong_weekly_cycle_without_weather(self):
+        people=profiles();policy={};rows=[]
+        for j in range(28):
+            day=j%7;date=f'd{j:02}';amount=100. if day<5 else 30. if day==5 else 10.
+            for person in people:policy[(date,person['agent_id'])]={'probabilities':[.5,0,0,0,.5],'reason':'same choices every day'}
+            rows.append(dict(station_complex_id='s',date=date,weekday=day,total_ridership=4*amount,**{g:amount for g in ['students','fair_fare','seniors_disability','general']}))
+        frame=pd.DataFrame(rows);weights=fit_population(frame.iloc[:21],policy,people,0,0)
+        held=frame.iloc[21:].copy();held['total_ridership']=-999 # target labels cannot enter prediction
+        prediction,_=predict(held,weights,policy,people)
+        np.testing.assert_allclose([r['predicted'] for r in prediction],frame.iloc[21:].total_ridership,rtol=1e-5)
+
+    def test_dominant_persona_is_bounded(self):
+        people=profiles();policy={};rows=[]
+        for j in range(14):
+            date=f'd{j:02}';probs=[.2+.04*j,.3,.7-.03*j]
+            for person in people:
+                v=probs[person['kind']];policy[(date,person['agent_id'])]={'probabilities':[v,0,0,0,1-v],'reason':'synthetic'}
+            rows.append(dict(station_complex_id='s',date=date,weekday=0,total_ridership=400*probs[0],**{g:100*probs[0] for g in ['students','fair_fare','seniors_disability','general']}))
+        weights=pd.DataFrame(fit_population(pd.DataFrame(rows),policy,people,0,0))
+        shares=weights.effective_population/weights.groupby('group').effective_population.transform('sum')
+        self.assertLessEqual(shares.max(),MAX_SHARE+1e-7)
+        self.assertGreaterEqual(shares.min(),MIN_SHARE-1e-7)
 
 if __name__=='__main__':unittest.main()

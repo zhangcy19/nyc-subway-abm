@@ -3,7 +3,7 @@
   "directed_edges": 1121,
   "weak_components": 2,
   "synthetic_agents": 80,
-  "subway_trips": 18,
+  "subway_trips": 15,
   "unroutable_subway_choices": 0,
   "all_coordinates_finite": true,
   "paths_follow_edges": true,

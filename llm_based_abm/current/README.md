@@ -9,16 +9,17 @@
 ```bash
 python prepare.py
 python -m unittest test_experiment.py
-python experiment.py primary
-python experiment.py repeat --replicate 1
-python experiment.py repeat --replicate 2
-python context_probe.py  # 可选：只替换10/7的一条历史示例
+python experiment.py primary --offline
+python experiment.py repeat --replicate 1 --offline
+python experiment.py repeat --replicate 2 --offline
+python context_probe.py --offline  # 可选：只替换10/7的一条历史示例
 python analyze.py
+python repair_check.py
 python animation_demo.py
 python audit.py
 ```
 
-`prepare.py` 从共享 data 重建日数据与划分。`primary` 会调用 API，保存完整主实验；`repeat` 只重复四个事件当天的LLM推断，保持训练参数不变。已有完整请求读取缓存；加 `--offline` 禁止网络调用。只查看结果不必重跑实验；`analyze.py`、`audit.py` 均离线。不要为了检查结果重跑 primary，否则 runtime 将记录缓存重放耗时。
+`prepare.py` 从共享 data 重建日数据与划分。`primary --offline` 仅复用已有回复，保存完整主实验；去掉 --offline 才允许调用 API；`repeat` 只重复四个事件当天的LLM推断，保持训练参数不变。已有完整请求读取缓存；加 `--offline` 禁止网络调用。只查看结果不必重跑实验；`analyze.py`、`audit.py` 均离线。本次 runtime 记录离线重新拟合耗时，不能当成首次 API 实验耗时。
 
 API密钥放上一级 `key.txt`，不上传。模型固定 Lite，新增预算硬限200万token（包括失败及重试），相同调用复用上次真实响应。`res/reused_api.jsonl.gz` 是本轮用到的旧调用证据，`res/api_calls.jsonl.gz` 是本轮新调用；代码会同时读取未压缩的新追加日志。一次只运行一个调用进程，避免跨进程重复消耗预算。并发默认6，本次设置 `ABM_WORKERS=10`。改变prompt、模型或replicate会产生新调用。
 
@@ -48,14 +49,14 @@ CSV为UTF-8；日期 `YYYY-MM-DD`，站点ID按字符串读取；雨量mm，客�
 | metrics.csv | 方法×任务 | WAPE_pct, MAE, RMSE, bias_pct, within_20pct |
 | event_summary.csv | 方法×事件 | WAPE_mean/std/min/max, bias_mean, runs；LLM为重复推断统计 |
 | group_predictions.csv | 方法×票种×站点×日期 | actual, predicted；用于群体误差 |
-| decisions.csv | 方法×角色×站点×日期 | effective_population, p_subway/bus/taxi/walk/stay_home, reason |
-| populations.csv | 方法×任务×站点×角色 | effective_population：训练出的有效规模，不是真实人数 |
+| decisions.csv | 方法×角色×站点×日期 | base_population, weekday_multiplier, effective_population（前两者乘积）, p_subway/bus/taxi/walk/stay_home, reason |
+| populations.csv | 方法×任务×站点×角色 | effective_population：基础规模；weekday_0…weekday_6：固定星期活跃度，均来自训练集 |
 | capacity_diagnostic.csv | 方法×任务×票种 | unavoidable_underprediction_pct：规模上限导致的最低低估程度 |
 | history_examples.csv | 角色few-shot的一条实际参考日 | task, target_date, group, example_date, entry_index, rain_mm |
 | weather_range.csv | 一个事件 | 训练最大雨量、测试雨量、是否超范围 |
 | previous_comparison.csv | 版本×同一事件×方法×重复 | 仅相同事件日与站点的旧/新对比 |
 | api_cost.csv / budget.json | 方法 / 本轮总计 | 新调用、token、API延迟、预算 |
-| runtime.csv | 任务×方法 | 本轮实际阶段耗时，含缓存读取，非全新调用成本 |
+| runtime.csv | 任务×方法 | 本次离线重新拟合耗时，非全新调用成本 |
 
 `*_policy.json` 保存主实验角色概率，支持数值回放；完整原始请求与回复见压缩API记录。`res/figures/` 为可直接用于汇报的PNG。群体是票种代理标签，不是完整人口分类；源数据合并老人和残障，不能由此拆出真实数量。角色few-shot接收群体历史指数，不是个人行动标签。
 
@@ -72,3 +73,7 @@ CSV为UTF-8；日期 `YYYY-MM-DD`，站点ID按字符串读取；雨量mm，客�
 | waypoints.csv | agent_id, sequence | 沿路径位置、当天零点起seconds |
 
 网页按相邻waypoint插值即可。当前路网不还原2023年临时关闭；无真实OD，因此动画用于展示模型机制。后续全站预测、OD与时段分配需独立验证。
+
+## 周周期与权重检查
+
+本次修复无新增 API 消耗，原始 LLM 概率不变。具体方法见 [REPAIR.md](REPAIR.md)。`repair_check.py` 生成修复前后误差、分星期偏差和角色份额表（res/repair_*）。同票种三个代表角色占比限制在10%—60%，属于技术约束，不是实测人口比例。

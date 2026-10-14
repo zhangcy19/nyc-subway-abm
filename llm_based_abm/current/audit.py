@@ -24,7 +24,8 @@ def audit():
             policies={scale:rule_policy(dates[dates.task==task],scale) for scale in RAIN} if method=='rule_abm' else {0.:policy}
             fitted,_,_,_=choose_population(train,valid,policies,method)
             fitted=pd.DataFrame(fitted).merge(pd.DataFrame(w),on=['station_complex_id','agent_id'],suffixes=('_replay','_saved'))
-            if abs(fitted.effective_population_replay-fitted.effective_population_saved).max()>1e-6:raise ValueError('Training/validation population replay mismatch')
+            for column in ['effective_population']+[f'weekday_{d}' for d in range(7)]:
+                if abs(fitted[column+'_replay']-fitted[column+'_saved']).max()>1e-6:raise ValueError('Training/validation fit replay mismatch')
             pred,_=predict(test,w,policy,PEOPLE);r=pd.DataFrame(pred).merge(saved[(saved.task==task)&(saved.method==method)],on=['station_complex_id','date'],suffixes=('_replay','_saved'))
             max_error=float(abs(r.predicted_replay-r.predicted_saved).max())
             replay.append(dict(task=task,method=method,max_absolute_difference=max_error))
@@ -59,6 +60,8 @@ def audit():
     old=pd.read_csv('res/previous_reference.csv',dtype={'station_complex_id':str})
     common=old[old.replicate==0].merge(saved,on=['method','date','station_complex_id'],suffixes=('_old','_new'))
     np.testing.assert_allclose(common.actual_old,common.actual_new,equal_nan=True)
+    shares=weights.effective_population/weights.groupby(['task','method','station_complex_id','group']).effective_population.transform('sum')
+    if shares.max()>.600001 or shares.min()<.099999:raise ValueError('Representative concentration bound failed')
     errors=[]
     for task,rows in saved.groupby('task'):
         sets=[set(zip(p.date[p.actual.notna()],p.station_complex_id[p.actual.notna()])) for _,p in rows.groupby('method')]

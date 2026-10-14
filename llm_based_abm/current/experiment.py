@@ -16,6 +16,7 @@ from prepare import GROUPS
 PEOPLE=profiles()
 WORKERS=int(os.environ.get('ABM_WORKERS','6'))
 SHRINK=[0.,.1,1.,10.]
+CALENDAR_PRIOR=[0.,1.,3.]
 RAIN=[0.,.25,.5,1.,2.]
 WEATHER=['weekday','school_term','holiday','rain_mm','peak_mm','six_mm','temp_c','wind_ms']
 
@@ -101,11 +102,14 @@ def choose_population(train,valid,policies,method):
     candidates=[];fits={}
     for scale,policy in policies.items():
         for shrink in SHRINK:
-            weights=fit_population(train,policy,PEOPLE,shrink)
-            predictions,_=predict(valid,weights,policy,PEOPLE)
-            score=wape(predictions);candidates.append(dict(method=method,rain_scale=scale,shrink=shrink,validation_wape=score));fits[(scale,shrink)]=weights
+            for calendar_prior in CALENDAR_PRIOR:
+                weights=fit_population(train,policy,PEOPLE,shrink,calendar_prior)
+                predictions,_=predict(valid,weights,policy,PEOPLE)
+                score=wape(predictions)
+                candidates.append(dict(method=method,rain_scale=scale,shrink=shrink,calendar_prior=calendar_prior,validation_wape=score))
+                fits[(scale,shrink,calendar_prior)]=weights
     best=min(candidates,key=lambda r:r['validation_wape'])
-    return fits[(best['rain_scale'],best['shrink'])],policies[best['rain_scale']],candidates,best
+    return fits[(best['rain_scale'],best['shrink'],best['calendar_prior'])],policies[best['rain_scale']],candidates,best
 
 def save_policy(task,method,policy):
     json.dump([dict(date=d,agent_id=a,**v) for (d,a),v in policy.items()],open(f'res/{task}_{method}_policy.json','w'),ensure_ascii=False)

@@ -61,8 +61,10 @@ def analyze():
     # Population capacity is a structural upper bound, not true headcount.
     weights=pd.read_csv('res/populations.csv',dtype={'station_complex_id':str});caps=[]
     for (task,method,group),r in weights.groupby(['task','method','group']):
-        upper=r.groupby('station_complex_id').effective_population.sum().rename('capacity')
-        truth=panel[(panel.task==task)&(panel.split=='test')][['station_complex_id',group]].rename(columns={group:'actual'}).dropna().merge(upper,on='station_complex_id')
+        upper=r.groupby('station_complex_id').effective_population.sum().rename('base_capacity')
+        calendar=r.groupby('station_complex_id')[[f'weekday_{d}' for d in range(7)]].first()
+        truth=panel[(panel.task==task)&(panel.split=='test')][['station_complex_id','weekday',group]].rename(columns={group:'actual'}).dropna().merge(upper,on='station_complex_id').merge(calendar,on='station_complex_id')
+        truth['capacity']=truth.base_capacity*np.array([row[f'weekday_{int(row.weekday)}'] for _,row in truth.iterrows()])
         caps.append(dict(task=task,method=method,group=group,effective_scale=upper.sum(),unavoidable_underprediction_pct=100*(truth.actual-truth.capacity).clip(lower=0).sum()/truth.actual.sum()))
     pd.DataFrame(caps).to_csv('res/capacity_diagnostic.csv',index=False)
     dec=pd.read_csv('res/decisions.csv',dtype={'station_complex_id':str}).merge(dates[['task','date','event_day']],on=['task','date']);dec['predicted']=dec.effective_population*dec.p_subway
@@ -136,7 +138,7 @@ def analyze():
     budget=dict(new_calls=len(calls),reused_unique_requests=len(hits),reported_tokens=sum(r.get('usage',{}).get('total_tokens',0) for r in calls),charged_tokens=sum(charge(r) for r in calls),cap=2000000)
     json.dump(budget,open('res/budget.json','w'),indent=2)
     runtime=pd.read_csv('res/runtime.csv').groupby('method').seconds.sum().reindex(ORDER)
-    fig,axes=plt.subplots(1,2,figsize=(12,5));axes[0].barh([NAMES[m] for m in ORDER],runtime/60,color=COLORS);axes[0].set(title='Primary elapsed time (cache reuse included)',xlabel='Minutes')
+    fig,axes=plt.subplots(1,2,figsize=(12,5));axes[0].barh([NAMES[m] for m in ORDER],runtime/60,color=COLORS);axes[0].set(title='Offline recalibration elapsed time',xlabel='Minutes')
     axes[1].barh([NAMES[m] for m in ORDER],costs.set_index('method').charged_tokens.reindex(ORDER).fillna(0)/1000,color=COLORS);axes[1].set(title='New calls only, including event repeats/errors',xlabel='Thousand tokens');savefig(fig,'09_cost')
     if os.path.exists('res/context_probe_predictions.csv'):
         probe=pd.read_csv('res/context_probe_predictions.csv')

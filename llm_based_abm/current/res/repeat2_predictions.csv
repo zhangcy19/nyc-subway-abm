@@ -1,48 +1,48 @@
 task,method,replicate,station_complex_id,date,actual,predicted,request_hash,reason,example_count
-Extreme_0729,role_no_history,2,228,2023-07-29,9672.0,8197.878944906111,,,
-Extreme_0729,role_no_history,2,269,2023-07-29,2117.0,2265.7817880499233,,,
-Extreme_0729,role_no_history,2,360,2023-07-29,2322.0,2025.2516862925395,,,
-Extreme_0729,role_no_history,2,37,2023-07-29,1968.0,1838.1433644034075,,,
-Extreme_0729,role_with_history,2,228,2023-07-29,9672.0,12870.089235897707,,,
-Extreme_0729,role_with_history,2,269,2023-07-29,2117.0,3425.6577178175703,,,
-Extreme_0729,role_with_history,2,360,2023-07-29,2322.0,3006.589660082902,,,
-Extreme_0729,role_with_history,2,37,2023-07-29,1968.0,2768.701654430429,,,
+Extreme_0729,role_no_history,2,228,2023-07-29,9672.0,5308.043422647176,,,
+Extreme_0729,role_no_history,2,269,2023-07-29,2117.0,1732.8481032830066,,,
+Extreme_0729,role_no_history,2,360,2023-07-29,2322.0,1713.7249065158371,,,
+Extreme_0729,role_no_history,2,37,2023-07-29,1968.0,1524.6839028287695,,,
+Extreme_0729,role_with_history,2,228,2023-07-29,9672.0,8230.51722242213,,,
+Extreme_0729,role_with_history,2,269,2023-07-29,2117.0,2652.730324420497,,,
+Extreme_0729,role_with_history,2,360,2023-07-29,2322.0,2587.2053718456377,,,
+Extreme_0729,role_with_history,2,37,2023-07-29,1968.0,2324.07113902404,,,
 Extreme_0729,direct_few,2,228,2023-07-29,9672.0,4800.0,6835a115acca85b1d796028a6acd120fda13115c447a259725eeaa71a38bfc5d,"Rainy summer Saturday, no school/holiday; weekend leisure demand, rain reduces ridership.",8.0
 Extreme_0729,direct_few,2,269,2023-07-29,2117.0,1650.0,32314b9c1591708922472216ac958844eef90f20baf91ca7fb3e56ee31411d7f,"Rainy summer Saturday, no school or holiday; weekend baseline adjusted downward for heavy rain.",8.0
 Extreme_0729,direct_few,2,360,2023-07-29,2322.0,1750.0,61ccc72660a6d1673760e032629f8113f22e051b50759019c7de9b77e1b794b9,Wet Saturday off-peak; nearest rainy weekend examples imply modest weekend ridership.,8.0
 Extreme_0729,direct_few,2,37,2023-07-29,1968.0,1460.0,ab613dff911915884258089601b985c16fceb437fe5ee47b92367663490ede9d,"Rainy summer Saturday, weekend-like demand; nearest wet Sunday examples around 1.3-1.6k.",8.0
-Extreme_0813,role_no_history,2,228,2023-08-13,7692.0,13104.951663338172,,,
-Extreme_0813,role_no_history,2,269,2023-08-13,1865.0,3223.9544829295455,,,
-Extreme_0813,role_no_history,2,360,2023-08-13,2341.0,2928.4971914043767,,,
-Extreme_0813,role_no_history,2,37,2023-08-13,1678.0,2727.314226984284,,,
-Extreme_0813,role_with_history,2,228,2023-08-13,7692.0,9150.093171629087,,,
-Extreme_0813,role_with_history,2,269,2023-08-13,1865.0,2307.7589063917503,,,
-Extreme_0813,role_with_history,2,360,2023-08-13,2341.0,2186.7445434979068,,,
-Extreme_0813,role_with_history,2,37,2023-08-13,1678.0,2044.7228005705779,,,
+Extreme_0813,role_no_history,2,228,2023-08-13,7692.0,6774.530329507287,,,
+Extreme_0813,role_no_history,2,269,2023-08-13,1865.0,1654.2288126745025,,,
+Extreme_0813,role_no_history,2,360,2023-08-13,2341.0,2188.875222121287,,,
+Extreme_0813,role_no_history,2,37,2023-08-13,1678.0,1590.107677254476,,,
+Extreme_0813,role_with_history,2,228,2023-08-13,7692.0,5740.321263040955,,,
+Extreme_0813,role_with_history,2,269,2023-08-13,1865.0,1406.5036945886836,,,
+Extreme_0813,role_with_history,2,360,2023-08-13,2341.0,1867.9116526819737,,,
+Extreme_0813,role_with_history,2,37,2023-08-13,1678.0,1355.6042747661595,,,
 Extreme_0813,direct_few,2,228,2023-08-13,7692.0,5900.0,bf83be4d4b3b0a647ba529f7fdaf1c789c56578e9f269a9945c601cddebce8ea,"Sunday baseline, heavy rain reduces ridership versus dry Sunday examples.",8.0
 Extreme_0813,direct_few,2,269,2023-08-13,1865.0,1753.0,0d64442126d574d0b658aea175c23952e40d18bbd7b68e1df47a1c95a2b7a738,Sunday baseline ~1753; 16mm rain only slightly reduces weekend station ridership.,8.0
 Extreme_0813,direct_few,2,360,2023-08-13,2341.0,2080.0,717bdcd74e285f4e3d3193d940ab0a47adea465d5ab6e10a1920a96707b018c9,"Sunday baseline ~2300; moderate rain reduces ridership, no school/holiday adjustment",8.0
 Extreme_0813,direct_few,2,37,2023-08-13,1678.0,1761.0,b81623b77ce627dbe223ce13c74f69cae37340e9e8995e088c8706e9c8e078de,"Sunday baseline 1761, heavy rain and wind modestly reduce weekend subway ridership.",8.0
-Extreme_0929,role_no_history,2,228,2023-09-29,10876.0,9920.93776249234,,,
-Extreme_0929,role_no_history,2,269,2023-09-29,3667.0,2480.7191615820702,,,
-Extreme_0929,role_no_history,2,360,2023-09-29,2977.0,2067.5927855471004,,,
-Extreme_0929,role_no_history,2,37,2023-09-29,2641.0,2011.6769234097912,,,
-Extreme_0929,role_with_history,2,228,2023-09-29,10876.0,14773.041897719148,,,
-Extreme_0929,role_with_history,2,269,2023-09-29,3667.0,3404.187016835634,,,
-Extreme_0929,role_with_history,2,360,2023-09-29,2977.0,2671.705037779959,,,
-Extreme_0929,role_with_history,2,37,2023-09-29,2641.0,2676.4288139485716,,,
+Extreme_0929,role_no_history,2,228,2023-09-29,10876.0,8290.817002783679,,,
+Extreme_0929,role_no_history,2,269,2023-09-29,3667.0,2313.4941260272885,,,
+Extreme_0929,role_no_history,2,360,2023-09-29,2977.0,1924.6406304392053,,,
+Extreme_0929,role_no_history,2,37,2023-09-29,2641.0,1857.5226393164794,,,
+Extreme_0929,role_with_history,2,228,2023-09-29,10876.0,8723.189213707803,,,
+Extreme_0929,role_with_history,2,269,2023-09-29,3667.0,2492.1508297591363,,,
+Extreme_0929,role_with_history,2,360,2023-09-29,2977.0,2091.2694202923817,,,
+Extreme_0929,role_with_history,2,37,2023-09-29,2641.0,2021.8321726943086,,,
 Extreme_0929,direct_few,2,228,2023-09-29,10876.0,14200.0,3568e94d8d8fdea137f315ceceefca2b08991c02f966dc904e62f679143ee474,"Wet Friday school-day baseline ~16k, adjusted down for very heavy rain reducing commuter trips.",8.0
 Extreme_0929,direct_few,2,269,2023-09-29,3667.0,4350.0,b7ce775b9c9dcaf5ae8518c14c60ff8ccc66bace028ddb40bd4dcd297523cd80,"School Friday baseline ~4700, adjusted down for extreme heavy rain reducing commuter trips.",8.0
 Extreme_0929,direct_few,2,360,2023-09-29,2977.0,3200.0,6d9d05d8106b1d07f34a275568068b07763e6121394b4ff8829b875aaaffd809,"School Friday baseline ~4000, heavy rain reduces ridership; extrapolate modestly beyond observed wet examples.",8.0
 Extreme_0929,direct_few,2,37,2023-09-29,2641.0,3100.0,4a1b97fba07f47b3f61eccaf1e2d462f5b5ae7521a7cb345375aa52c2254b308,"School Friday baseline ~3872, heavy rain reduces ridership by ~20%.",8.0
-Extreme_1007,role_no_history,2,228,2023-10-07,7026.0,12466.727924550883,,,
-Extreme_1007,role_no_history,2,269,2023-10-07,2433.0,3214.747017417155,,,
-Extreme_1007,role_no_history,2,360,2023-10-07,2044.0,2734.861473735095,,,
-Extreme_1007,role_no_history,2,37,2023-10-07,2162.0,2673.9588636341905,,,
-Extreme_1007,role_with_history,2,228,2023-10-07,7026.0,6859.847967398988,,,
-Extreme_1007,role_with_history,2,269,2023-10-07,2433.0,1685.5733650530415,,,
-Extreme_1007,role_with_history,2,360,2023-10-07,2044.0,1658.3480252938757,,,
-Extreme_1007,role_with_history,2,37,2023-10-07,2162.0,1751.5326998559644,,,
+Extreme_1007,role_no_history,2,228,2023-10-07,7026.0,8065.152896302285,,,
+Extreme_1007,role_no_history,2,269,2023-10-07,2433.0,2077.4843539536523,,,
+Extreme_1007,role_no_history,2,360,2023-10-07,2044.0,2055.8110794162703,,,
+Extreme_1007,role_no_history,2,37,2023-10-07,2162.0,2055.120289170352,,,
+Extreme_1007,role_with_history,2,228,2023-10-07,7026.0,6009.000328449738,,,
+Extreme_1007,role_with_history,2,269,2023-10-07,2433.0,1585.8241121305323,,,
+Extreme_1007,role_with_history,2,360,2023-10-07,2044.0,1584.686958886062,,,
+Extreme_1007,role_with_history,2,37,2023-10-07,2162.0,1551.384457326256,,,
 Extreme_1007,direct_few,2,228,2023-10-07,7026.0,7800.0,14cb06e212cd34a63b8f5783bf842f3c43e30b2a4b9f95c5506d6ebf5ad85553,"Rainy Saturday, school break; heavy rain cuts Saturday baseline demand.",8.0
 Extreme_1007,direct_few,2,269,2023-10-07,2433.0,1500.0,e86e2de84dcb16f9fce3aa0cbdc6d1f48048ede787f1945fa506529a43e92da6,Saturday non-school baseline ~1668; heavy 47.75mm rain reduces ridership.,8.0
 Extreme_1007,direct_few,2,360,2023-10-07,2044.0,1536.0,d322070ca00533fe87b0a9f49e4b4b5e4630b040d957b4b3bd76c90fa8da422c,"Saturday non-school baseline 1920, reduced ~20% by heavy 47.75mm rain.",8.0

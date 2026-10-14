@@ -1,3 +1,0 @@
-provider,calls,unknown_usage_calls,retry_attempt_calls,format_repair_calls,incomplete_responses,input_tokens,output_tokens,total_tokens,budget_accounted_tokens
-lite,533,1,1,0,0,318751,18097,336848,338212
-pro,650,16,20,5,0,380113,21225,401338,423073

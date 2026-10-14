@@ -1,17 +1,14 @@
 # NYC Subway ABM
 
-大作业：比较纽约地铁天气变化下的规则模型与 LLM 行为模型。
+纽约地铁逐日客流：比较规则ABM、LLM直接预测和LLM角色决策。
 
-- data/：两组共享的 2023 年 7–10 月站点客流、票种、坐标和 JFK 天气；[数据说明与附件取舍](data/README.md)。
-- rule_based_abm/：协作者的规则模型工作区。
-- llm_based_abm/：五个独立版本；[版本入口](llm_based_abm/README.md)。
+- [最新结果与图](llm_based_abm/current/RESULTS.md)
+- [运行与输出接口](llm_based_abm/current/README.md)
+- [实验设定与数据划分](llm_based_abm/current/PROTOCOL.md)
+- [共享数据与来源](data/README.md)
 
-当前逐日实验：[V5说明](llm_based_abm/V5/README.md)、[实验设定](llm_based_abm/V5/PROTOCOL.md)、[结果与图](llm_based_abm/V5/RESULTS.md)。Normal 与 Extreme 分开训练和测试；比较规则 ABM、LLM 直接 few-shot、角色无历史/有历史，以及两个数值对照。ABM 从训练集校准固定代表规模，测试日不再输入统一的历史计划客流。另有重复推断、跨任务迁移和网页动画数据小样。
+`llm_based_abm/current/` 只保留最新版。当前实验使用2023年7—10月数据，正常天气区分暑假和学期，四个强降雨事件按时间滚动测试。四个代表站点、逐日预测、Lite模型；报告准确率、群体行为和实际API成本。
 
-此前的小时/四小时天气对比保留在 [V4](llm_based_abm/V4/README.md)，不与 V5 混用指标。
+`data/` 是小组共享数据，`rule_based_abm/` 是协作者工作区。LLM组在llm分支开发，阶段完成后同步main，无需PR。密钥不上传。
 
-历史固定策略实验：[V1](llm_based_abm/V1/README.md)。动态群体预测：[V2](llm_based_abm/V2/README.md)。早期个人决策实验：[V3](llm_based_abm/V3/README.md)。各版本分别保存真实 API 响应和结果，不混用指标。
-
-LLM 组使用 llm 分支，阶段完成后直接合入 main 同步小组；密钥不上传。
-
-V1–V3 的已发布实验仍固定使用 2023 年 8–9 月。共享数据扩展不代表这些实验已重新训练或评估。
+历史代码与结果保留在Git提交中；此前V1—V5完整目录可在[7f973e8](https://github.com/zhangcy19/nyc-subway-abm/tree/7f973e8018e0cec16dcebfbaf9f098f4fc280a07/llm_based_abm)浏览。删除当前目录副本不删除Git历史。

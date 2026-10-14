@@ -104,4 +104,4 @@ weather = pd.read_csv('data/weather_hourly.csv', parse_dates=['timestamp'])
 
 源附件在项目旁边的 `5011/数据附件合集/` 时，从 `data/` 运行 `python import_handoff.py` 可重新整理同样的文件。脚本不调用 API，也不下载额外数据。
 
-V1–V3 的准备脚本明确筛选 8 月 1 日至 9 月 30 日，以保持已发布实验的日期和选站方式；结果及 API 缓存没有重新运行。旧 manifest 中的代码哈希记录的是当时的实验版本，新增日期筛选后不代表当前准备脚本的哈希。新实验通过 `load_station_hourly()` 读取四个月主数据，再另行确定训练、验证、测试窗口。
+当前实验通过共享数据重建日聚合；日期筛选与缺失处理见 `llm_based_abm/current/PROTOCOL.md`。

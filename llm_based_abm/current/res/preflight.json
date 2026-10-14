@@ -1,0 +1,7 @@
+{
+  "unique_requests": 3220,
+  "reused_requests": 939,
+  "new_requests": 2281,
+  "new_by_route": "{('direct', False): 136, ('role', False): 297, ('role', True): 1848}",
+  "approx_new_tokens_at_800_per_call": 1824800
+}

@@ -1,0 +1,481 @@
+task,method,replicate,station_complex_id,date,actual,predicted,request_hash,reason,example_count
+Extreme,weekday_mean,0,228,2023-09-27,20063.0,19576.0,,,
+Extreme,weekday_mean,0,269,2023-09-27,5192.0,4553.0,,,
+Extreme,weekday_mean,0,360,2023-09-27,4369.0,3815.0,,,
+Extreme,weekday_mean,0,37,2023-09-27,,3822.0,,,
+Extreme,weekday_mean,0,228,2023-09-28,19936.0,19250.0,,,
+Extreme,weekday_mean,0,269,2023-09-28,5085.0,4511.5,,,
+Extreme,weekday_mean,0,360,2023-09-28,4247.0,3778.5,,,
+Extreme,weekday_mean,0,37,2023-09-28,4399.0,3725.5,,,
+Extreme,weekday_mean,0,228,2023-09-29,10876.0,15047.0,,,
+Extreme,weekday_mean,0,269,2023-09-29,3667.0,4156.0,,,
+Extreme,weekday_mean,0,360,2023-09-29,2977.0,3660.0,,,
+Extreme,weekday_mean,0,37,2023-09-29,2641.0,3255.0,,,
+Extreme,weekday_mean,0,228,2023-09-30,9157.0,7368.0,,,
+Extreme,weekday_mean,0,269,2023-09-30,2340.0,2192.5,,,
+Extreme,weekday_mean,0,360,2023-09-30,1987.0,2375.5,,,
+Extreme,weekday_mean,0,37,2023-09-30,2092.0,1992.0,,,
+Extreme,weekday_mean,0,228,2023-10-01,7763.0,4735.333333333333,,,
+Extreme,weekday_mean,0,269,2023-10-01,2037.0,1659.0,,,
+Extreme,weekday_mean,0,360,2023-10-01,1935.0,1902.6666666666667,,,
+Extreme,weekday_mean,0,37,2023-10-01,1861.0,1534.3333333333333,,,
+Extreme,weekday_mean,0,228,2023-10-05,19331.0,19250.0,,,
+Extreme,weekday_mean,0,269,2023-10-05,5089.0,4511.5,,,
+Extreme,weekday_mean,0,360,2023-10-05,4335.0,3778.5,,,
+Extreme,weekday_mean,0,37,2023-10-05,4334.0,3725.5,,,
+Extreme,weekday_mean,0,228,2023-10-06,16330.0,15047.0,,,
+Extreme,weekday_mean,0,269,2023-10-06,4775.0,4156.0,,,
+Extreme,weekday_mean,0,360,2023-10-06,3859.0,3660.0,,,
+Extreme,weekday_mean,0,37,2023-10-06,3879.0,3255.0,,,
+Extreme,weekday_mean,0,228,2023-10-07,7026.0,7368.0,,,
+Extreme,weekday_mean,0,269,2023-10-07,2433.0,2192.5,,,
+Extreme,weekday_mean,0,360,2023-10-07,2044.0,2375.5,,,
+Extreme,weekday_mean,0,37,2023-10-07,2162.0,1992.0,,,
+Extreme,weekday_mean,0,228,2023-10-08,6051.0,4735.333333333333,,,
+Extreme,weekday_mean,0,269,2023-10-08,2070.0,1659.0,,,
+Extreme,weekday_mean,0,360,2023-10-08,2009.0,1902.6666666666667,,,
+Extreme,weekday_mean,0,37,2023-10-08,1812.0,1534.3333333333333,,,
+Extreme,weekday_mean,0,228,2023-10-09,13792.0,13978.666666666666,,,
+Extreme,weekday_mean,0,269,2023-10-09,3758.0,4089.6666666666665,,,
+Extreme,weekday_mean,0,360,2023-10-09,3157.0,3683.0,,,
+Extreme,weekday_mean,0,37,2023-10-09,2902.0,3027.0,,,
+Extreme,ridge,0,228,2023-09-27,20063.0,32001.94285548059,,,
+Extreme,ridge,0,269,2023-09-27,5192.0,4586.189288145229,,,
+Extreme,ridge,0,360,2023-09-27,4369.0,4623.917610528321,,,
+Extreme,ridge,0,37,2023-09-27,,4578.631437402271,,,
+Extreme,ridge,0,228,2023-09-28,19936.0,13233.744763889696,,,
+Extreme,ridge,0,269,2023-09-28,5085.0,4247.957770164211,,,
+Extreme,ridge,0,360,2023-09-28,4247.0,3572.636360395375,,,
+Extreme,ridge,0,37,2023-09-28,4399.0,3932.0256677133825,,,
+Extreme,ridge,0,228,2023-09-29,10876.0,12082.939218724076,,,
+Extreme,ridge,0,269,2023-09-29,3667.0,3692.425248949929,,,
+Extreme,ridge,0,360,2023-09-29,2977.0,3397.8426992067534,,,
+Extreme,ridge,0,37,2023-09-29,2641.0,3476.1712716323486,,,
+Extreme,ridge,0,228,2023-09-30,9157.0,6096.747503728721,,,
+Extreme,ridge,0,269,2023-09-30,2340.0,2258.658081127054,,,
+Extreme,ridge,0,360,2023-09-30,1987.0,2545.427971921182,,,
+Extreme,ridge,0,37,2023-09-30,2092.0,2256.0435793191855,,,
+Extreme,ridge,0,228,2023-10-01,7763.0,4190.0757817540225,,,
+Extreme,ridge,0,269,2023-10-01,2037.0,1822.4128290969245,,,
+Extreme,ridge,0,360,2023-10-01,1935.0,2119.253177367464,,,
+Extreme,ridge,0,37,2023-10-01,1861.0,1707.7642582187443,,,
+Extreme,ridge,0,228,2023-10-05,19331.0,14619.301131137912,,,
+Extreme,ridge,0,269,2023-10-05,5089.0,4546.481105643472,,,
+Extreme,ridge,0,360,2023-10-05,4335.0,3868.3374297099554,,,
+Extreme,ridge,0,37,2023-10-05,4334.0,3955.627368574434,,,
+Extreme,ridge,0,228,2023-10-06,16330.0,11899.64066443333,,,
+Extreme,ridge,0,269,2023-10-06,4775.0,4319.542248160864,,,
+Extreme,ridge,0,360,2023-10-06,3859.0,3914.3713548475457,,,
+Extreme,ridge,0,37,2023-10-06,3879.0,3598.24483449164,,,
+Extreme,ridge,0,228,2023-10-07,7026.0,5988.512302930777,,,
+Extreme,ridge,0,269,2023-10-07,2433.0,2124.3839244844157,,,
+Extreme,ridge,0,360,2023-10-07,2044.0,2320.1505699091927,,,
+Extreme,ridge,0,37,2023-10-07,2162.0,2124.9475301034863,,,
+Extreme,ridge,0,228,2023-10-08,6051.0,6403.2588045640605,,,
+Extreme,ridge,0,269,2023-10-08,2070.0,1803.775328319636,,,
+Extreme,ridge,0,360,2023-10-08,2009.0,2392.265803818425,,,
+Extreme,ridge,0,37,2023-10-08,1812.0,1968.076048272125,,,
+Extreme,ridge,0,228,2023-10-09,13792.0,4512.063670927532,,,
+Extreme,ridge,0,269,2023-10-09,3758.0,1752.8437889511604,,,
+Extreme,ridge,0,360,2023-10-09,3157.0,2424.4874535933213,,,
+Extreme,ridge,0,37,2023-10-09,2902.0,1715.3392491360028,,,
+Extreme,rule_abm,0,228,2023-09-27,20063.0,13087.009690354713,,,
+Extreme,rule_abm,0,269,2023-09-27,5192.0,3571.1654715813456,,,
+Extreme,rule_abm,0,360,2023-09-27,4369.0,3328.895050463862,,,
+Extreme,rule_abm,0,37,2023-09-27,,2890.844027772605,,,
+Extreme,rule_abm,0,228,2023-09-28,19936.0,15671.447752260632,,,
+Extreme,rule_abm,0,269,2023-09-28,5085.0,4167.018323058074,,,
+Extreme,rule_abm,0,360,2023-09-28,4247.0,3595.331181965239,,,
+Extreme,rule_abm,0,37,2023-09-28,4399.0,3307.342478426576,,,
+Extreme,rule_abm,0,228,2023-09-29,10876.0,14613.027894390756,,,
+Extreme,rule_abm,0,269,2023-09-29,3667.0,3852.166241360976,,,
+Extreme,rule_abm,0,360,2023-09-29,2977.0,3227.7367619378742,,,
+Extreme,rule_abm,0,37,2023-09-29,2641.0,3035.9851708273864,,,
+Extreme,rule_abm,0,228,2023-09-30,9157.0,11106.142001367256,,,
+Extreme,rule_abm,0,269,2023-09-30,2340.0,3023.4973804358374,,,
+Extreme,rule_abm,0,360,2023-09-30,1987.0,2832.883083111777,,,
+Extreme,rule_abm,0,37,2023-09-30,2092.0,2452.436025135511,,,
+Extreme,rule_abm,0,228,2023-10-01,7763.0,10763.604703660594,,,
+Extreme,rule_abm,0,269,2023-10-01,2037.0,2957.9537847756214,,,
+Extreme,rule_abm,0,360,2023-10-01,1935.0,2830.2967061571735,,,
+Extreme,rule_abm,0,37,2023-10-01,1861.0,2412.8493775017914,,,
+Extreme,rule_abm,0,228,2023-10-05,19331.0,13087.009690354713,,,
+Extreme,rule_abm,0,269,2023-10-05,5089.0,3571.1654715813456,,,
+Extreme,rule_abm,0,360,2023-10-05,4335.0,3328.895050463862,,,
+Extreme,rule_abm,0,37,2023-10-05,4334.0,2890.844027772605,,,
+Extreme,rule_abm,0,228,2023-10-06,16330.0,13087.009690354713,,,
+Extreme,rule_abm,0,269,2023-10-06,4775.0,3571.1654715813456,,,
+Extreme,rule_abm,0,360,2023-10-06,3859.0,3328.895050463862,,,
+Extreme,rule_abm,0,37,2023-10-06,3879.0,2890.844027772605,,,
+Extreme,rule_abm,0,228,2023-10-07,7026.0,7988.246523783987,,,
+Extreme,rule_abm,0,269,2023-10-07,2433.0,2103.3719555996686,,,
+Extreme,rule_abm,0,360,2023-10-07,2044.0,1781.4090635867235,,,
+Extreme,rule_abm,0,37,2023-10-07,2162.0,1664.75059844442,,,
+Extreme,rule_abm,0,228,2023-10-08,6051.0,10763.604703660594,,,
+Extreme,rule_abm,0,269,2023-10-08,2070.0,2957.9537847756214,,,
+Extreme,rule_abm,0,360,2023-10-08,2009.0,2830.2967061571735,,,
+Extreme,rule_abm,0,37,2023-10-08,1812.0,2412.8493775017914,,,
+Extreme,rule_abm,0,228,2023-10-09,13792.0,10712.38451713671,,,
+Extreme,rule_abm,0,269,2023-10-09,3758.0,2945.225503702067,,,
+Extreme,rule_abm,0,360,2023-10-09,3157.0,2804.5269767020004,,,
+Extreme,rule_abm,0,37,2023-10-09,2902.0,2397.5501964491027,,,
+Extreme,role_no_history,0,228,2023-09-27,20063.0,14531.211052834506,,,
+Extreme,role_no_history,0,269,2023-09-27,5192.0,3973.533127607139,,,
+Extreme,role_no_history,0,360,2023-09-27,4369.0,3671.765197530458,,,
+Extreme,role_no_history,0,37,2023-09-27,,3247.7093308328676,,,
+Extreme,role_no_history,0,228,2023-09-28,19936.0,12493.678562038458,,,
+Extreme,role_no_history,0,269,2023-09-28,5085.0,3427.8096001271488,,,
+Extreme,role_no_history,0,360,2023-09-28,4247.0,3174.5959176326387,,,
+Extreme,role_no_history,0,37,2023-09-28,4399.0,2802.445502932326,,,
+Extreme,role_no_history,0,228,2023-09-29,10876.0,5846.344355031051,,,
+Extreme,role_no_history,0,269,2023-09-29,3667.0,1635.061604161736,,,
+Extreme,role_no_history,0,360,2023-09-29,2977.0,1522.2470838242618,,,
+Extreme,role_no_history,0,37,2023-09-29,2641.0,1332.8010526820492,,,
+Extreme,role_no_history,0,228,2023-09-30,9157.0,11241.3452865771,,,
+Extreme,role_no_history,0,269,2023-09-30,2340.0,3061.1430615759105,,,
+Extreme,role_no_history,0,360,2023-09-30,1987.0,2827.2902142380353,,,
+Extreme,role_no_history,0,37,2023-09-30,2092.0,2505.34020644822,,,
+Extreme,role_no_history,0,228,2023-10-01,7763.0,12844.418099582706,,,
+Extreme,role_no_history,0,269,2023-10-01,2037.0,3489.6161821842365,,,
+Extreme,role_no_history,0,360,2023-10-01,1935.0,3218.492567239712,,,
+Extreme,role_no_history,0,37,2023-10-01,1861.0,2855.6259787405115,,,
+Extreme,role_no_history,0,228,2023-10-05,19331.0,14164.292739876551,,,
+Extreme,role_no_history,0,269,2023-10-05,5089.0,3878.517098955104,,,
+Extreme,role_no_history,0,360,2023-10-05,4335.0,3584.544715064604,,,
+Extreme,role_no_history,0,37,2023-10-05,4334.0,3169.1663519437852,,,
+Extreme,role_no_history,0,228,2023-10-06,16330.0,15283.393913625874,,,
+Extreme,role_no_history,0,269,2023-10-06,4775.0,4170.714429190901,,,
+Extreme,role_no_history,0,360,2023-10-06,3859.0,3848.4781714528704,,,
+Extreme,role_no_history,0,37,2023-10-06,3879.0,3407.873399054492,,,
+Extreme,role_no_history,0,228,2023-10-07,7026.0,4263.973354786575,,,
+Extreme,role_no_history,0,269,2023-10-07,2433.0,1168.4235932642027,,,
+Extreme,role_no_history,0,360,2023-10-07,2044.0,1089.8760645636837,,,
+Extreme,role_no_history,0,37,2023-10-07,2162.0,959.4888857168291,,,
+Extreme,role_no_history,0,228,2023-10-08,6051.0,12041.612002220472,,,
+Extreme,role_no_history,0,269,2023-10-08,2070.0,3287.4529570985137,,,
+Extreme,role_no_history,0,360,2023-10-08,2009.0,3040.236908570654,,,
+Extreme,role_no_history,0,37,2023-10-08,1812.0,2690.140317969128,,,
+Extreme,role_no_history,0,228,2023-10-09,13792.0,14866.605155625524,,,
+Extreme,role_no_history,0,269,2023-10-09,3758.0,4055.18446930625,,,
+Extreme,role_no_history,0,360,2023-10-09,3157.0,3740.834734734925,,,
+Extreme,role_no_history,0,37,2023-10-09,2902.0,3313.596124141609,,,
+Extreme,role_with_history,0,228,2023-09-27,20063.0,15185.827582341772,,,
+Extreme,role_with_history,0,269,2023-09-27,5192.0,4086.1435833702662,,,
+Extreme,role_with_history,0,360,2023-09-27,4369.0,3698.903376973274,,,
+Extreme,role_with_history,0,37,2023-09-27,,3329.7310277289575,,,
+Extreme,role_with_history,0,228,2023-09-28,19936.0,13354.739214090394,,,
+Extreme,role_with_history,0,269,2023-09-28,5085.0,3616.6044984591954,,,
+Extreme,role_with_history,0,360,2023-09-28,4247.0,3298.88339138209,,,
+Extreme,role_with_history,0,37,2023-09-28,4399.0,2944.9742076926273,,,
+Extreme,role_with_history,0,228,2023-09-29,10876.0,3050.643332471959,,,
+Extreme,role_with_history,0,269,2023-09-29,3667.0,905.7857940592912,,,
+Extreme,role_with_history,0,360,2023-09-29,2977.0,879.229086093879,,,
+Extreme,role_with_history,0,37,2023-09-29,2641.0,742.5556171629714,,,
+Extreme,role_with_history,0,228,2023-09-30,9157.0,9843.520718801956,,,
+Extreme,role_with_history,0,269,2023-09-30,2340.0,2702.095078984841,,,
+Extreme,role_with_history,0,360,2023-09-30,1987.0,2496.900442236991,,,
+Extreme,role_with_history,0,37,2023-09-30,2092.0,2194.1109279689554,,,
+Extreme,role_with_history,0,228,2023-10-01,7763.0,7981.50362621714,,,
+Extreme,role_with_history,0,269,2023-10-01,2037.0,2227.54531043927,,,
+Extreme,role_with_history,0,360,2023-10-01,1935.0,2088.1177270172793,,,
+Extreme,role_with_history,0,37,2023-10-01,1861.0,1801.1569150992746,,,
+Extreme,role_with_history,0,228,2023-10-05,19331.0,16146.998064084124,,,
+Extreme,role_with_history,0,269,2023-10-05,5089.0,4353.731649157255,,,
+Extreme,role_with_history,0,360,2023-10-05,4335.0,3963.1461603197913,,,
+Extreme,role_with_history,0,37,2023-10-05,4334.0,3546.1612499870553,,,
+Extreme,role_with_history,0,228,2023-10-06,16330.0,15561.878769677154,,,
+Extreme,role_with_history,0,269,2023-10-06,4775.0,4211.234470248826,,,
+Extreme,role_with_history,0,360,2023-10-06,3859.0,3846.3529792945274,,,
+Extreme,role_with_history,0,37,2023-10-06,3879.0,3427.8268191348297,,,
+Extreme,role_with_history,0,228,2023-10-07,7026.0,6518.269799683958,,,
+Extreme,role_with_history,0,269,2023-10-07,2433.0,1852.3488544234065,,,
+Extreme,role_with_history,0,360,2023-10-07,2044.0,1778.534204472178,,,
+Extreme,role_with_history,0,37,2023-10-07,2162.0,1492.27343143708,,,
+Extreme,role_with_history,0,228,2023-10-08,6051.0,9297.691391459966,,,
+Extreme,role_with_history,0,269,2023-10-08,2070.0,2537.994510740436,,,
+Extreme,role_with_history,0,360,2023-10-08,2009.0,2334.535175381714,,,
+Extreme,role_with_history,0,37,2023-10-08,1812.0,2062.0576399722,,,
+Extreme,role_with_history,0,228,2023-10-09,13792.0,13193.377730412129,,,
+Extreme,role_with_history,0,269,2023-10-09,3758.0,3581.990654150527,,,
+Extreme,role_with_history,0,360,2023-10-09,3157.0,3290.9743259767233,,,
+Extreme,role_with_history,0,37,2023-10-09,2902.0,2915.009285395733,,,
+Extreme,direct_few,0,228,2023-09-27,20063.0,19576.0,a09e7f84754fd5ce19e1e5d91367c9f84bd43033f553597a4b4b171cd9017815,"Identical Wednesday, no rain; school term adds modest commuter demand.",8.0
+Extreme,direct_few,0,269,2023-09-27,5192.0,4550.0,5fb6c2b1b92127a7e115024b389701ccd6ad3890e05f11efcaddbbeae4fe808f,"School-term dry Wednesday, near observed rainy Wednesday weekday baseline.",8.0
+Extreme,direct_few,0,360,2023-09-27,4369.0,4000.0,c2c1ee167d22ab93439a1f05518e8e6b9551ecd217416d6fa119e527963703b1,"School-term Wednesday, no rain/holiday; weekday baseline ~3800, school adds modest ridership.",8.0
+Extreme,direct_few,0,37,2023-09-27,,3900.0,a98b93e24dab57125b609fd6a989851780f9fe1a0517e3233cfde55352af48ac,"School-term Wednesday, no rain/holiday; weekday baseline slightly above prior Wednesday.",8.0
+Extreme,direct_few,0,228,2023-09-28,19936.0,18900.0,dc0636c215f7a14da93160d950a04c675ad0fb19001d26bb14624641fcf97490,"School-term Thursday baseline ~19k, moderate rain reduces modestly.",8.0
+Extreme,direct_few,0,269,2023-09-28,5085.0,4600.0,3763c78264fb6b588e20dd974a672760e09920341e91b6ae937d1d83b36884b8,"School-term Thursday, moderate rain; weekday baseline ~4500, slight uplift from wet weather.",8.0
+Extreme,direct_few,0,360,2023-09-28,4247.0,3800.0,e7ef48c3f473eeaa10bc5db8e64972d4191ec85e65b4e18a428cf244c4ae91a7,"School-term Thursday baseline ~3700, moderate rain slightly reduces ridership.",8.0
+Extreme,direct_few,0,37,2023-09-28,4399.0,3800.0,22bea5092606a5af9db19e9cdaa644efac41035739ff048a73336e8ed77f98eb,"School-term Thursday, moderate rain; weekday baseline around 3800, slight rain dampening.",8.0
+Extreme,direct_few,0,228,2023-09-29,10876.0,17500.0,845d0a34bf127501bd9531d8842769fd753857d9633c7d87541a18491232924a,"School-term Friday baseline, adjusted for extreme heavy rain reducing commuter ridership.",8.0
+Extreme,direct_few,0,269,2023-09-29,3667.0,3200.0,c299a3d567d93c84456520d19f6ccd99632e3bd6fb861e26357f8372887915a1,"School-term Friday baseline, extreme heavy rain reduces ridership from typical weekday levels",8.0
+Extreme,direct_few,0,360,2023-09-29,2977.0,3660.0,ec02533c05bb05a4f978b48fd31c4f512542013a4dcf3cccfdf6ba92cdfc1ae2,"Friday school-term baseline, extreme rain reduces commuter ridership to match typical Friday level",8.0
+Extreme,direct_few,0,37,2023-09-29,2641.0,3255.0,249aaea3f5d0b9ba805589a365e6bfcab265387a3af43c3bd28f786fff2a78bb,"Friday school-day baseline; extreme rain likely suppresses commuter demand, matching observed Friday level.",8.0
+Extreme,direct_few,0,228,2023-09-30,9157.0,7368.0,bb1c4e2263462cb2e48a6d9d1c54582f7e18ddcc81dd5d7a9af6c2af606018ec,"Wet Saturday, mild rain; interpolated between dry and heavy-rain Saturday training examples.",8.0
+Extreme,direct_few,0,269,2023-09-30,2340.0,2190.0,86e79da56a6c50040e168d217c74242711a8771139e116717cd9ec102c9ffe61,"Non-holiday Saturday, moderate rain, interpolated between dry and heavy-rain Saturday training observations.",8.0
+Extreme,direct_few,0,360,2023-09-30,1987.0,2380.0,db771a6586a9b569b828676139f86004425f59e0fb2f758d0479057818ec1b53,Saturday baseline 2429; light rain and milder weather modestly reduce weekend station entries.,8.0
+Extreme,direct_few,0,37,2023-09-30,2092.0,1992.0,2d8ca68ca9b675604204afa14280eaa745a9dba575c925fcd0448633d74b8d22,"Rainy non-holiday Saturday, mild rain slightly reduces dry Saturday ridership.",8.0
+Extreme,direct_few,0,228,2023-10-01,7763.0,7720.0,6d8b7c1a661bd3dab48ae908a8ae90d788f9fe0b58bd210fa4bb3ad9d1d09be0,"Sunday no-rain observed example; target weather nearly identical, so use its entries.",8.0
+Extreme,direct_few,0,269,2023-10-01,2037.0,2200.0,f3c109e77e9731c834e78113d1b42b110c6a2675363a711eae741dc61f4d5a36,"Dry mild Sunday weekend pattern; Saturday 2268, prior Sunday 1710 with rain.",8.0
+Extreme,direct_few,0,360,2023-10-01,1935.0,2269.0,e4e5cede74579a0dc110940d30b73d1ed933b90bedf79bad1b754daed76e8ebb,"Closest training match: dry non-holiday Sunday, no rain, similar mild temperature.",8.0
+Extreme,direct_few,0,37,2023-10-01,1861.0,1800.0,9a72f2eb2ae5bf13c4ef05b5308b200015d02edbae53fc30bc2ea1a2f67c1346,"Dry summer Sunday, no rain; nearest comparable Sunday demand around 1761.",8.0
+Extreme,direct_few,0,228,2023-10-05,19331.0,19300.0,d70635e947bc57b79038b84190173a46f64c60a52f363ed0d2f24cddeef75468,"Dry school-term Thursday, matching prior dry Thursday weekday ridership closely.",8.0
+Extreme,direct_few,0,269,2023-10-05,5089.0,4500.0,a5317221dc0ebe53751c4d17b2e5468f418685fcd14986abf2819789a927110b,"School-term Thursday, no rain/holiday; near two dry summer Thursday examples averaging 4511.",8.0
+Extreme,direct_few,0,360,2023-10-05,4335.0,3800.0,334b2a05d356944ead27f2333c1c5cc2cf111ddf5e13a760b5c722f7d6336846,"School-term Thursday, no rain; similar dry Thursdays averaged 3779, slight term uplift.",8.0
+Extreme,direct_few,0,37,2023-10-05,4334.0,3700.0,a40dc17e1204190502afa68556ed1a7c5008549f2fa89f938e1ff8bab2f680ce,"School-term Thursday, no rain; near matching dry Thursday baseline, mild school uplift.",8.0
+Extreme,direct_few,0,228,2023-10-06,16330.0,17500.0,089ed930b661f5f3e018c142c7dfcdd85d8ae975716d48e6fe9b056e5e3adb3d,"School-term Friday, no rain; weekday baseline adjusted for school term.",8.0
+Extreme,direct_few,0,269,2023-10-06,4775.0,4400.0,4022e1828bc2175f467883fbd4ced3c98adeb669182cd0062b9303e2d205e7ac,"School-term Friday, no rain; weekday baseline ~4400, school term adds modest ridership.",8.0
+Extreme,direct_few,0,360,2023-10-06,3859.0,3700.0,d99b776d47c23d7955a9a9fde9155b1fe063b8e3d7de453a6fc4346f2b007c20,"School-term Friday, no rain; weekday baseline ~3800, mild weather, no major disruptions.",8.0
+Extreme,direct_few,0,37,2023-10-06,3879.0,3500.0,da4e3a4f77e662a0663012a8e891e1861ccfb0260fdacea9e66ca7b7720992b6,"School-term Friday, no rain; weekday baseline adjusted upward from non-term Friday.",8.0
+Extreme,direct_few,0,228,2023-10-07,7026.0,4800.0,66e56e925b000e4995953e6fc97741ca6753d729ba61a52f4f9a4b7507b474f3,"Saturday non-school non-holiday, heavy rain suppresses weekend base ridership.",8.0
+Extreme,direct_few,0,269,2023-10-07,2433.0,1850.0,0343dd7e60117c08bd88a585a985ef207c2db99abeabedf552ac648cecb42c8c,"Wet Saturday, no school/holiday; rain reduces weekend entries versus dry Saturday.",8.0
+Extreme,direct_few,0,360,2023-10-07,2044.0,1900.0,db0befb628a8f86c35af492b18b360c349002516a70adf7efccdd2e6e9710525,"Rainy Saturday; heavy rain suppresses weekend ridership, estimated below dry Saturday baseline.",8.0
+Extreme,direct_few,0,37,2023-10-07,2162.0,1790.0,4a35c4d11c391ba045f968b472ab37a36bb8c2968b5a9c5f8ce3c7721a6ac7d5,"Wet Saturday, school break; mild rain reduction from dry Saturday baseline.",8.0
+Extreme,direct_few,0,228,2023-10-08,6051.0,7720.0,4fafb199d450545ae67b1e428ea37fec9f161db273b3488610011a6b3d83ee49,"Target Sunday matches observed Sunday; no rain, similar wind, demand unchanged.",8.0
+Extreme,direct_few,0,269,2023-10-08,2070.0,1710.0,a1a2b2a2a6cd1e185084d889b7a0fb9f54343700767b3aedbf4515926bddfb81,Identical Sunday zero-rain non-holiday training example matches target conditions exactly.,8.0
+Extreme,direct_few,0,360,2023-10-08,2009.0,2269.0,21200eeb76c5e3bc21885b691ed68985cc588b16631e57e0a944f7273c211596,"Closest training match: dry non-holiday Sunday, no school term; same observed entry count.",8.0
+Extreme,direct_few,0,37,2023-10-08,1812.0,1761.0,4a6aac232817841ac1df50160db1a8c82c4c32d5a4e6e09e0ed4e7e792f26e61,"Dry Sunday with no school/holiday, matching the dry Sunday training example's entry count.",8.0
+Extreme,direct_few,0,228,2023-10-09,13792.0,7800.0,0c27352aefe0b664c814423cb932ec6c8551272b4b702a56e872367a24054246,"Holiday Monday, no rain; holiday reduces commuter demand versus normal school-term Monday.",8.0
+Extreme,direct_few,0,269,2023-10-09,3758.0,1800.0,a5ebbebb7bf0fcbf1a0463f9b451775fab6ce810c587dd1cf8b0c3583492f350,"Holiday Monday, no rain; weekend-like low ridership, slightly above weekend baseline.",8.0
+Extreme,direct_few,0,360,2023-10-09,3157.0,1200.0,00ce69ac01ab110c21a90be815dd4da70afe4b47457e7ab6aa99196ad585f0d4,"Holiday Monday, no rain; holiday demand lower than typical weekday, estimated from weekend baseline.",8.0
+Extreme,direct_few,0,37,2023-10-09,2902.0,1900.0,20c11a03b86696498c258af994c24b85a0b5be1f7a242832754cca93b5bd1674,"Holiday Monday, no rain; weekend-like low ridership baseline from observed examples.",8.0
+Extreme,role_no_history,1,228,2023-09-27,20063.0,15736.96869508422,,,
+Extreme,role_no_history,1,269,2023-09-27,5192.0,4291.03541659825,,,
+Extreme,role_no_history,1,360,2023-09-27,4369.0,3961.009691461802,,,
+Extreme,role_no_history,1,37,2023-09-27,,3508.2386814946376,,,
+Extreme,role_no_history,1,228,2023-09-28,19936.0,11989.260413962184,,,
+Extreme,role_no_history,1,269,2023-09-28,5085.0,3283.1572241341955,,,
+Extreme,role_no_history,1,360,2023-09-28,4247.0,3029.592323206161,,,
+Extreme,role_no_history,1,37,2023-09-28,4399.0,2680.0874096921043,,,
+Extreme,role_no_history,1,228,2023-09-29,10876.0,7642.002549720951,,,
+Extreme,role_no_history,1,269,2023-09-29,3667.0,2084.8431163201003,,,
+Extreme,role_no_history,1,360,2023-09-29,2977.0,1916.4038755072245,,,
+Extreme,role_no_history,1,37,2023-09-29,2641.0,1699.3718086233714,,,
+Extreme,role_no_history,1,228,2023-09-30,9157.0,11620.082487383292,,,
+Extreme,role_no_history,1,269,2023-09-30,2340.0,3172.963609946943,,,
+Extreme,role_no_history,1,360,2023-09-30,1987.0,2931.6967015847536,,,
+Extreme,role_no_history,1,37,2023-09-30,2092.0,2594.254278481066,,,
+Extreme,role_no_history,1,228,2023-10-01,7763.0,9362.151593892851,,,
+Extreme,role_no_history,1,269,2023-10-01,2037.0,2574.110344383862,,,
+Extreme,role_no_history,1,360,2023-10-01,1935.0,2393.263054555706,,,
+Extreme,role_no_history,1,37,2023-10-01,1861.0,2108.8663606749355,,,
+Extreme,role_no_history,1,228,2023-10-05,19331.0,14492.561129121825,,,
+Extreme,role_no_history,1,269,2023-10-05,5089.0,3957.518597009221,,,
+Extreme,role_no_history,1,360,2023-10-05,4335.0,3647.088706101258,,,
+Extreme,role_no_history,1,37,2023-10-05,4334.0,3231.184558905825,,,
+Extreme,role_no_history,1,228,2023-10-06,16330.0,14154.844174050526,,,
+Extreme,role_no_history,1,269,2023-10-06,4775.0,3878.557286464986,,,
+Extreme,role_no_history,1,360,2023-10-06,3859.0,3588.705402266034,,,
+Extreme,role_no_history,1,37,2023-10-06,3879.0,3170.472172497111,,,
+Extreme,role_no_history,1,228,2023-10-07,7026.0,4818.488670338776,,,
+Extreme,role_no_history,1,269,2023-10-07,2433.0,1335.25616028276,,,
+Extreme,role_no_history,1,360,2023-10-07,2044.0,1255.8682650981443,,,
+Extreme,role_no_history,1,37,2023-10-07,2162.0,1098.1847680711137,,,
+Extreme,role_no_history,1,228,2023-10-08,6051.0,11248.541249848486,,,
+Extreme,role_no_history,1,269,2023-10-08,2070.0,3078.5525393272205,,,
+Extreme,role_no_history,1,360,2023-10-08,2009.0,2853.7595196884154,,,
+Extreme,role_no_history,1,37,2023-10-08,1812.0,2520.4062324985616,,,
+Extreme,role_no_history,1,228,2023-10-09,13792.0,13617.276792359917,,,
+Extreme,role_no_history,1,269,2023-10-09,3758.0,3720.802430886305,,,
+Extreme,role_no_history,1,360,2023-10-09,3157.0,3432.1779983526694,,,
+Extreme,role_no_history,1,37,2023-10-09,2902.0,3038.6832777650916,,,
+Extreme,role_with_history,1,228,2023-09-27,20063.0,16647.662436898485,,,
+Extreme,role_with_history,1,269,2023-09-27,5192.0,4496.797275329256,,,
+Extreme,role_with_history,1,360,2023-09-27,4369.0,4106.4391135217675,,,
+Extreme,role_with_history,1,37,2023-09-27,,3659.927407411872,,,
+Extreme,role_with_history,1,228,2023-09-28,19936.0,12450.612352342983,,,
+Extreme,role_with_history,1,269,2023-09-28,5085.0,3399.502850170272,,,
+Extreme,role_with_history,1,360,2023-09-28,4247.0,3123.5671570012864,,,
+Extreme,role_with_history,1,37,2023-09-28,4399.0,2768.285294246859,,,
+Extreme,role_with_history,1,228,2023-09-29,10876.0,8628.88744382109,,,
+Extreme,role_with_history,1,269,2023-09-29,3667.0,2263.663655163488,,,
+Extreme,role_with_history,1,360,2023-09-29,2977.0,2014.0910316393956,,,
+Extreme,role_with_history,1,37,2023-09-29,2641.0,1854.3136593646652,,,
+Extreme,role_with_history,1,228,2023-09-30,9157.0,9027.417266885464,,,
+Extreme,role_with_history,1,269,2023-09-30,2340.0,2498.1694757300716,,,
+Extreme,role_with_history,1,360,2023-09-30,1987.0,2341.1905000667502,,,
+Extreme,role_with_history,1,37,2023-09-30,2092.0,2026.1144749146313,,,
+Extreme,role_with_history,1,228,2023-10-01,7763.0,8633.556205050234,,,
+Extreme,role_with_history,1,269,2023-10-01,2037.0,2359.8464577176996,,,
+Extreme,role_with_history,1,360,2023-10-01,1935.0,2182.661186141375,,,
+Extreme,role_with_history,1,37,2023-10-01,1861.0,1919.7257915220816,,,
+Extreme,role_with_history,1,228,2023-10-05,19331.0,14322.053142356235,,,
+Extreme,role_with_history,1,269,2023-10-05,5089.0,3889.51172267462,,,
+Extreme,role_with_history,1,360,2023-10-05,4335.0,3567.6483232914516,,,
+Extreme,role_with_history,1,37,2023-10-05,4334.0,3165.4455343557793,,,
+Extreme,role_with_history,1,228,2023-10-06,16330.0,15226.168848761594,,,
+Extreme,role_with_history,1,269,2023-10-06,4775.0,4097.798980120134,,,
+Extreme,role_with_history,1,360,2023-10-06,3859.0,3715.1473537799898,,,
+Extreme,role_with_history,1,37,2023-10-06,3879.0,3341.1790040780834,,,
+Extreme,role_with_history,1,228,2023-10-07,7026.0,7040.96935227872,,,
+Extreme,role_with_history,1,269,2023-10-07,2433.0,2007.4724689987347,,,
+Extreme,role_with_history,1,360,2023-10-07,2044.0,1935.9268290314908,,,
+Extreme,role_with_history,1,37,2023-10-07,2162.0,1617.1475990529675,,,
+Extreme,role_with_history,1,228,2023-10-08,6051.0,9827.125570574894,,,
+Extreme,role_with_history,1,269,2023-10-08,2070.0,2694.413550526144,,,
+Extreme,role_with_history,1,360,2023-10-08,2009.0,2496.241085647506,,,
+Extreme,role_with_history,1,37,2023-10-08,1812.0,2192.938382430292,,,
+Extreme,role_with_history,1,228,2023-10-09,13792.0,14855.213751509908,,,
+Extreme,role_with_history,1,269,2023-10-09,3758.0,4011.2700313074206,,,
+Extreme,role_with_history,1,360,2023-10-09,3157.0,3667.732044171332,,,
+Extreme,role_with_history,1,37,2023-10-09,2902.0,3263.136127893321,,,
+Extreme,direct_few,1,228,2023-09-27,20063.0,19576.0,eb04e7879739820a13b5caaec02fa917ae767c155ff2526784d749c6d1644aa6,Dry Wednesday school day matches observed Wednesday baseline; no rain adjustment needed.,8.0
+Extreme,direct_few,1,269,2023-09-27,5192.0,4600.0,cb2c1cfbc55edaffc39f3aa3567ae22d6d1269543248eb828693e8602e061263,"School-term Wednesday, no rain; slightly above typical dry weekday baseline.",8.0
+Extreme,direct_few,1,360,2023-09-27,4369.0,4000.0,2c1fc580f85a5b0b335afc574e8521b6a01f34f755ee3e58eb7c71971178d6f3,"School-term Wednesday, no rain or holiday; weekday baseline slightly raised by school commuting.",8.0
+Extreme,direct_few,1,37,2023-09-27,,3822.0,cd5535b2f4fb7cbdb5e6c2b2a2363f25ae0481ab1b7fef928e9915a0ca97de8e,"Closest observed Wednesday school-term no-holiday example, matching weekday and conditions.",8.0
+Extreme,direct_few,1,228,2023-09-28,19936.0,19200.0,010e718a737104d84d9b48f424ac4ccb4de08399528fd4c458a11c9b3df61967,"School-term Thursday, moderate rain; matches typical weekday ridership near observed Thursday level.",8.0
+Extreme,direct_few,1,269,2023-09-28,5085.0,4500.0,ac40e00454aafca1f4508a6ddd08e93ba9112106f325a27aa9e7e8b8f760c11c,"School-term Thursday baseline ~4435, mild rain and temperature slightly reduce ridership.",8.0
+Extreme,direct_few,1,360,2023-09-28,4247.0,3600.0,d2638c1c147f2c46f917aba94e98e40bb0379ac821317bbc53e51d856ea16254,"School-term Thursday baseline, moderate rain reduces ridership slightly versus dry weekday.",8.0
+Extreme,direct_few,1,37,2023-09-28,4399.0,3900.0,6600ed5d8aec92b1c10c86e144f303d753e8cf176a0f8b4f3f8935a464772a66,"School-term Thursday, moderate rain; weekday baseline adjusted upward for school commuting.",8.0
+Extreme,direct_few,1,228,2023-09-29,10876.0,11500.0,d9de4912cc930713005b801a5c94466d3825fac8061f7a4246f8e54d5f128ee7,"School-term Friday baseline, extreme heavy rain reduces ridership versus mild dry Friday.",8.0
+Extreme,direct_few,1,269,2023-09-29,3667.0,3600.0,a8cb2e245ca879322fae7a80c1990bd4a8cd4472e26b7c9901711e85b5866017,School-term Friday baseline ~4156; extreme rain and wind reduce ridership.,8.0
+Extreme,direct_few,1,360,2023-09-29,2977.0,3600.0,2e160ff9e4c98448f8fd6b4e883d2ec5d097590e6aa4247676ad09205e186b8f,"School-term Friday baseline, extreme heavy rain slightly reduces commuter ridership.",8.0
+Extreme,direct_few,1,37,2023-09-29,2641.0,3000.0,c7a149b22abaf564e25cad3e0ab3371a8211ed3afd2f909ec56edc79fe9b6a78,"School-term Friday baseline, extreme rain and wind reduce commuter ridership.",8.0
+Extreme,direct_few,1,228,2023-09-30,9157.0,4800.0,3c4872e504364034af5ee8f1d52c218a002a23c43ee7cddeec8c5a43edb61b20,"Saturday baseline 5064, moderate rain reduces weekend station entries.",8.0
+Extreme,direct_few,1,269,2023-09-30,2340.0,2190.0,2230611938b2a3b86381f9a4782afcb9b406a18e2c49298d9aa775db0e3d56b0,Rainy Saturday off-peak; moderate rain and cool weather reduce weekend entries.,8.0
+Extreme,direct_few,1,360,2023-09-30,1987.0,2376.0,5dd5fb0e464c4209e5ce9dccc5558caa7dc4e034d044c6fd7ce318bd7cea4a9b,"Rainy Saturday, mild rain, lower than dry Saturday, above heavy-rain Saturday.",8.0
+Extreme,direct_few,1,37,2023-09-30,2092.0,1992.0,a1a3acb5af854a5df78fce589c2d91632a38fb842dbf861680ed138fed87a205,"Saturday non-holiday, moderate rain; average of two observed Saturday entries.",8.0
+Extreme,direct_few,1,228,2023-10-01,7763.0,7720.0,f2e8c54721f706e5df491a2710f083fd7e9c8f1ef8e0df0d11127ea4bc85ef33,"Dry non-holiday Sunday matches observed Sunday with no rain, same weekend low demand pattern.",8.0
+Extreme,direct_few,1,269,2023-10-01,2037.0,2100.0,013ca278b9bca90652356adc6b889ddcd8d8b40b69f2a97c27bf18791a694002,"Dry mild non-holiday Sunday; weekend baseline, modest uplift from prior wet Sunday.",8.0
+Extreme,direct_few,1,360,2023-10-01,1935.0,2349.0,66f7ff7f3efa175497046667ca4528c4eb31071ff1827607bd8e882a84f5d89c,Dry non-holiday Sunday; weekend ridership near observed Sunday/Saturday baseline.,8.0
+Extreme,direct_few,1,37,2023-10-01,1861.0,1761.0,9339c6e2661d2a9ab49bdb3133b730c362dba7bfb5ed9d6a3d982c72efef7437,"Dry non-holiday Sunday, matching observed no-rain Sunday entry level.",8.0
+Extreme,direct_few,1,228,2023-10-05,19331.0,19250.0,217a0a8efeafcd7b58c195646298e82cc4c269dab20ac87a63a5c43e3a23155a,"Dry Thursday school day, matching similar weekday ridership patterns.",8.0
+Extreme,direct_few,1,269,2023-10-05,5089.0,4500.0,2b4301c82d8fc891c80a10bf5f2ffb3a797212932d49bb32c4862eeb574ca2ad,"Dry school-term Thursday, similar to prior dry Thursday weekday ridership, mild weather no disruption.",8.0
+Extreme,direct_few,1,360,2023-10-05,4335.0,3900.0,daa0c8de52bc8480215559b020f41d9bcea1e9e4c56b40f5b45de0e7129cfb43,"School-term Thursday, no rain/holiday; weekday baseline ~3900, modest school-term uplift.",8.0
+Extreme,direct_few,1,37,2023-10-05,4334.0,3726.0,b615742afac824234dac62c7e4170b241bf8c07fe47564629401235e0a33672d,Dry school-term Thursday; average of two prior dry Thursday entries.,8.0
+Extreme,direct_few,1,228,2023-10-06,16330.0,17500.0,140221bf17db426f417ad5336d3806838fd5c5991fddcbe060273b6dae9a2e12,"Dry school-term Friday, weekday baseline ~17.5k, no rain adjustment needed.",8.0
+Extreme,direct_few,1,269,2023-10-06,4775.0,4156.0,7ef75822dde0105fb421efad206b8f77203e14a969d1ea681861aeda8b122bf0,Friday school-term dry weather; nearest observed Friday example is 4156 entries.,8.0
+Extreme,direct_few,1,360,2023-10-06,3859.0,3800.0,1a1bad24168dad538b79b01bcaa375024a207d9db0652715f33a8976c97f3750,"Dry school-term Friday, near observed dry weekday entries; school term adds modest commuter demand.",8.0
+Extreme,direct_few,1,37,2023-10-06,3879.0,3255.0,bc5b1064632946c624ffacd8ff33d48357e0be00ca1c9730dad2fd0af90f26f1,"Closest observed Friday, dry conditions; school term effect not estimable from training data.",8.0
+Extreme,direct_few,1,228,2023-10-07,7026.0,6200.0,18c5d8dc04f6c7ff6864b87a99bbc5b1dca4780683138e6facc0e9611f5394a7,"Rainy non-holiday Saturday, moderate rain reduces weekend ridership from dry baseline.",8.0
+Extreme,direct_few,1,269,2023-10-07,2433.0,1580.0,b6612b1cf40dc686ad3030c6d4d22c78627512e94bcc565fb9f9548cc3243037,"Wet Saturday, no school/holiday; severe rain reduces weekend entries versus dry Saturday.",8.0
+Extreme,direct_few,1,360,2023-10-07,2044.0,2200.0,0450480af64736f9fd4ce1a33fb46e1a52f82dfe7925f6787b3d5bcb8756a745,"Wet Saturday, rain slightly reduces dry Saturday ridership; no stronger nearby analog.",8.0
+Extreme,direct_few,1,37,2023-10-07,2162.0,1800.0,8174f9688d3362c64c177dc5ddf3e4a3a76fc81472a78cdefda05addbb4c3056,"Rainy summer Saturday, no school/holiday; rainfall slightly reduces Saturday baseline entries.",8.0
+Extreme,direct_few,1,228,2023-10-08,6051.0,7720.0,e77fecc67f4ff1d0af4feaec03544390b05bde9598c4e05d35e18854755cab5b,"Only observed Sunday match; no rain, holiday, or school-term effects.",8.0
+Extreme,direct_few,1,269,2023-10-08,2070.0,1710.0,ab3a0431c94d2631310dd9c54b63547bd91a3395f32814aaf0ae6ff056ec7265,"No rain, non-holiday Sunday; matches prior Sunday example with 1710 entries.",8.0
+Extreme,direct_few,1,360,2023-10-08,2009.0,2269.0,c8022374deb8a11f979335468e88d4410a685e1a4539a98d2091814e52495770,"Closest observed Sunday, no rain, similar wind; temperature difference has negligible demand effect.",8.0
+Extreme,direct_few,1,37,2023-10-08,1812.0,1800.0,28e423a4ad4ffcb00f30eefe6cee598393c2904d961d7fef1f37f2378ae40212,"Dry non-holiday Sunday, mild wind; nearest dry Sunday baseline adjusted for cooler temperature.",8.0
+Extreme,direct_few,1,228,2023-10-09,13792.0,7500.0,4b4b084bbecd6a4ab385d95040d7022a2f374345b8f403c648104fe19dce57c8,"Holiday Monday, school term, no rain; holiday reduces normal weekday ridership.",8.0
+Extreme,direct_few,1,269,2023-10-09,3758.0,1800.0,eec63531375fb5f197e62e4d5163a88131c8d5259fad3f11aca4c6ff414dcc74,"Holiday Monday, no rain; school term irrelevant, demand lower than typical non-holiday Mondays.",8.0
+Extreme,direct_few,1,360,2023-10-09,3157.0,1800.0,38b6911b3c0bfaa99ada8b86e7ee1267818d3cfae3d3859e2e76ff1e35961267,"Holiday Monday, no rain; lower than typical weekday, near weekend baseline.",8.0
+Extreme,direct_few,1,37,2023-10-09,2902.0,1500.0,78a58ba55430ff87d5eefc688eefee8692d2a5dc5787b9b91c2476af3626878e,"Monday holiday, no school/rain, low demand; weekend-like ridership inferred.",8.0
+Extreme,role_no_history,2,228,2023-09-27,20063.0,14196.559018091248,,,
+Extreme,role_no_history,2,269,2023-09-27,5192.0,3890.445623894476,,,
+Extreme,role_no_history,2,360,2023-09-27,4369.0,3597.121930501531,,,
+Extreme,role_no_history,2,37,2023-09-27,,3179.138813112277,,,
+Extreme,role_no_history,2,228,2023-09-28,19936.0,14754.707298934842,,,
+Extreme,role_no_history,2,269,2023-09-28,5085.0,4006.3340378919447,,,
+Extreme,role_no_history,2,360,2023-09-28,4247.0,3683.376713009586,,,
+Extreme,role_no_history,2,37,2023-09-28,4399.0,3271.850053095379,,,
+Extreme,role_no_history,2,228,2023-09-29,10876.0,7491.45626242355,,,
+Extreme,role_no_history,2,269,2023-09-29,3667.0,2022.8996265022504,,,
+Extreme,role_no_history,2,360,2023-09-29,2977.0,1852.4852766251593,,,
+Extreme,role_no_history,2,37,2023-09-29,2641.0,1650.4429588842008,,,
+Extreme,role_no_history,2,228,2023-09-30,9157.0,13741.723025274152,,,
+Extreme,role_no_history,2,269,2023-09-30,2340.0,3724.813726249321,,,
+Extreme,role_no_history,2,360,2023-09-30,1987.0,3429.467161550444,,,
+Extreme,role_no_history,2,37,2023-09-30,2092.0,3046.613105190092,,,
+Extreme,role_no_history,2,228,2023-10-01,7763.0,12429.229490759106,,,
+Extreme,role_no_history,2,269,2023-10-01,2037.0,3385.149491072299,,,
+Extreme,role_no_history,2,360,2023-10-01,1935.0,3127.651025103911,,,
+Extreme,role_no_history,2,37,2023-10-01,1861.0,2770.633985687202,,,
+Extreme,role_no_history,2,228,2023-10-05,19331.0,15356.549573256689,,,
+Extreme,role_no_history,2,269,2023-10-05,5089.0,4192.879054607931,,,
+Extreme,role_no_history,2,360,2023-10-05,4335.0,3867.663422045275,,,
+Extreme,role_no_history,2,37,2023-10-05,4334.0,3425.301343105366,,,
+Extreme,role_no_history,2,228,2023-10-06,16330.0,14093.98641877602,,,
+Extreme,role_no_history,2,269,2023-10-06,4775.0,3859.2006721493326,,,
+Extreme,role_no_history,2,360,2023-10-06,3859.0,3563.381688342242,,,
+Extreme,role_no_history,2,37,2023-10-06,3879.0,3151.5467722027142,,,
+Extreme,role_no_history,2,228,2023-10-07,7026.0,9459.674853562588,,,
+Extreme,role_no_history,2,269,2023-10-07,2433.0,2574.3748371022707,,,
+Extreme,role_no_history,2,360,2023-10-07,2044.0,2374.584893558743,,,
+Extreme,role_no_history,2,37,2023-10-07,2162.0,2105.090295419048,,,
+Extreme,role_no_history,2,228,2023-10-08,6051.0,9711.168181542009,,,
+Extreme,role_no_history,2,269,2023-10-08,2070.0,2673.0526768053683,,,
+Extreme,role_no_history,2,360,2023-10-08,2009.0,2484.7562092475614,,,
+Extreme,role_no_history,2,37,2023-10-08,1812.0,2188.92348173428,,,
+Extreme,role_no_history,2,228,2023-10-09,13792.0,14103.283966537258,,,
+Extreme,role_no_history,2,269,2023-10-09,3758.0,3858.802226567536,,,
+Extreme,role_no_history,2,360,2023-10-09,3157.0,3564.4859100264543,,,
+Extreme,role_no_history,2,37,2023-10-09,2902.0,3152.496598654022,,,
+Extreme,role_with_history,2,228,2023-09-27,20063.0,15030.761101120268,,,
+Extreme,role_with_history,2,269,2023-09-27,5192.0,4051.7106887020855,,,
+Extreme,role_with_history,2,360,2023-09-27,4369.0,3684.378189262939,,,
+Extreme,role_with_history,2,37,2023-09-27,,3298.8884750867646,,,
+Extreme,role_with_history,2,228,2023-09-28,19936.0,13385.066677749975,,,
+Extreme,role_with_history,2,269,2023-09-28,5085.0,3625.184210560515,,,
+Extreme,role_with_history,2,360,2023-09-28,4247.0,3306.41424272302,,,
+Extreme,role_with_history,2,37,2023-09-28,4399.0,2950.5111634218997,,,
+Extreme,role_with_history,2,228,2023-09-29,10876.0,9932.739835301369,,,
+Extreme,role_with_history,2,269,2023-09-29,3667.0,2578.3676738318654,,,
+Extreme,role_with_history,2,360,2023-09-29,2977.0,2263.8607477847822,,,
+Extreme,role_with_history,2,37,2023-09-29,2641.0,2117.5393931194885,,,
+Extreme,role_with_history,2,228,2023-09-30,9157.0,10346.44914863647,,,
+Extreme,role_with_history,2,269,2023-09-30,2340.0,2845.440321057673,,,
+Extreme,role_with_history,2,360,2023-09-30,1987.0,2639.96190352509,,,
+Extreme,role_with_history,2,37,2023-09-30,2092.0,2308.4101625279177,,,
+Extreme,role_with_history,2,228,2023-10-01,7763.0,9669.864918298304,,,
+Extreme,role_with_history,2,269,2023-10-01,2037.0,2659.2015771016227,,,
+Extreme,role_with_history,2,360,2023-10-01,1935.0,2481.8671709761365,,,
+Extreme,role_with_history,2,37,2023-10-01,1861.0,2160.731415479923,,,
+Extreme,role_with_history,2,228,2023-10-05,19331.0,15013.089437059089,,,
+Extreme,role_with_history,2,269,2023-10-05,5089.0,4082.07700868186,,,
+Extreme,role_with_history,2,360,2023-10-05,4335.0,3741.5086250776694,,,
+Extreme,role_with_history,2,37,2023-10-05,4334.0,3321.678316780899,,,
+Extreme,role_with_history,2,228,2023-10-06,16330.0,14964.48162279344,,,
+Extreme,role_with_history,2,269,2023-10-06,4775.0,4059.4592613987825,,,
+Extreme,role_with_history,2,360,2023-10-06,3859.0,3716.009799832017,,,
+Extreme,role_with_history,2,37,2023-10-06,3879.0,3303.365443407596,,,
+Extreme,role_with_history,2,228,2023-10-07,7026.0,9210.38085388096,,,
+Extreme,role_with_history,2,269,2023-10-07,2433.0,2513.584214517338,,,
+Extreme,role_with_history,2,360,2023-10-07,2044.0,2307.851764623066,,,
+Extreme,role_with_history,2,37,2023-10-07,2162.0,2038.6596656167455,,,
+Extreme,role_with_history,2,228,2023-10-08,6051.0,10206.417207914485,,,
+Extreme,role_with_history,2,269,2023-10-08,2070.0,2783.5440809727866,,,
+Extreme,role_with_history,2,360,2023-10-08,2009.0,2572.2258362490065,,,
+Extreme,role_with_history,2,37,2023-10-08,1812.0,2258.1903138441785,,,
+Extreme,role_with_history,2,228,2023-10-09,13792.0,12375.577933284312,,,
+Extreme,role_with_history,2,269,2023-10-09,3758.0,3368.6412039430325,,,
+Extreme,role_with_history,2,360,2023-10-09,3157.0,3094.18303779502,,,
+Extreme,role_with_history,2,37,2023-10-09,2902.0,2741.845831412804,,,
+Extreme,direct_few,2,228,2023-09-27,20063.0,19576.0,5566c298a5851a9436e84d9529393f1e637336b74ad3215667f42a4598056238,Target Wednesday school-term no rain; matches observed Wednesday rainy weekday baseline.,8.0
+Extreme,direct_few,2,269,2023-09-27,5192.0,4550.0,63ae4e7053aa41e5a2738e9aa32dc83026c3a691092591889be28a9d5991e211,"School-term Wednesday, no rain; weekday baseline ~4400-4600, mild uplift from school term.",8.0
+Extreme,direct_few,2,360,2023-09-27,4369.0,4000.0,e15831a3ffa0116cf2ef1b14fcf377c50dc846c97197dcbb87e304ff393bef0d,"School-term Wednesday, no rain or holiday; weekday baseline slightly raised for school commuting.",8.0
+Extreme,direct_few,2,37,2023-09-27,,3822.0,2be3b139f512af17e5136becee0f897fd1d0a0fca44870ae592909ebd496608c,"Closest matching Wednesday school-term example; no rain, similar conditions, no major disruptions.",8.0
+Extreme,direct_few,2,228,2023-09-28,19936.0,19000.0,def298931a6dd14698cd569f3bc0ec06693fc86ff0163f4fb0d6ab370f739054,"School-term Thursday, moderate rain; near dry weekday baseline, slight rain reduction.",8.0
+Extreme,direct_few,2,269,2023-09-28,5085.0,4300.0,12d1541aa0944f492fa37a3070b8e43b7dec566e143eb6cf2bd797a9427b6e8b,"School-term Thursday baseline, moderate rain slightly reduces typical weekday ridership.",8.0
+Extreme,direct_few,2,360,2023-09-28,4247.0,3900.0,20483156b9641cceffb69a3198e401114b735fe2fdc92934551c923f2919479b,"School-term Thursday baseline ~3700, moderate rain and wind slightly boost ridership.",8.0
+Extreme,direct_few,2,37,2023-09-28,4399.0,3500.0,2e1a0c2d8008299108c6538082091344e6ffe23609310a14cf7b01878f2b1efe,"School-term Thursday, moderate rain; weekday baseline ~3600, slight rain reduction.",8.0
+Extreme,direct_few,2,228,2023-09-29,10876.0,12000.0,7a1eaf7c733f92d1479ea658c4fa43a64b659c81e4834bd0a3813622600dad5e,"School-term Friday baseline, extreme heavy rain reduces ridership from typical weekday levels.",8.0
+Extreme,direct_few,2,269,2023-09-29,3667.0,3400.0,de1eab82a183afced01e55677c3d6f67c4f631ec48062acac20d92cbfc919076,"School-term Friday baseline, extreme rain and wind reduce ridership versus dry Friday.",8.0
+Extreme,direct_few,2,360,2023-09-29,2977.0,2600.0,5c977985f24bd0fa1bf30b96c511b3eb6c23ce085a5bc7690db664e4dbbe7847,"School-term Friday baseline, but extreme rain and wind sharply reduce ridership.",8.0
+Extreme,direct_few,2,37,2023-09-29,2641.0,2800.0,c0f069c443cabd576a8f10210cda98f8d708bb064dac2736bf9dc1eaf5474252,"Friday school-term baseline around 3.3k, reduced by extreme 207mm rain and strong wind.",8.0
+Extreme,direct_few,2,228,2023-09-30,9157.0,4800.0,7681ec69446bec4b222b8651aa7df24c28b304a204ab51acd757caf3aee9aa46,"Saturday baseline 5064, moderate rain and cooler weather reduce ridership.",8.0
+Extreme,direct_few,2,269,2023-09-30,2340.0,2190.0,f5363f35587921478c1fc456bad1327ec8f270896cc839d14844419fdd833e6f,"Rainy Saturday, interpolated between dry and heavy rainy Saturday observed ridership.",8.0
+Extreme,direct_few,2,360,2023-09-30,1987.0,2376.0,f9f4bfa102962c298ffc3e04212625acfe1798f9a3a5968fdab821a21b701ad3,"Wet Saturday mid-rainfall, interpolating dry and heavy-rain Saturday baselines.",8.0
+Extreme,direct_few,2,37,2023-09-30,2092.0,1992.0,78b048ed02a8fa1821599eff3f7a5871ff519889667f2afc7277cf3f30eeb6d4,"Rainy Saturday off-peak, mild temps; demand near dry Saturday baseline, slight rain reduction.",8.0
+Extreme,direct_few,2,228,2023-10-01,7763.0,7720.0,c1ec4ba0b80fe3d721170aa15daf518c2fae41a84bc24a051e9b8df6486ea91a,"Dry Sunday, no school/holiday; matches nearest observed Sunday demand.",8.0
+Extreme,direct_few,2,269,2023-10-01,2037.0,1900.0,29f31a90518c55dac3022a0cacab856135dd3434c8caf9362b0550b1ef03f401,"Dry mild Sunday, no school/holiday; weekend baseline near prior Sunday.",8.0
+Extreme,direct_few,2,360,2023-10-01,1935.0,2269.0,e6e76e7114456d73002ba1888d2bbe96f322a7cb9affa09022dd4e2cc08a9c00,"Dry non-holiday Sunday, matching observed Sunday demand; no rain impact.",8.0
+Extreme,direct_few,2,37,2023-10-01,1861.0,1761.0,b05720f1bf74e3ede1f8db7c92b8599c59d07db5dc3934196b329e71d68abba6,Dry non-holiday Sunday; matches nearest dry Sunday training example demand.,8.0
+Extreme,direct_few,2,228,2023-10-05,19331.0,19250.0,6405c610b102c7e42dce6ec4f015ae9a19821b42c363a7a96c8a3dd6fbdce6bb,Dry school-term Thursday matches prior dry Thursday weekday ridership; no rain adjustment needed.,8.0
+Extreme,direct_few,2,269,2023-10-05,5089.0,4500.0,e0b15343e4f8847ebcb54f077e5fd966f12ff7d037fd1833f1b936d60e513a18,"School-term dry Thursday near prior non-term Thursday ridership, mild weather no rain impact.",8.0
+Extreme,direct_few,2,360,2023-10-05,4335.0,3900.0,18a55195c6185898184dbeb95573877bb0f3fe56e55b0c7e78530d122f8313a0,"Term-time dry Thursday, near prior dry Thursday weekday ridership.",8.0
+Extreme,direct_few,2,37,2023-10-05,4334.0,3800.0,580cc597f4ccb82b22f6f00bd5f56aa00cf1fdc4ebdd314860de7e7f1b6d4d1e,"Dry school-term Thursday, baseline near prior dry Thursday weekday ridership.",8.0
+Extreme,direct_few,2,228,2023-10-06,16330.0,16500.0,ee0a5c6f3fc7eed38ba9176c487923af47397367d78fc5c2249abe45c29e3623,"School-term Friday, no rain/holiday; weekday commute demand slightly above non-term Friday baseline.",8.0
+Extreme,direct_few,2,269,2023-10-06,4775.0,4400.0,7d2206108b3862ab78f6a6ad4c0f627ef7a364e3b06bc28987010258e19fb6de,"School-term Friday, no rain; weekday baseline around 4400 entries.",8.0
+Extreme,direct_few,2,360,2023-10-06,3859.0,3700.0,9c0460cd4e38393454f50052df07854aeea5cf25d3d7a2870b506a62105c445f,"Dry school-term Friday, near prior dry Friday and weekday ridership levels.",8.0
+Extreme,direct_few,2,37,2023-10-06,3879.0,3400.0,7340b13a92c2a5540c56d91b2309d4120deb065db48974bdf18a2cf87b66fd41,"School-term Friday, no rain/holiday; weekday baseline ~3300-3800, mild bump for term.",8.0
+Extreme,direct_few,2,228,2023-10-07,7026.0,6500.0,91c1234a72c4dec94066fc5b703875c4bea30d6593040643bfa1481cf5f6d7d7,"Saturday baseline, heavy rain reduces travel; nearest wet Saturday example adjusted downward.",8.0
+Extreme,direct_few,2,269,2023-10-07,2433.0,1992.0,70a54651b641ddcd75b679b859d272ffccc6804ae8918c641a4cfcab622fd86e,Wet non-holiday Saturday; heavy rain reduces weekend ridership from dry and light-rain Saturday examples.,8.0
+Extreme,direct_few,2,360,2023-10-07,2044.0,2100.0,d89b5567e13eb1a75f524b166c13eb1842976b2cedda0dee502e3e0c5a1fe825,"Rainy Saturday, heavy rain reduces weekend ridership from dry Saturday baseline.",8.0
+Extreme,direct_few,2,37,2023-10-07,2162.0,1600.0,aa528e3541271a255124c16a157b48ce9b71b33d54a8d4d9f00a1f1e245aa5fa,"Wet non-holiday Saturday, demand slightly below dry Saturday baseline.",8.0
+Extreme,direct_few,2,228,2023-10-08,6051.0,7720.0,deae2895fb144bcaed6f2be92e9a9c50b10313ede21d5aa76010a5ad1aa44a4b,"Dry non-holiday Sunday; nearest observed Sunday demand, rain not materially lower.",8.0
+Extreme,direct_few,2,269,2023-10-08,2070.0,1710.0,7316b1a9ee626f9d4facf9d7e93034f480b0b3d1ba2aa3233efda32c02e335d8,"Sunday no school/holiday, zero rain; matches observed Sunday demand.",8.0
+Extreme,direct_few,2,360,2023-10-08,2009.0,2349.0,46af64da084323cb028beafbf95202f39f2ff5aca1edf6a5a634e78323bc7ef1,"Sunday weekend baseline ~2349; mild wind, no rain, no holiday, school break.",8.0
+Extreme,direct_few,2,37,2023-10-08,1812.0,1600.0,3694ce9c852e8a62bb5edf93c2b75cb436780724c0d2bb1757f887f25f4dd904,"Dry non-holiday Sunday; nearest dry Sunday baseline, cooler weather slightly reduces ridership.",8.0
+Extreme,direct_few,2,228,2023-10-09,13792.0,4200.0,b6e835ff97a56510c71e103f7f3b1e62d3d2fd738ea8c07b4b40e43d69588537,"Holiday Monday, school in session, no rain; holiday commuting suppresses entries versus normal weekdays.",8.0
+Extreme,direct_few,2,269,2023-10-09,3758.0,2000.0,2dd37ca744bd6b7b97182f7f6bdb4ec6c7d7d5f832eeaa8a9538a2c8cab4d2cc,"Holiday Monday, no rain; holiday demand lower than regular weekday, near weekend level.",8.0
+Extreme,direct_few,2,360,2023-10-09,3157.0,2300.0,c87788337def15650c6f6eb5d239201f55c3db1def92cded50e348a0500f785b,"Holiday Monday, no rain, school term; holiday suppresses weekday commuter demand.",8.0
+Extreme,direct_few,2,37,2023-10-09,2902.0,1650.0,f79dca1c80504e80fba43ccec490ca6d90653b03adc610f169d3e4d16ea93242,Holiday Monday with no rain; holiday and weekend-like demand lower than typical school-term Monday.,8.0

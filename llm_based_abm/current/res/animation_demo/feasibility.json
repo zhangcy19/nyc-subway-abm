@@ -1,0 +1,11 @@
+{
+  "nodes": 445,
+  "directed_edges": 1121,
+  "weak_components": 2,
+  "synthetic_agents": 80,
+  "subway_trips": 18,
+  "unroutable_subway_choices": 0,
+  "all_coordinates_finite": true,
+  "paths_follow_edges": true,
+  "scope": "Current network; synthetic destinations/departure times; schematic station-to-station interpolation; no verified 2023 closures, OD, platform transfer feasibility, or true paths."
+}

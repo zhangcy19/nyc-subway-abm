@@ -1,0 +1,15 @@
+{
+  "source_commit": "7f973e8018e0cec16dcebfbaf9f098f4fc280a07",
+  "files": {
+    "PROTOCOL.md": "9ecbc16d5be599ec8edd6bfd96acaf140f243127dc1bf9b42c529ab234baa83a",
+    "prepare.py": "aeeac21125d2bea5f36d74eb51d491b8af76e65332c34797ef7a4b7836d3997c",
+    "experiment.py": "44c43eda67e3c84498babe3c597e61768a1dbcecaae154162aaa2e8a86cfe087",
+    "model.py": "45d690918c27f73fb8b21f50ba3c6dd1c2dd81820684823fd1477cc3d37dbaf8",
+    "api.py": "8a42fe63dfe422f75650830443c82414a34c149b292d3adcfa7d0ff10171f610",
+    "res/dates.csv": "6869a341389f816ec82a65d1f500e5f57c2f876cff589a3fecd26bd7059df0bb"
+  },
+  "context_probe_files": {
+    "CONTEXT_PROBE.md": "43597c2733812a16ee6ac421d476aae74e175d59d4bbafb591c6c80604aba6a8",
+    "context_probe.py": "9f6793cf72892b06533df3408b457d43f707a03e1ec31d2ca279f6b09009508a"
+  }
+}

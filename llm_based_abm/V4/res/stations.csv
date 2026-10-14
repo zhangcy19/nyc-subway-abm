@@ -1,9 +1,0 @@
-station_complex_id,station_name,borough,latitude,longitude,alias
-360,Pelham Bay Park (6),Bronx,40.852463,-73.82812,site_0
-418,"233 St (2,5)",Bronx,40.893192,-73.857475,site_1
-334,"Clark St (2,3)",Brooklyn,40.697468,-73.99309,site_2
-37,77 St (R),Brooklyn,40.62974,-74.02551,site_3
-228,"23 St (F,M)",Manhattan,40.742878,-73.99282,site_4
-305,137 St-City College (1),Manhattan,40.822006,-73.953674,site_5
-269,"Northern Blvd (M,R)",Queens,40.752884,-73.906006,site_6
-458,46 St-Bliss St (7),Queens,40.743134,-73.918434,site_7

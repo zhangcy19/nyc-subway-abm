@@ -3,14 +3,4 @@
 __pycache__/
 *.pyc
 .env
-/llm_based_abm/V1/experiment_data/panel.csv
-/llm_based_abm/V1/results/predictions.csv
-/llm_based_abm/V1/results/actions.csv
-/llm_based_abm/V1/results/return_rate_sensitivity.csv
-/llm_based_abm/V2/results/panel.csv.gz
-
-/llm_based_abm/V3/res/panel.csv.gz
-
-/llm_based_abm/V4/res/panel.csv.gz
-/llm_based_abm/V4/res/api_calls.jsonl
-/llm_based_abm/V5/res/api_calls.jsonl
+/llm_based_abm/current/res/api_calls.jsonl

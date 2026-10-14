@@ -1,0 +1,4 @@
+method,new_calls,tokens,charged_tokens,api_seconds_sum,mean_latency_s
+direct_few,168,132774,132774,434.1971,2.5845065476190476
+role_no_history,346,168276,168276,1012.8759,2.927386994219653
+role_with_history,1990,1600836,1600836,5784.514,2.9067909547738693

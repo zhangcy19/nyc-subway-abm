@@ -1,0 +1,13 @@
+task,method,replicate,seconds
+Extreme_0729,role_no_history,2,6.32761862501502
+Extreme_0729,role_with_history,2,6.47378895804286
+Extreme_0729,direct_few,2,4.283328208141029
+Extreme_0813,role_no_history,2,5.384697833098471
+Extreme_0813,role_with_history,2,5.579194207908586
+Extreme_0813,direct_few,2,3.5633678340818733
+Extreme_0929,role_no_history,2,0.007033167174085975
+Extreme_0929,role_with_history,2,5.638919791905209
+Extreme_0929,direct_few,2,2.874597666086629
+Extreme_1007,role_no_history,2,0.01100616599433124
+Extreme_1007,role_with_history,2,5.490268166176975
+Extreme_1007,direct_few,2,2.8320291668642312

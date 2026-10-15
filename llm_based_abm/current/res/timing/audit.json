@@ -1,0 +1,9 @@
+{
+  "protocol_hashes_match": true,
+  "probabilities_backed_by_API": true,
+  "fixed_weights_between_arms": true,
+  "direct_outputs_backed_by_API": true,
+  "rule_daily_matches_previous": true,
+  "equal_scoring_samples": true,
+  "new_tokens": 98196
+}

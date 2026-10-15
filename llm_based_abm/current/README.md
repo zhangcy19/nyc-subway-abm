@@ -1,5 +1,7 @@
 # 纽约地铁逐日客流：规则 ABM 与 LLM 对比
 
+新增：[降雨时段与Pro小测试](TIMING_RESULTS.md)，设定见[TIMING.md](TIMING.md)。运行 `python timing.py rules`、`python timing.py pro --offline`、`python timing_report.py` 可离线复现新增结果；去掉Pro命令的 `--offline` 才允许新调用。时段模块单独限额16万token，不与原Lite预算混用。
+
 实验使用四个代表站点的真实进站量，比较六种方法。正常天气分暑假、学期；强降雨按四个事件滚动训练和测试。先看 [RESULTS.md](RESULTS.md)，具体日期与方法看 [PROTOCOL.md](PROTOCOL.md)。
 
 ## 运行

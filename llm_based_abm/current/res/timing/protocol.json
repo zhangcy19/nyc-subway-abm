@@ -1,0 +1,14 @@
+{
+  "parent_commit": "ae146fb46e94303ed199cbec83a451b7db2ac98b",
+  "new_token_cap": 160000,
+  "planned_valid_calls": 104,
+  "files": {
+    "timing.py": "92c181117aab911b23224e960c5b703375f4c860cbaa521db69df879925066f5",
+    "timing_api.py": "7f3e95f0b195796fcbf2ba149f86560a26fbe3cf5f40d953a703d0d9b78942fb",
+    "TIMING.md": "b8c1ca4dd15e6875d1e8fbf517192efe1b08438fdf64bd101e695122a4fe2aa9",
+    "test_timing.py": "6e806b1e3d6abb0d714d5625aabea3aaa30ce56b69d4cd1eb10d1bbddc9cda70",
+    "res/dates.csv": "6869a341389f816ec82a65d1f500e5f57c2f876cff589a3fecd26bd7059df0bb",
+    "res/populations.csv": "576aad95c7db5bbe350b5a3c06dfcffb7b87d706fd3ea350dc0e95bc5ab3ac1c",
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db"
+  }
+}

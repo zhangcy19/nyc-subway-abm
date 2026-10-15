@@ -1,0 +1,13 @@
+task,method,seconds
+Extreme_0729,rule_daily,4.019867958966643
+Extreme_0729,rule_timing,3.940367833012715
+Extreme_0813,rule_daily,3.9662449171300977
+Extreme_0813,rule_timing,3.8884259171318263
+Extreme_0929,rule_daily,3.873132708016783
+Extreme_0929,rule_timing,4.011068542022258
+Extreme_1007,rule_daily,3.99575183307752
+Extreme_1007,rule_timing,3.97772637498565
+Normal_School,rule_daily,3.8112507921177894
+Normal_School,rule_timing,3.656100874999538
+Normal_Summer,rule_daily,4.018436250044033
+Normal_Summer,rule_timing,3.731775708962232

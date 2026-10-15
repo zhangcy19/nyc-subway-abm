@@ -2,7 +2,8 @@
 
 纽约地铁逐日客流：比较规则ABM、LLM直接预测和LLM角色决策。
 
-- [最新结果与图](llm_based_abm/current/RESULTS.md)
+- [降雨时段与Pro小测试](llm_based_abm/current/TIMING_RESULTS.md)
+- [主实验结果与图](llm_based_abm/current/RESULTS.md)
 - [运行与输出接口](llm_based_abm/current/README.md)
 - [实验设定与数据划分](llm_based_abm/current/PROTOCOL.md)
 - [共享数据与来源](data/README.md)

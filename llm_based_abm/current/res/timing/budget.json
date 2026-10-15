@@ -1,0 +1,10 @@
+{
+  "model": "doubao-seed-2-1-pro-260915",
+  "calls": 104,
+  "valid_calls": 104,
+  "errors": 0,
+  "charged_tokens": 98196,
+  "cap": 160000,
+  "api_seconds_sum": 478.8674000000001,
+  "scope": "New Pro probe only; cached prior Lite calibration excluded"
+}

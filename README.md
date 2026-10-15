@@ -4,6 +4,7 @@
 
 - [降雨时段与Pro小测试](llm_based_abm/current/TIMING_RESULTS.md)
 - [主实验结果与图](llm_based_abm/current/RESULTS.md)
+- [交接：一条命令离线复现最新对照](llm_based_abm/current/README.md#交接只复现最新时段对照)
 - [运行与输出接口](llm_based_abm/current/README.md)
 - [实验设定与数据划分](llm_based_abm/current/PROTOCOL.md)
 - [共享数据与来源](data/README.md)

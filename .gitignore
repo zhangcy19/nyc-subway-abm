@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .env
 /llm_based_abm/current/res/api_calls.jsonl
+/llm_based_abm/current/res/timing/api_calls.jsonl

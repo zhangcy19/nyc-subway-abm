@@ -3,6 +3,7 @@ openai==3.28.0
 pandas==2.3.3
 numpy==2.3.3
 scipy==1.16.2
-matplotlib
+matplotlib==3.10.6
 scikit-learn==1.7.2
 networkx==3.5
+tabulate==0.9.0

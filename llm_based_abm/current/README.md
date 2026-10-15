@@ -4,26 +4,43 @@
 
 实验使用四个代表站点的真实进站量，比较六种方法。正常天气分暑假、学期；强降雨按四个事件滚动训练和测试。先看 [RESULTS.md](RESULTS.md)，具体日期与方法看 [PROTOCOL.md](PROTOCOL.md)。
 
-## 运行
+## 交接：只复现最新时段对照
 
-使用 conda dev，从本目录运行：
+从仓库根目录开始，建议Python 3.11。新电脑可创建环境；已有dev环境则直接激活。
 
 ```bash
-python prepare.py
-python -m unittest test_experiment.py
-python experiment.py primary --offline
-python experiment.py repeat --replicate 1 --offline
-python experiment.py repeat --replicate 2 --offline
-python context_probe.py --offline  # 可选：只替换10/7的一条历史示例
-python analyze.py
-python repair_check.py
-python animation_demo.py
-python audit.py
+conda create -n subway-abm python=3.11 -y
+conda activate subway-abm
+python -m pip install -r llm_based_abm/requirements.txt
+cd llm_based_abm/current
+python reproduce.py
 ```
 
-`prepare.py` 从共享 data 重建日数据与划分。`primary --offline` 仅复用已有回复，保存完整主实验；去掉 --offline 才允许调用 API；`repeat` 只重复四个事件当天的LLM推断，保持训练参数不变。已有完整请求读取缓存；加 `--offline` 禁止网络调用。只查看结果不必重跑实验；`analyze.py`、`audit.py` 均离线。本次 runtime 记录离线重新拟合耗时，不能当成首次 API 实验耗时。
+已有环境可用 `conda activate dev` 替代前两行。代码从current目录运行，使用相对路径。
 
-API密钥放上一级 `key.txt`，不上传。模型固定 Lite，新增预算硬限200万token（包括失败及重试），相同调用复用上次真实响应。`res/reused_api.jsonl.gz` 是本轮用到的旧调用证据，`res/api_calls.jsonl.gz` 是本轮新调用；代码会同时读取未压缩的新追加日志。一次只运行一个调用进程，避免跨进程重复消耗预算。并发默认6，本次设置 `ABM_WORKERS=10`。改变prompt、模型或replicate会产生新调用。
+`reproduce.py` 依次执行10项测试、重新拟合规则ABM的日汇总/时段两组、读取真实Pro缓存重算预测、核验并生成报告。缺缓存会报错，绝不会偷偷调用API。无需API密钥，无需下载额外数据，也无需跑prepare.py或旧主实验。仓库内的数据、已拟合权重和压缩API证据是本次对照的必要输入。
+
+结果入口：
+
+- `TIMING_RESULTS.md`：最新说明、两组对照、图和成本。
+- `res/timing/pro_metrics.csv`：两个事件×三个Pro方法×两种天气输入的误差。
+- `res/timing/rule_metrics.csv`：规则ABM六个任务的整窗口及事件日误差。
+- `res/timing/pro_decisions.csv`：角色概率、代表权重和简短理由。
+- `res/timing/audit.json`：原始回复、固定权重、相同样本等核验结果。
+
+这里的“复现”是使用相同真实API回复重新计算，不是重新向Pro抽取一批回答。Pro外层沿用已有Lite校准权重；规则模型重新拟合。计时文件会更新，数值结果应一致，浮点末位允许微小差异。
+
+## 如需联网调用
+
+API密钥放在 `llm_based_abm/key.txt`，不要提交。`python timing.py pro` 仅在请求缓存缺失时联网，完整缓存存在时仍复用，不会自动生成第二次独立试验。新增调用写入 `res/timing/api_calls.jsonl`，与已提交的压缩日志共同计入160,000 token上限；已有98,196 token也计入。不要删除日志来重置预算。
+
+要独立重复Pro实验，应另设replicate及预算记录，并重新安排验证，而不是直接把已有日志删掉。当前默认入口只交接可验证的已有结果。
+
+## 代码与对照范围
+
+最新新增代码为 `timing.py`、`timing_api.py`、`timing_report.py`、`reproduce.py`，固定设定见[TIMING.md](TIMING.md)。日汇总与加入时段的对比保留在同一模块中。
+
+`model.py`、`experiment.py`等是当前模块使用的共同代码；主实验结果与旧API记录用于校准来源和基线核对，不是需要另跑的旧版本。当前仓库没有V1、V2等历史版本副本，历史实现通过Git提交查看。
 
 ## 文件入口
 

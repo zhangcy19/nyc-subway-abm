@@ -1,0 +1,11 @@
+{
+  "matched_ablation_inputs": 543,
+  "scoring_samples_equal": true,
+  "network_four_station_refit_max_error": 0.0,
+  "od_conservation_max_error": 1.4551915228366852e-11,
+  "supplement_api_attempts": 823,
+  "charged_tokens": 817805,
+  "cap": 1000000,
+  "api_failures": 3,
+  "raw_logs_public": false
+}

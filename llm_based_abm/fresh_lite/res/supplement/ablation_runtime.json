@@ -1,0 +1,5 @@
+{
+  "seconds": 321.1739467079751,
+  "scope": "TEST input ablation; original timed TRAIN weights frozen; not a retrained daily-only pipeline",
+  "offline": false
+}

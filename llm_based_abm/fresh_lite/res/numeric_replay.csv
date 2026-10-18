@@ -1,0 +1,43 @@
+task,method,max_error,scope
+Extreme_0729,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0729,ridge,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0729,rule_daily,9.094947017729282e-13,Refitted from published numeric policies and training/validation data
+Extreme_0729,rule_timing,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0729,role_no_history,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0729,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0729,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification
+Extreme_0813,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0813,ridge,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0813,rule_daily,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0813,rule_timing,4.547473508864641e-13,Refitted from published numeric policies and training/validation data
+Extreme_0813,role_no_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0813,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0813,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification
+Extreme_0929,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0929,ridge,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0929,rule_daily,2.2737367544323206e-13,Refitted from published numeric policies and training/validation data
+Extreme_0929,rule_timing,0.0,Refitted from published numeric policies and training/validation data
+Extreme_0929,role_no_history,4.547473508864641e-13,Refitted from published numeric policies and training/validation data
+Extreme_0929,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_0929,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification
+Extreme_1007,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Extreme_1007,ridge,2.2737367544323206e-13,Refitted from published numeric policies and training/validation data
+Extreme_1007,rule_daily,2.2737367544323206e-13,Refitted from published numeric policies and training/validation data
+Extreme_1007,rule_timing,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_1007,role_no_history,0.0,Refitted from published numeric policies and training/validation data
+Extreme_1007,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Extreme_1007,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification
+Normal_School,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Normal_School,ridge,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_School,rule_daily,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_School,rule_timing,4.547473508864641e-13,Refitted from published numeric policies and training/validation data
+Normal_School,role_no_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_School,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_School,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification
+Normal_Summer,weekday_mean,0.0,Refitted from published numeric policies and training/validation data
+Normal_Summer,ridge,4.547473508864641e-13,Refitted from published numeric policies and training/validation data
+Normal_Summer,rule_daily,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_Summer,rule_timing,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_Summer,role_no_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_Summer,role_with_history,1.8189894035458565e-12,Refitted from published numeric policies and training/validation data
+Normal_Summer,direct_few,0.0,Saved numeric LLM forecasts; no new inference or raw-response verification

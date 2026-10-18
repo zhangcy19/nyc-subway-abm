@@ -1,0 +1,46 @@
+{
+  "base_commit": "e0f3d84c008875dc758de3908e166b73e87f4ac6",
+  "files": {
+    "api.py": "83ae1a84aa93b0bdb360a1677785495978385d7924a1cbae696850efb464a139",
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "experiment.py": "483da2f8ed649aa0849ecfedde00708977f204fef9426cea687843c3f07b5aae",
+    "timing.py": "92c181117aab911b23224e960c5b703375f4c860cbaa521db69df879925066f5",
+    "prepare.py": "fa9f50c6db10aaa096c53c91d309073dc955985289ce740066b4c13750ce7891",
+    "run.py": "16ff61b012185d1c61fa2ca1b72db26c345da6c8cb2b693014b3890e1b0072cb",
+    "select_stations.py": "8ae69703e1a1f09b84afa19149121d9d5158afda8d9e9f4f9a65d4b5c3954419",
+    "PROTOCOL.md": "a779ba7ca53ae4eb1e541b4efdd8da9e5244bd224736ee4d73325b0942d50c0a",
+    "res/dates.csv": "6869a341389f816ec82a65d1f500e5f57c2f876cff589a3fecd26bd7059df0bb",
+    "res/panel.csv": "2c902c591c059c95aa1c09ece5781c789bddb987bb28d7a160e5fe6c4239a989",
+    "res/selected_stations.csv": "998ba842e81bde57281592cb71a785c2fc0c0448cb66d3e2ee1a59aa1f1a5550"
+  },
+  "execution_workers": 20,
+  "original_files_before_transport_repair": {
+    "api.py": "b26a6d190aff5b7f86d9edf58ea1c030fc21cd9a2b5e10d2d1132eafb410d1d5",
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "experiment.py": "483da2f8ed649aa0849ecfedde00708977f204fef9426cea687843c3f07b5aae",
+    "timing.py": "92c181117aab911b23224e960c5b703375f4c860cbaa521db69df879925066f5",
+    "prepare.py": "fa9f50c6db10aaa096c53c91d309073dc955985289ce740066b4c13750ce7891",
+    "run.py": "08d8fc4b3d0a8c179c8cb98c2d0846b7234415f3ffb6ba52d738dc45a5028aea",
+    "select_stations.py": "8ae69703e1a1f09b84afa19149121d9d5158afda8d9e9f4f9a65d4b5c3954419",
+    "PROTOCOL.md": "a779ba7ca53ae4eb1e541b4efdd8da9e5244bd224736ee4d73325b0942d50c0a",
+    "res/dates.csv": "6869a341389f816ec82a65d1f500e5f57c2f876cff589a3fecd26bd7059df0bb",
+    "res/panel.csv": "2c902c591c059c95aa1c09ece5781c789bddb987bb28d7a160e5fe6c4239a989",
+    "res/selected_stations.csv": "998ba842e81bde57281592cb71a785c2fc0c0448cb66d3e2ee1a59aa1f1a5550"
+  },
+  "transport_amendment": "After 47 no-response connection errors: retain every failure and conservative charge; resume identical request hashes only for transport failures; valid replies never redrawn; stop new work on transport failure; resume completed methods from same-run checkpoints. Prompt, model, output limit, sampling, validation and all model parameters unchanged.",
+  "execution_workers_after_transport_repair": 10,
+  "files_before_cache_precedence_repair": {
+    "api.py": "a77343cf5534286f3eaef0a611ac2475eac1ff2d4ee284040342f26cd096207c",
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "experiment.py": "483da2f8ed649aa0849ecfedde00708977f204fef9426cea687843c3f07b5aae",
+    "timing.py": "92c181117aab911b23224e960c5b703375f4c860cbaa521db69df879925066f5",
+    "prepare.py": "fa9f50c6db10aaa096c53c91d309073dc955985289ce740066b4c13750ce7891",
+    "run.py": "733ecc16acda0664e350222fe25eb4e4eb15e9826d032cdc7bfff5a797914a0f",
+    "select_stations.py": "8ae69703e1a1f09b84afa19149121d9d5158afda8d9e9f4f9a65d4b5c3954419",
+    "PROTOCOL.md": "a779ba7ca53ae4eb1e541b4efdd8da9e5244bd224736ee4d73325b0942d50c0a",
+    "res/dates.csv": "6869a341389f816ec82a65d1f500e5f57c2f876cff589a3fecd26bd7059df0bb",
+    "res/panel.csv": "2c902c591c059c95aa1c09ece5781c789bddb987bb28d7a160e5fe6c4239a989",
+    "res/selected_stations.csv": "998ba842e81bde57281592cb71a785c2fc0c0448cb66d3e2ee1a59aa1f1a5550"
+  },
+  "cache_precedence_amendment": "Final audit found 18 valid logical requests retried at attempt 0 despite an earlier valid attempt 1/2. Preserve all charges and logs; select earliest valid response across every attempt; discard later valid duplicates from analysis without checking scores; rerun full fitting offline. Preserve original network runtime and save replay timing separately. No prompt, model, hyperparameter, sample or scoring change."
+}

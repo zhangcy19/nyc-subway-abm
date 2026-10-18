@@ -1,0 +1,13 @@
+agent_id,group,identity,routine,flexibility,weather_caution,budget_usd,mobility_limited,usual_mode,access_walk_minutes,kind
+students_0,students,student,regular attendance,low,low,6,False,subway,5,0
+students_1,students,student,flexible errands or appointments,medium,medium,15,False,subway,10,1
+students_2,students,student,discretionary social or shopping,high,high,25,False,subway,15,2
+fair_fare_0,fair_fare,income-qualified discounted-fare adult,regular attendance,low,low,6,False,subway,5,0
+fair_fare_1,fair_fare,income-qualified discounted-fare adult,flexible errands or appointments,medium,medium,6,False,subway,10,1
+fair_fare_2,fair_fare,income-qualified discounted-fare adult,discretionary social or shopping,high,high,15,False,subway,15,2
+seniors_disability_0,seniors_disability,"older adult, independently mobile",regular attendance,low,low,6,False,subway,5,0
+seniors_disability_1,seniors_disability,adult with mobility limitations,flexible errands or appointments,medium,medium,15,True,subway,10,1
+seniors_disability_2,seniors_disability,"older adult, independently mobile",discretionary social or shopping,high,high,25,False,subway,15,2
+general_0,general,"adult, general fare",regular attendance,low,low,6,False,subway,5,0
+general_1,general,"adult, general fare",flexible errands or appointments,medium,medium,15,False,subway,10,1
+general_2,general,"adult, general fare",discretionary social or shopping,high,high,25,False,subway,15,2

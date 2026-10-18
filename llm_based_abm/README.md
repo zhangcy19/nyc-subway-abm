@@ -1,5 +1,5 @@
 # LLM实验
 
-代码与结果统一放在 [current/](current/README.md)。先看[结果](current/RESULTS.md)，再看[方法和日期划分](current/PROTOCOL.md)。
+最新入口是[fresh_lite](fresh_lite/README.md)，结果见[RESULTS](fresh_lite/RESULTS.md)。本轮四个新站点、Lite模型、七种方法、Normal与四个Extreme事件；原配置不变，全部权重重新拟合，不读取此前实验回复或结果。
 
-`requirements.txt` 是依赖清单；本地 `key.txt` 是API密钥，不提交。历史版本通过Git历史查看，当前目录不重复保存。
+依赖使用requirements.txt。API密钥在本地key.txt，不提交。旧current目录保留上一轮证据，不属于本轮运行依赖；不要混合两轮结果。

@@ -1,0 +1,5 @@
+station_complex_id,station_name,borough,latitude,longitude,count,mean
+385,176 St (4),Bronx,40.84848,-73.9118,456,105.31359649122807
+292,Fulton St (G),Brooklyn,40.68712,-73.97537,456,141.015350877193
+311,86 St (1),Manhattan,40.788643,-73.97622,456,392.54824561403507
+256,Parsons Blvd (F),Queens,40.707565,-73.80333,456,189.48026315789474

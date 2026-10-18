@@ -1,0 +1,7 @@
+task,days,train_days,validation_days,test_days,observed_test_station_days
+Extreme_0729,31,19,7,5,20
+Extreme_0813,29,17,7,5,20
+Extreme_0929,25,13,7,5,19
+Extreme_1007,33,23,5,5,20
+Normal_School,28,15,6,7,28
+Normal_Summer,26,12,7,7,28

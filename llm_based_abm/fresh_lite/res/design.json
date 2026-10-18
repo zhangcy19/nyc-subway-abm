@@ -1,0 +1,23 @@
+{
+  "events": [
+    "2023-07-02",
+    "2023-07-18",
+    "2023-07-29",
+    "2023-08-13",
+    "2023-09-29",
+    "2023-10-07"
+  ],
+  "stations": [
+    "385",
+    "292",
+    "311",
+    "256"
+  ],
+  "budget_tokens": 5000000,
+  "normal_rain_daily_lt": 10,
+  "event_trigger": "daily >=25 mm OR peak hour >=10 mm; NOT official extreme classification",
+  "event_split": "four chronological event folds; same summer/school regime; +/-2-day test windows",
+  "missing": "exclude incomplete 24-hour labels; never fill missing ridership with zero",
+  "forecast": "daily entries, realized daily weather assumed known; no target ridership input",
+  "reuse": "retrospective redesign on previously inspected 2023 data, not a pristine prospective holdout"
+}

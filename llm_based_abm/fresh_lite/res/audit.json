@@ -1,0 +1,13 @@
+{
+  "earliest_valid_response_used": true,
+  "unique_valid_requests": 3220,
+  "unused_later_valid_responses": 18,
+  "training_validation_refit_matches": true,
+  "protocol_hashes_match": true,
+  "api_hashes_match": true,
+  "all_outputs_backed_by_this_runs_API": true,
+  "equal_scoring_samples": true,
+  "max_replay_error": 7.275957614183426e-12,
+  "persona_share_min": 0.09999999999999903,
+  "persona_share_max": 0.6000000000000012
+}

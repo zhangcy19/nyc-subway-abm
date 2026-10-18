@@ -1,0 +1,16 @@
+{
+  "model": "doubao-seed-2-1-lite-260915",
+  "requests": 3316,
+  "valid_responses": 3238,
+  "unique_valid_requests": 3220,
+  "unused_later_valid_responses": 18,
+  "failed_requests": 78,
+  "charged_tokens": 3824653,
+  "cap": 5000000,
+  "previous_experiment_replies_loaded": 0,
+  "runtime_scope": "\u542b\u65b0API\u8c03\u7528\u7684\u5df2\u5b8c\u6210\u9636\u6bb5",
+  "completed_stage_seconds": 1150.310134416679,
+  "api_elapsed_seconds_sum": 11607.827799999995,
+  "reported_tokens": 3714611,
+  "conservative_unreported_charge": 110042
+}

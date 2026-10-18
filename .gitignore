@@ -5,3 +5,5 @@ __pycache__/
 .env
 /llm_based_abm/current/res/api_calls.jsonl
 /llm_based_abm/current/res/timing/api_calls.jsonl
+/llm_based_abm/fresh_lite/res/api_calls.jsonl
+/llm_based_abm/fresh_lite/res/api_calls.jsonl.gz

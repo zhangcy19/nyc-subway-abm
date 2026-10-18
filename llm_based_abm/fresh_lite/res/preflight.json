@@ -1,0 +1,7 @@
+{
+  "unique_planned_requests": 3220,
+  "estimated_tokens": 3635082,
+  "estimate_definition": "UTF-8 input bytes / 3 + 200 output tokens per unique request; estimate only, actual usage has a hard cap",
+  "token_cap": 5000000,
+  "model": "doubao-seed-2-1-lite-260915"
+}

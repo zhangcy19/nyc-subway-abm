@@ -1,9 +1,10 @@
 # 分气象站逐小时天气数据
 
 本目录整理用户指定的6个气象站。时间范围已确认为 **2023-07-01 00:00:00—2023-10-31 23:00:00**，使用纽约当地时间 `America/New_York`。本时段全程为EDT（UTC−4），每站完整时间网格共 **2,952小时**。
+
 We generated hourly weather estimates for 424 NYC subway stations using observations from Central Park (NYC), LaGuardia (LGA), Downtown Manhattan Heliport (JRB), JFK, Teterboro (TEB), and Newark (EWR), applying inverse-distance-squared weighting to available observations among each subway station’s three nearest weather stations, with variable-specific weight renormalization and fallback to the nearest available station at the same hour when all three lacked data.
 
-Please use subway_weather_hourly.csv!!!🙂
+Please use **"subway_weather_hourly.csv"**, Thank you!
 
 ## 文件清单与覆盖率
 
@@ -11,15 +12,11 @@ Please use subway_weather_hourly.csv!!!🙂
 
 | 代码 | 站点 | 文件名（待申请站仅为计划文件名） | 完整小时 / 2952 | 降水缺失小时 | 温度缺失小时 | 风速缺失小时 |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| BRON | 布朗克斯 | weather_hourly_BRON.csv（待申请） | — | — | — | — |
 | NYC | 中央公园 | weather_hourly_NYC.csv | 2804 | 17 | 2 | 134 |
 | LGA | 拉瓜迪亚机场 | weather_hourly_LGA.csv | 2946 | 5 | 0 | 1 |
-| MANH | 曼哈顿 | weather_hourly_MANH.csv（待申请） | — | — | — | — |
 | JRB | 曼哈顿市中心直升机场 | weather_hourly_JRB.csv | 1471 | 1481 | 11 | 0 |
-| BKLN | 布鲁克林 | weather_hourly_BKLN.csv（待申请） | — | — | — | — |
 | JFK | 肯尼迪机场 | weather_hourly_JFK.csv | 2898 | 54 | 0 | 0 |
 | TEB | 泰特伯勒机场 | weather_hourly_TEB.csv | 2897 | 47 | 29 | 37 |
-| STAT | 斯塔滕岛 | weather_hourly_STAT.csv（待申请） | — | — | — | — |
 | EWR | 纽瓦克自由国际机场 | weather_hourly_EWR.csv | 2741 | 209 | 0 | 2 |
 
 ## 与原文件一致的六列格式

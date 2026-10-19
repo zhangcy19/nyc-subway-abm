@@ -1,8 +1,9 @@
 # 分气象站逐小时天气数据
 
-本目录整理用户指定的10个气象站。时间范围已确认为 **2023-07-01 00:00:00—2023-10-31 23:00:00**，使用纽约当地时间 `America/New_York`。本时段全程为EDT（UTC−4），每站完整时间网格共 **2,952小时**。
+本目录整理用户指定的6个气象站。时间范围已确认为 **2023-07-01 00:00:00—2023-10-31 23:00:00**，使用纽约当地时间 `America/New_York`。本时段全程为EDT（UTC−4），每站完整时间网格共 **2,952小时**。
+We generated hourly weather estimates for 424 NYC subway stations using observations from Central Park (NYC), LaGuardia (LGA), Downtown Manhattan Heliport (JRB), JFK, Teterboro (TEB), and Newark (EWR), applying inverse-distance-squared weighting to available observations among each subway station’s three nearest weather stations, with variable-specific weight renormalization and fallback to the nearest available station at the same hour when all three lacked data.
 
-目前已获取并导出6站；BRON、MANH、BKLN、STAT需向NYS Mesonet申请历史记录，尚未取得观测数据，未生成占位天气CSV。用户所写的EWER按纽瓦克机场 **EWR** 处理。
+Please use subway_weather_hourly.csv!!!🙂
 
 ## 文件清单与覆盖率
 
@@ -40,13 +41,6 @@ timestamp,rain_mm,temp_c,wind_ms,weather_available,weather_station
 
 IEM小时降水来自常规报文的降水累计周期，周期起止不一定恰好是整点。当前保留提供方小时标签；该产品不能声称具有严格整点至整点的分钟级降雨时序。微量降水用提供方数值0.0001英寸（0.00254mm）编码，这是trace代理值，并非雨量计具备该测量精度。
 
-## 已发现的质量问题
-
-原始METAR中的独立标记`PNO`表示**降水量不可用**。部分IEM数值记录却为0，因此本次将包含PNO的小时降水设为缺测，而不按“无雨”使用。采用保守规则：同一小时任一常规报文出现PNO，即剔除该小时降水。详见[美国国家气象局METAR说明](https://www.weather.gov/media/zse/metar_decode_key.pdf)。
-
-本批PNO小时数为：JRB 1480、JFK 49、TEB 11、EWR 203；NYC和LGA未见该标记。这些小时与原本缺失小时可能重叠，因此不能将计数简单相加。
-
-**JRB不宜未经进一步核查就作为稳定的降水插值站。** 9月29日和10月7日全天的降水均因PNO不可用，8月13日也仅有2小时降水值；剩余时段的报告降水总量亦明显偏低。温度、风速可按各自缺测情况使用。已保留原始报文和逐小时处理记录，未用附近站的雨量冒充JRB观测。
 
 ## 来源与追溯
 

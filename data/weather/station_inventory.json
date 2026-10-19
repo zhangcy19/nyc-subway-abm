@@ -1,0 +1,349 @@
+{
+  "prepared_at_utc": "2026-10-18T07:51:32.565534+00:00",
+  "start_inclusive": "2023-07-01 00:00:00-04:00",
+  "end_exclusive": "2023-11-01 00:00:00-04:00",
+  "timezone": "America/New_York",
+  "columns": [
+    "timestamp",
+    "rain_mm",
+    "temp_c",
+    "wind_ms",
+    "weather_available",
+    "weather_station"
+  ],
+  "requested_aliases": {
+    "EWER": "EWR"
+  },
+  "processing": {
+    "rain": "IEM processed hourly precipitation, inch * 25.4; retain provider hour label; trace 0.0001 inch = 0.00254 mm",
+    "temperature": "Last nonmissing routine METAR temperature within the clock hour; (degF - 32) * 5/9; not a time-weighted hourly mean",
+    "wind": "Last nonmissing routine METAR sustained speed within the clock hour; knots * 1852/3600; not gust or a time-weighted hourly mean",
+    "availability": "True only when rain_mm, temp_c, wind_ms are all observed; partial observations retained",
+    "missing": "CSV empty fields, no zero fill, interpolation, cross-station substitution or extrapolation",
+    "quality_control": "Any routine METAR PNO in a clock hour sets rain_mm missing; PNO means precipitation amount unavailable. Other unflagged observations are not independently certified.",
+    "time": "New York local clock hour; underlying METAR precipitation reset is not necessarily at HH:00",
+    "scope": "Gauge observations only; no subway IDW or changes to earlier experiment inputs"
+  },
+  "stations": [
+    {
+      "station": "BRON",
+      "name": "布朗克斯",
+      "network": "NYS_MESONET",
+      "longitude": -73.89352,
+      "latitude": 40.87248,
+      "source_name": "Bronx",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_BRON.csv",
+      "status": "pending_official_data_request",
+      "exported": false,
+      "request_url": "https://www.nysmesonet.org/weather/requestdata"
+    },
+    {
+      "station": "NYC",
+      "name": "中央公园",
+      "network": "NY_ASOS",
+      "longitude": -73.9692,
+      "latitude": 40.779,
+      "source_name": "NEW YORK CITY",
+      "archive_begin": "1943-12-01",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_NYC.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 2804,
+      "available_fraction": 0.9498644986449865,
+      "source_rain_rows": 2935,
+      "identical_rain_duplicates_removed": 0,
+      "source_rain_missing_hours": 17,
+      "precipitation_pno_hours": 0,
+      "routine_metar_rows": 2951,
+      "hours_multiple_routine_reports": 1,
+      "missing_by_variable": {
+        "rain_mm": 17,
+        "temp_c": 2,
+        "wind_ms": 134
+      },
+      "longest_missing_hours": {
+        "rain_mm": 2,
+        "temp_c": 1,
+        "wind_ms": 3
+      },
+      "rain_sum_mm": 761.8221999999998,
+      "rain_max_hour_mm": 49.784,
+      "output_rows": 2952,
+      "sha256": "79ab71438044e016800ed7c2d6c07b80d436315e360b451ef8c88feb3d649ee9",
+      "validation": "passed_source_reconciliation"
+    },
+    {
+      "station": "LGA",
+      "name": "拉瓜迪亚机场",
+      "network": "NY_ASOS",
+      "longitude": -73.8803,
+      "latitude": 40.7794,
+      "source_name": "New York/LaGuardia",
+      "archive_begin": "1935-02-22",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_LGA.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 2946,
+      "available_fraction": 0.9979674796747967,
+      "source_rain_rows": 2947,
+      "identical_rain_duplicates_removed": 1,
+      "source_rain_missing_hours": 5,
+      "precipitation_pno_hours": 0,
+      "routine_metar_rows": 2952,
+      "hours_multiple_routine_reports": 0,
+      "missing_by_variable": {
+        "rain_mm": 5,
+        "temp_c": 0,
+        "wind_ms": 1
+      },
+      "longest_missing_hours": {
+        "rain_mm": 1,
+        "temp_c": 0,
+        "wind_ms": 1
+      },
+      "rain_sum_mm": 770.0467199999999,
+      "rain_max_hour_mm": 35.559999999999995,
+      "output_rows": 2952,
+      "sha256": "f59f05c884a9a981d32e819941ebce1cee2f94df07bb9233957a586387f9f65c",
+      "validation": "passed_source_reconciliation"
+    },
+    {
+      "station": "MANH",
+      "name": "曼哈顿",
+      "network": "NYS_MESONET",
+      "longitude": -73.96448,
+      "latitude": 40.76754,
+      "source_name": "Manhattan",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_MANH.csv",
+      "status": "pending_official_data_request",
+      "exported": false,
+      "request_url": "https://www.nysmesonet.org/weather/requestdata"
+    },
+    {
+      "station": "JRB",
+      "name": "曼哈顿市中心直升机场",
+      "network": "NY_ASOS",
+      "longitude": -74.009,
+      "latitude": 40.7012,
+      "source_name": "Manhattan - Wall Street",
+      "archive_begin": "2016-07-20",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_JRB.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 1471,
+      "available_fraction": 0.49830623306233063,
+      "source_rain_rows": 2946,
+      "identical_rain_duplicates_removed": 0,
+      "source_rain_missing_hours": 6,
+      "precipitation_pno_hours": 1480,
+      "routine_metar_rows": 2953,
+      "hours_multiple_routine_reports": 1,
+      "missing_by_variable": {
+        "rain_mm": 1481,
+        "temp_c": 11,
+        "wind_ms": 0
+      },
+      "longest_missing_hours": {
+        "rain_mm": 793,
+        "temp_c": 8,
+        "wind_ms": 0
+      },
+      "rain_sum_mm": 13.41374,
+      "rain_max_hour_mm": 1.016,
+      "output_rows": 2952,
+      "sha256": "9421869a0103aea637b4f7e1ee2f3b7f7a94eb63177dfe70e2e1259bcbb56ff5",
+      "validation": "passed_source_reconciliation",
+      "rain_quality_note": "Large PNO outage and very low remaining reported rainfall: review this gauge before using it for rainfall IDW; do not treat its missing hours as dry."
+    },
+    {
+      "station": "BKLN",
+      "name": "布鲁克林",
+      "network": "NYS_MESONET",
+      "longitude": -73.95368,
+      "latitude": 40.63176,
+      "source_name": "Brooklyn",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_BKLN.csv",
+      "status": "pending_official_data_request",
+      "exported": false,
+      "request_url": "https://www.nysmesonet.org/weather/requestdata"
+    },
+    {
+      "station": "JFK",
+      "name": "肯尼迪机场",
+      "network": "NY_ASOS",
+      "longitude": -73.7622,
+      "latitude": 40.6386,
+      "source_name": "NEW YORK/JF KENNEDY",
+      "archive_begin": "1948-07-01",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_JFK.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 2898,
+      "available_fraction": 0.9817073170731707,
+      "source_rain_rows": 2947,
+      "identical_rain_duplicates_removed": 1,
+      "source_rain_missing_hours": 5,
+      "precipitation_pno_hours": 49,
+      "routine_metar_rows": 2952,
+      "hours_multiple_routine_reports": 0,
+      "missing_by_variable": {
+        "rain_mm": 54,
+        "temp_c": 0,
+        "wind_ms": 0
+      },
+      "longest_missing_hours": {
+        "rain_mm": 43,
+        "temp_c": 0,
+        "wind_ms": 0
+      },
+      "rain_sum_mm": 635.4648199999999,
+      "rain_max_hour_mm": 31.496,
+      "output_rows": 2952,
+      "sha256": "ff60b10b4d6c62c79b7e7b13ac6af768146ae480a0c22afcfb6dd45a11c945c0",
+      "validation": "passed_source_reconciliation"
+    },
+    {
+      "station": "TEB",
+      "name": "泰特伯勒机场",
+      "network": "NJ_ASOS",
+      "longitude": -74.0562,
+      "latitude": 40.859,
+      "source_name": "TETERBORO AIRPORT",
+      "archive_begin": "1946-12-31",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_TEB.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 2897,
+      "available_fraction": 0.9813685636856369,
+      "source_rain_rows": 2916,
+      "identical_rain_duplicates_removed": 1,
+      "source_rain_missing_hours": 36,
+      "precipitation_pno_hours": 11,
+      "routine_metar_rows": 2925,
+      "hours_multiple_routine_reports": 2,
+      "missing_by_variable": {
+        "rain_mm": 47,
+        "temp_c": 29,
+        "wind_ms": 37
+      },
+      "longest_missing_hours": {
+        "rain_mm": 23,
+        "temp_c": 23,
+        "wind_ms": 23
+      },
+      "rain_sum_mm": 557.0905799999999,
+      "rain_max_hour_mm": 23.622,
+      "output_rows": 2952,
+      "sha256": "1a92b575cfa64dde036fb0249290a27c49f705a1aa2911b0d1b9b6f34aee0304",
+      "validation": "passed_source_reconciliation"
+    },
+    {
+      "station": "STAT",
+      "name": "斯塔滕岛",
+      "network": "NYS_MESONET",
+      "longitude": -74.1485,
+      "latitude": 40.60401,
+      "source_name": "Staten Island",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_STAT.csv",
+      "status": "pending_official_data_request",
+      "exported": false,
+      "request_url": "https://www.nysmesonet.org/weather/requestdata"
+    },
+    {
+      "station": "EWR",
+      "name": "纽瓦克自由国际机场",
+      "network": "NJ_ASOS",
+      "longitude": -74.1693,
+      "latitude": 40.6827,
+      "source_name": "Newark Intl",
+      "archive_begin": "1930-12-31",
+      "expected_hours": 2952,
+      "filename": "weather_hourly_EWR.csv",
+      "status": "exported_with_explicit_missing_values",
+      "exported": true,
+      "available_hours": 2741,
+      "available_fraction": 0.9285230352303523,
+      "source_rain_rows": 2946,
+      "identical_rain_duplicates_removed": 1,
+      "source_rain_missing_hours": 6,
+      "precipitation_pno_hours": 203,
+      "routine_metar_rows": 2952,
+      "hours_multiple_routine_reports": 0,
+      "missing_by_variable": {
+        "rain_mm": 209,
+        "temp_c": 0,
+        "wind_ms": 2
+      },
+      "longest_missing_hours": {
+        "rain_mm": 198,
+        "temp_c": 0,
+        "wind_ms": 1
+      },
+      "rain_sum_mm": 527.76882,
+      "rain_max_hour_mm": 27.686,
+      "output_rows": 2952,
+      "sha256": "4c6da7ae849c35d126c51c2d2974da472e28c3ea0b39cc61737e86040a7b8868",
+      "validation": "passed_source_reconciliation"
+    }
+  ],
+  "sources": [
+    {
+      "file": "sources\\NY_ASOS_metadata.json",
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/NY_ASOS.geojson",
+      "sha256": "b8a94a48bf1d5d5d178f6dca33d830cdbf0cb3695a380bba07771f6418025bda",
+      "bytes": 34458
+    },
+    {
+      "file": "sources\\NJ_ASOS_metadata.json",
+      "url": "https://mesonet.agron.iastate.edu/geojson/network/NJ_ASOS.geojson",
+      "sha256": "d248dd0813052deb2b9436ff866658417900a68fb098ef04cc26b15e00eaa8d2",
+      "bytes": 11441
+    },
+    {
+      "file": "sources\\NYS_MESONET_metadata.json",
+      "url": "https://nysgeohub.ny.gov/arcgis/rest/services/Weather/NYS_Mesonet/FeatureServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "sha256": "96b3a93ebfc9c0c7502e8afec613db7647c527e007c547e72349d0373ac357ee",
+      "bytes": 38419
+    },
+    {
+      "file": "sources\\NY_ASOS_20230701_20231101_precip.csv",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/hourlyprecip.py?network=NY_ASOS&station=NYC&station=LGA&station=JRB&station=JFK&sts=2023-07-01T04%3A00%3A00Z&ets=2023-11-01T04%3A00%3A00Z&tz=America%2FNew_York&lalo=1",
+      "sha256": "13225417c242ba100e35eae159e27996be5e317bbae9311ff8f209b99ec16e4d",
+      "bytes": 600206
+    },
+    {
+      "file": "sources\\NY_ASOS_20230701_20231101_routine_metar.csv",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?network=NY_ASOS&station=NYC&station=LGA&station=JRB&station=JFK&sts=2023-07-01T04%3A00%3A00Z&ets=2023-11-01T04%3A00%3A00Z&tz=America%2FNew_York&data=tmpf&data=sknt&data=p01i&data=metar&report_type=3&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=0.0001&direct=no",
+      "sha256": "0c5e3b88f2f22515dee132f36a3942e149b0b9cb3c116d27d978d9a71e23f226",
+      "bytes": 1745937
+    },
+    {
+      "file": "sources\\NJ_ASOS_20230701_20231101_precip.csv",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/hourlyprecip.py?network=NJ_ASOS&station=TEB&station=EWR&sts=2023-07-01T04%3A00%3A00Z&ets=2023-11-01T04%3A00%3A00Z&tz=America%2FNew_York&lalo=1",
+      "sha256": "485caa233e4ce0606be9ff75db5e89db281e649542e3abbf3c5fc59f720a7e19",
+      "bytes": 306659
+    },
+    {
+      "file": "sources\\NJ_ASOS_20230701_20231101_routine_metar.csv",
+      "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?network=NJ_ASOS&station=TEB&station=EWR&sts=2023-07-01T04%3A00%3A00Z&ets=2023-11-01T04%3A00%3A00Z&tz=America%2FNew_York&data=tmpf&data=sknt&data=p01i&data=metar&report_type=3&format=onlycomma&latlon=yes&elev=yes&missing=M&trace=0.0001&direct=no",
+      "sha256": "dc4e8d071bd88d440931cc6fef168a7adbc0580d961670187926964b133e8973",
+      "bytes": 850401
+    }
+  ],
+  "documentation": [
+    "https://mesonet.agron.iastate.edu/cgi-bin/request/hourlyprecip.py?help",
+    "https://mesonet.agron.iastate.edu/request/download.phtml",
+    "https://www.weather.gov/media/zse/metar_decode_key.pdf",
+    "https://www.nysmesonet.org/weather/requestdata"
+  ],
+  "exported_at_utc": "2026-10-18T07:52:23.397Z"
+}

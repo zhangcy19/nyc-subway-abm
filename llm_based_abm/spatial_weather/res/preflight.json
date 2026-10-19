@@ -1,0 +1,224 @@
+{
+  "unique_requests": 6042,
+  "estimated_tokens": 6782082,
+  "estimate_basis": "Previous same-model observed input token/byte ratios plus 55 output tokens; failures extra",
+  "cap": 7500000,
+  "scope": [
+    {
+      "station": "256",
+      "task": "Extreme_0729",
+      "method": "role_no_history",
+      "requests": 348
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0729",
+      "method": "role_with_history",
+      "requests": 348
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0729",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0813",
+      "method": "role_no_history",
+      "requests": 324
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0813",
+      "method": "role_with_history",
+      "requests": 324
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0813",
+      "method": "direct_few",
+      "requests": 4
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0929",
+      "method": "role_no_history",
+      "requests": 300
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0929",
+      "method": "role_with_history",
+      "requests": 300
+    },
+    {
+      "station": "256",
+      "task": "Extreme_0929",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "256",
+      "task": "Extreme_1007",
+      "method": "role_no_history",
+      "requests": 396
+    },
+    {
+      "station": "256",
+      "task": "Extreme_1007",
+      "method": "role_with_history",
+      "requests": 396
+    },
+    {
+      "station": "256",
+      "task": "Extreme_1007",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "256",
+      "task": "Normal_School",
+      "method": "role_no_history",
+      "requests": 336
+    },
+    {
+      "station": "256",
+      "task": "Normal_School",
+      "method": "role_with_history",
+      "requests": 336
+    },
+    {
+      "station": "256",
+      "task": "Normal_School",
+      "method": "direct_few",
+      "requests": 7
+    },
+    {
+      "station": "256",
+      "task": "Normal_Summer",
+      "method": "role_no_history",
+      "requests": 300
+    },
+    {
+      "station": "256",
+      "task": "Normal_Summer",
+      "method": "role_with_history",
+      "requests": 300
+    },
+    {
+      "station": "256",
+      "task": "Normal_Summer",
+      "method": "direct_few",
+      "requests": 7
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0729",
+      "method": "role_no_history",
+      "requests": 348
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0729",
+      "method": "role_with_history",
+      "requests": 348
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0729",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0813",
+      "method": "role_no_history",
+      "requests": 324
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0813",
+      "method": "role_with_history",
+      "requests": 324
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0813",
+      "method": "direct_few",
+      "requests": 4
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0929",
+      "method": "role_no_history",
+      "requests": 300
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0929",
+      "method": "role_with_history",
+      "requests": 300
+    },
+    {
+      "station": "385",
+      "task": "Extreme_0929",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "385",
+      "task": "Extreme_1007",
+      "method": "role_no_history",
+      "requests": 396
+    },
+    {
+      "station": "385",
+      "task": "Extreme_1007",
+      "method": "role_with_history",
+      "requests": 396
+    },
+    {
+      "station": "385",
+      "task": "Extreme_1007",
+      "method": "direct_few",
+      "requests": 5
+    },
+    {
+      "station": "385",
+      "task": "Normal_School",
+      "method": "role_no_history",
+      "requests": 336
+    },
+    {
+      "station": "385",
+      "task": "Normal_School",
+      "method": "role_with_history",
+      "requests": 336
+    },
+    {
+      "station": "385",
+      "task": "Normal_School",
+      "method": "direct_few",
+      "requests": 7
+    },
+    {
+      "station": "385",
+      "task": "Normal_Summer",
+      "method": "role_no_history",
+      "requests": 300
+    },
+    {
+      "station": "385",
+      "task": "Normal_Summer",
+      "method": "role_with_history",
+      "requests": 300
+    },
+    {
+      "station": "385",
+      "task": "Normal_Summer",
+      "method": "direct_few",
+      "requests": 7
+    }
+  ]
+}

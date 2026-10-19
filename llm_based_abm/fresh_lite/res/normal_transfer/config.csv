@@ -1,0 +1,9 @@
+task,method,shrink,calendar_prior,rain_scale,hyperparameter_source,normal_start,normal_end,normal_days,matched_days
+Extreme_0729,rule_daily,10.0,0.0,2.0,"Original Extreme validation, before target",2023-07-10,2023-07-26,12,17
+Extreme_0729,rule_timing,10.0,0.0,1.0,"Original Extreme validation, before target",2023-07-10,2023-07-26,12,17
+Extreme_0729,role_no_history,0.0,0.0,0.0,"Original Extreme validation, before target",2023-07-10,2023-07-26,12,17
+Extreme_0729,role_with_history,10.0,0.0,0.0,"Original Extreme validation, before target",2023-07-10,2023-07-26,12,17
+Extreme_1007,rule_daily,10.0,0.0,2.0,"Original Extreme validation, before target",2023-09-12,2023-10-04,15,23
+Extreme_1007,rule_timing,10.0,0.0,0.5,"Original Extreme validation, before target",2023-09-12,2023-10-04,15,23
+Extreme_1007,role_no_history,0.0,0.0,0.0,"Original Extreme validation, before target",2023-09-12,2023-10-04,15,23
+Extreme_1007,role_with_history,10.0,1.0,0.0,"Original Extreme validation, before target",2023-09-12,2023-10-04,15,23

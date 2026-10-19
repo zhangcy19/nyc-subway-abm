@@ -1,5 +1,7 @@
 # NYC Subway ABM
 
+最新补充：[Normal 人口参数迁移到 Extreme](llm_based_abm/fresh_lite/NORMAL_TRANSFER.md)。恢复统一 JFK 天气，四站、7/29与10/7，固定决策概率比较人口校准样本；纯离线复用，新增 token 为0。
+
 最新实验：[分站点天气两站重跑结果](llm_based_abm/spatial_weather/RESULTS.md)。使用空间插值天气，覆盖 Parsons Blvd 与 176 St、七种方法、Normal 与四个事件日；[运行说明](llm_based_abm/spatial_weather/README.md)。新版执行入口为 `llm_based_abm/spatial_weather/run_spatial.py`。
 
 上一轮实验：[四个新站点的独立Lite重跑](llm_based_abm/fresh_lite/RESULTS.md)，2026-10-18。模型配置保持不变，重新生成训练、验证、测试的LLM回复，并重新拟合全部外层权重。没有加载此前实验的回复、权重或预测结果。

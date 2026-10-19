@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "new_api_calls": 0,
+  "new_tokens": 0,
+  "prediction_rows": 128,
+  "stations": [
+    "256",
+    "292",
+    "311",
+    "385"
+  ],
+  "replay_checks": [
+    {
+      "task": "Extreme_0729",
+      "method": "rule_daily",
+      "max_replay_error": 2.2737367544323206e-13
+    },
+    {
+      "task": "Extreme_0729",
+      "method": "rule_timing",
+      "max_replay_error": 0.0
+    },
+    {
+      "task": "Extreme_0729",
+      "method": "role_no_history",
+      "max_replay_error": 0.0
+    },
+    {
+      "task": "Extreme_0729",
+      "method": "role_with_history",
+      "max_replay_error": 4.547473508864641e-13
+    },
+    {
+      "task": "Extreme_1007",
+      "method": "rule_daily",
+      "max_replay_error": 0.0
+    },
+    {
+      "task": "Extreme_1007",
+      "method": "rule_timing",
+      "max_replay_error": 4.547473508864641e-13
+    },
+    {
+      "task": "Extreme_1007",
+      "method": "role_no_history",
+      "max_replay_error": 4.547473508864641e-13
+    },
+    {
+      "task": "Extreme_1007",
+      "method": "role_with_history",
+      "max_replay_error": 2.2737367544323206e-13
+    }
+  ],
+  "checks": [
+    "Same action probabilities across all arms",
+    "Pre-event Normal calibration labels",
+    "Pre-event hyperparameter selection",
+    "Population shares within 10\u201360%",
+    "Mesa aggregation reconciled"
+  ],
+  "caveats": [
+    "saved_normal_diagnostic uses post-event Normal validation; not prospective",
+    "normal_pre_event fixes Extreme hyperparameters and policies; it is a population-calibration ablation, not a fully Normal-trained model",
+    "Previously inspected events; not a pristine holdout"
+  ],
+  "input_sha256": {
+    "normal_transfer.py": "f6d50e87151ec3a5fbca2774525fe00eaf7f8e24dd227939793e766381cac0c7",
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "res/panel.csv": "2c902c591c059c95aa1c09ece5781c789bddb987bb28d7a160e5fe6c4239a989",
+    "res/populations.csv": "0bdcb09be7a3e24e2308d2887edb95805856b8afc57c3ead19f32e18a695f7b1",
+    "res/validation.csv": "ccd48f7ccce15e882f3c6ef982aea2ab03bed4cbce746ed419f7863a8dac74cb",
+    "res/Extreme_0729_rule_daily_policy.json": "5dec6177a3d62b509125f74ab567577f0e412bf5765e61910667421f70a2635e",
+    "res/Extreme_0729_rule_timing_policy.json": "44cfc719b51a1339afd2aa49708c6fd9dfdaf5c7aa78a5503edd3002e9f8c7ed",
+    "res/Extreme_0729_role_no_history_policy.json": "d7c2841a889b64873585211215e04bf5b58d212c1c47b4b5268d10fa6486ca83",
+    "res/Extreme_0729_role_with_history_policy.json": "fbe752fc508b7bcdf996c06219c4e706b9f1c1d4aa57f2a476d2c4eb45a95bab",
+    "res/Extreme_1007_rule_daily_policy.json": "c42bb42df1b4401bd4697e8ac6d1cd9114a9476905c45facc34184de46df167a",
+    "res/Extreme_1007_rule_timing_policy.json": "e901d32d1fdbf315b9acabbc59f3ecc072af43cf2e5d07c85048d458d1832a54",
+    "res/Extreme_1007_role_no_history_policy.json": "d10885de5321759fafecbf0ae7e2d0d79014d720a7df90690c7744a8e19b93ec",
+    "res/Extreme_1007_role_with_history_policy.json": "47b561c896dff0c6890af1083864df072f441b9920c7eb2d7093aea74e5a173b"
+  }
+}

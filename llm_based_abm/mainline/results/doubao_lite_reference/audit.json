@@ -1,0 +1,16 @@
+{
+  "stations": 152,
+  "prediction_rows": 36176,
+  "expected_rows": 36176,
+  "no_duplicate_keys": true,
+  "actuals_unchanged": true,
+  "valid_predictions": true,
+  "previous_32_station_max_prediction_difference": 0.0,
+  "only_normal_population_fits": true,
+  "decision_probabilities_sum_to_one": true,
+  "gates_passed": true,
+  "completed_full_cohort": true,
+  "new_api_calls": 0,
+  "new_tokens": 0,
+  "estimated_new_api_cny": 0
+}

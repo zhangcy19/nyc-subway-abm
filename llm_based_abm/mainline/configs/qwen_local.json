@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "base_url": "http://localhost:8000/v1",
+  "api_mode": "chat",
+  "key_env": "LOCAL_LLM_API_KEY",
+  "extra_body": {},
+  "run_id": "qwen_local_run01",
+  "token_cap": 5000000,
+  "workers": 2,
+  "temperature": 0.3,
+  "max_output_tokens": 250,
+  "batch_max_output_tokens": 700
+}

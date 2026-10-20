@@ -1,0 +1,7 @@
+{
+  "output": "staged_res",
+  "token_cap": 12000000,
+  "workers": 6,
+  "batch_events": true,
+  "revised_rule": true
+}

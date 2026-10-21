@@ -12,4 +12,16 @@ Start with **[the experiment handoff](llm_based_abm/mainline/README.md)** for th
 
 Raw API requests/replies, credentials, local workspace settings and presentation files are not included. Selected short decision summaries from synthetic traveler profiles are included in the plotting and web datasets. The shared probability protocol uses two reference stations and fitted effective demand weights; see the handoff for interpretation and limitations.
 
-`rule_based_abm/` remains the collaborator's separate workspace; the mainline does not modify it.
+
+## Repository structure
+
+```text
+data/                 shared station, ridership and weather data
+llm_based_abm/
+  mainline/           experiment code, configurations and model results
+  branches/           side studies and historical experiments
+  plots.ipynb         plotting notebook
+  figures/            figures and plotting data
+  web_data/           web visualization handoff
+  requirements.txt    Python dependencies
+```

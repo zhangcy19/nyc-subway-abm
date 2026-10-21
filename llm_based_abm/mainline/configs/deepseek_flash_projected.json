@@ -1,0 +1,18 @@
+{
+  "model": "deepseek-v4-1-flash-261017",
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "api_mode": "responses",
+  "key_env": "ARK_API_KEY",
+  "extra_body": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "run_id": "deepseek_flash_walk_projected_run01",
+  "token_cap": 15000000,
+  "workers": 2,
+  "temperature": 0.3,
+  "max_output_tokens": 250,
+  "batch_max_output_tokens": 700,
+  "walking_policy": "zero_walk_renormalize"
+}

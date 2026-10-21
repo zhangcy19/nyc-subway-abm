@@ -1,5 +1,7 @@
 """Offline integration using frozen numerical decisions, never simulated LLM scores."""
 import tempfile
+import threading
+import time
 import unittest
 from unittest.mock import patch
 import pandas as pd
@@ -7,6 +9,17 @@ import numpy as np
 import run
 
 class RunnerTest(unittest.TestCase):
+    def test_interrupt_cancels_queued_requests(self):
+        started=threading.Event();finished=[]
+        def call(job):
+            started.set();time.sleep(.1);finished.append(job)
+        def interrupt(futures):
+            started.wait(timeout=1)
+            raise KeyboardInterrupt
+        with patch.object(run,'as_completed',side_effect=interrupt):
+            with self.assertRaises(KeyboardInterrupt):run.progress_map(call,list(range(20)),1,'interrupt test')
+        self.assertEqual(finished,[0])
+
     def test_baseline_recalculation(self):
         ref=pd.read_csv('results/shared/predictions.csv',dtype={'station_complex_id':str})
         sid=ref.station_complex_id.iloc[0]

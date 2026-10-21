@@ -111,9 +111,95 @@ Every new `results/<run_id>/` contains:
 
 Station IDs are strings; dates use `YYYY-MM-DD`, New York local calendar. Prediction unit is **entries per station per day**. Score can be negative; it is a transformed error, not classification accuracy. Each task first sums absolute errors and actual entries across stations/dates; Normal averages its two task scores equally, Extreme averages four center-day scores equally. Recovery-day performance must be reported separately rather than silently changing denominators.
 
-Resume with the identical command and config. Completed blocks are skipped only when station/date coverage matches. Interrupted blocks use the same run's API cache. Changing model, endpoint, station scope, prompts, data or generation settings requires a new `run_id`; worker count and budget may change when resuming. No cached response from another backend is imported. Three unsuccessful response attempts or a transport outage stop the run; invalid Qwen output is not silently replaced with rules or another LLM.
+Resume with the identical command and config. Completed blocks are skipped only when station/date coverage matches. Interrupted blocks use the same run's API cache. Changing model, endpoint, station scope, prompts, data or generation settings requires a new `run_id`; worker count and budget may change when resuming. No cached response from another backend is imported. Each request has at most three response attempts. Connection failures and timeouts retry after 5 then 15 seconds; each attempt is logged and conservatively charged when usage is absent, and rechecks the token cap and permitted time window. Three unsuccessful attempts stop the run; repeated transport failures also block new uncached work until restart. SDK-internal retries remain disabled. A lost response may still have been billed by the provider, so transport retries cannot guarantee zero duplicate provider charges. Invalid Qwen output is not silently replaced with rules or another LLM.
+
+In a VS Code terminal, run `python -u run.py llm --config configs/doubao_pro.json`
+from this directory using the `dev` conda environment and the key export below.
+The terminal shows the current stage out of 18 and a `tqdm` request progress bar
+with elapsed time, rate and estimated remaining time for that stage. Cached replies
+advance the bar without paid API calls; an Extreme direct request predicts five dates.
+Press Ctrl+C once to cancel queued work, let in-flight requests finish saving, and
+write cumulative usage before exiting. Resume with the same command. The progress
+display is not a new experiment: the 2026-10-20 display-only update has an audited
+manifest migration for the prepared Pro and DeepSeek runs, preserving old manifests.
 
 Price is deliberately not hard-coded. Compute cost from actual input/output usage using the provider's current price and cache discounts; record the price date. `usage.json` includes conservative estimated charges for requests without reported usage. Runtime after a resume may include cache speedup; do not compare it to a completely cold run without qualification. For local Qwen record GPU, quantization, serving software, concurrency and model revision in an accompanying note.
+
+### Doubao Pro and DeepSeek preparation (2026-10-20)
+
+`configs/doubao_pro.json` uses the previously tested `doubao-seed-2-1-pro-260915`.
+`configs/deepseek_flash.json` uses `deepseek-v4-1-flash-261017`. Both use Responses,
+thinking disabled, temperature 0.3, and separate full-run output folders. Their
+15-million token ceilings are stopping limits, not monetary budgets or authorization
+to start a full run. Both endpoints passed a small real role-protocol probe; the
+first tiny DeepSeek request timed out, and subsequent Responses and Chat probes passed.
+
+DeepSeek's `request_window` permits new API calls only from 18:00 to 08:55 in
+`Asia/Shanghai` (the same UTC+8 clock as Hong Kong). The five-minute morning margin
+reduces the chance of an in-flight request finishing after the 09:00 peak begins.
+This deliberately uses the evening/overnight window even on weekends. The runner
+checks each paid attempt, including retries; cache reads and offline commands remain
+available outside the window. Outside the window it stops and preserves the existing
+cache; resume the identical command in the next window. It does not schedule a launch,
+automatically wake up, or cancel requests already sent. Provider billing determines
+the final applicable rate.
+
+After funding and authorizing the full runs, export the existing local key without
+printing it, then run from this directory:
+
+```bash
+export ARK_API_KEY="$(python -c 'print(open("../key.txt").read().strip().strip(chr(34)+chr(39)))')"
+python run.py llm --config configs/doubao_pro.json
+# Start this command at or after 18:00 Hong Kong/Beijing time:
+python run.py llm --config configs/deepseek_flash.json
+```
+
+Full coverage comprises 4,512 unique requests per backend: 1,776 shared role
+decisions, 2,128 Normal direct forecasts, and 608 five-day event direct forecasts.
+All requests match historical prompt records with reported usage totaling 7,562,069
+input and 240,408 output tokens. This is a cost reference, not reused model answers
+or a guarantee of another model's token use. At uncached input/output prices of
+RMB 6/30 per million for Pro and RMB 1/4 for off-peak DeepSeek, the reference costs
+are RMB 52.58 and RMB 8.52 respectively. Allowing token variation and retries,
+plan for roughly RMB 80–100 total available balance for one full run of each model.
+Prices checked against the provider's pricing documentation on 2026-10-20:
+https://docs.volcengine.com/docs/ark/model-pricing?lang=en&redirect=1 .
+No web-search tool is enabled: the frozen experiment supplies its own inputs.
+
+### DeepSeek walking adjustment (authorized 2026-10-21)
+
+`configs/deepseek_flash_projected.json` writes to the separate
+`results/deepseek_flash_walk_projected_run01/`. It keeps the same prompts and
+generation settings, including thinking disabled. Its `walking_policy` is
+`zero_walk_renormalize`: when `mobility_limited` is true and the model assigns
+positive walking probability, set that entry to zero and divide the other entries
+by their remaining sum. This removes walking from the available choices; it does
+not add an evaluation-score penalty. Other profiles keep their walking probability.
+Taxi affordability, finite probabilities, sum checks and complete JSON remain
+validated as before. If all probability mass was on walking, the response is still
+invalid rather than inventing a replacement distribution.
+
+Raw replies remain in the private ledger. Adjusted parsed replies additionally
+record `probability_adjustment` with the original probabilities and removed mass.
+`usage.json` counts adjusted replies and the total removed walking probability.
+The original strict DeepSeek run and completed Doubao results are preserved;
+configs without this option still use strict validation. There is no extra
+corrective message to the model.
+
+Thirteen distinct raw requests from the stopped strict DeepSeek run were reused
+offline, always selecting the earliest recorded reply per request, and reprocessed
+under the new walking rule. The first failed walking reply is now usable; its two
+later retries are not selected. Provenance is saved in
+`private/cache_seed_provenance.json`; imported rows retain their original usage
+and are counted in `usage.json` as `reused_calls`. Those tokens were already
+consumed in the old run and are not newly billed by cache replay. Do not add the
+two runs' usage totals without removing this overlap.
+
+`start_deepseek.command` launches this adjusted configuration in a visible Terminal.
+On 2026-10-21 the user canceled the scheduled 18:10 launch and authorized an
+immediate run at regular rates. The adjusted config no longer restricts request
+hours; its manifest migration and previous manifest are retained in its private folder.
+The original strict configuration retains its historical off-peak window.
 
 ## Instructions for another Codex agent
 
@@ -125,3 +211,75 @@ Price is deliberately not hard-coded. Compute cost from actual input/output usag
 6. Publish only code and explicitly selected numerical exports. New result folders are ignored by default. Keep secrets, raw prompts/replies, private caches and PPT files out of Git. Push only when the user requests it.
 
 An additional offline integration test, `python -m unittest test_runner -v`, checks one station across all six tasks, separate outputs, baseline joins and restart behavior using the saved numerical reference.
+
+
+### Qwen3.8 Flash API check (2026-10-21)
+
+The user-provided Beijing workspace endpoint passed a real greeting-only Chat
+Completions check with `model="qwen3.8-flash"` and `enable_thinking=false`:
+31 input tokens, 18 output tokens, 2.31 seconds, finish reason `stop`.
+This checks connectivity and non-thinking support only; project role/direct/event
+payloads and full experiment output have not been validated with this provider.
+No full Qwen run was started. The local workspace configuration is
+`configs/qwen_flash.local.json`, ignored by Git along with the local key and
+Bailian CSV export. The full-run protocol retains strict probability validation.
+
+Beijing list prices checked on 2026-10-21 are RMB 0.8 per million input tokens
+and RMB 2.7 per million output tokens. Applying these prices to the historical
+7,562,069 input and 240,408 output tokens gives RMB 6.70 per full run before
+cache discounts. RMB 20 is a practical starting balance for one run with margin
+for tokenizer differences and retries, provided thinking stays disabled.
+The 15-million total-token cap in the prepared config is a stopping limit;
+at the higher output rate it corresponds to at most roughly RMB 40.50 in
+reported tokens, so RMB 20 is an estimate with margin, not a hard guarantee.
+Source: https://help.aliyun.com/zh/model-studio/qwen3-8-flash .
+
+
+### DeepSeek unavailable taxi adjustment (authorized 2026-10-21)
+
+The user approved zeroing unaffordable taxi probability and renormalizing the
+remaining modes, in addition to the existing mobility-limited walking rule.
+`configs/deepseek_flash_available_projected.json` uses both policies and writes
+to `results/deepseek_flash_available_projected_run01/`. The launcher now selects
+this config. Prompts, reasoning setting, output limits and budget are unchanged;
+requests are permitted at any hour. Strict validation remains the default for
+other configurations. Both unavailable modes are removed together before one
+normalization; a distribution with no remaining probability is still invalid.
+Raw replies and original probabilities are retained. Usage reports taxi and
+walking adjustment counts and removed probability separately.
+
+The new run imported 348 distinct complete raw replies from the stopped
+walking-only run, choosing the earliest usable reply per request and applying
+the new policies offline. This includes the first taxi-invalid reply, now valid.
+The old run remains unchanged. The source, selection and row identities are
+retained in private provenance. Imported usage was billed previously; do not
+sum the old and new run totals without removing overlap. Outputs are recomputed
+from the new run cache, with no previously fitted result blocks copied.
+
+
+### Qwen full run (authorized 2026-10-21)
+
+The user authorized sending the frozen project requests to their Beijing Qwen
+workspace and starting the full `qwen3.8-flash` run alongside DeepSeek in a new
+visible Terminal. `start_qwen.command` selects the ignored workspace config,
+loads the local key without displaying it, disables thinking, and retains the
+15-million token ceiling, two workers and original generation limits. Results
+and private cache are isolated in `results/qwen38_flash_mainline_run01/`.
+The run uses the same unavailable walking and taxi projection policies as the
+current DeepSeek comparison, with original replies and adjustment records kept.
+No other backend replies are imported. The user prefers minimal prepaid balance;
+API errors stop the run with saved progress, without automatic top-ups.
+
+
+### Public outputs (2026-10-21)
+
+The repository includes numerical outputs for the completed Doubao Pro,
+DeepSeek available-mode projection, and Qwen3.8 Flash runs. Provider manifests,
+workspace credentials, raw API ledgers and Terminal transcripts remain local.
+Selected short explanations for hypothetical Doubao Lite profiles are published
+in `../figures/data/lite_role_reasons.json` and `../web_data/policies.json`.
+The notebook and web handoff read these curated files, not full API logs.
+
+For a new Qwen workspace, copy `configs/qwen_flash.json` to
+`configs/qwen_flash.local.json`, replace `{WorkspaceId}` with your own workspace,
+and set `DASHSCOPE_API_KEY`. The local configuration is ignored by Git.

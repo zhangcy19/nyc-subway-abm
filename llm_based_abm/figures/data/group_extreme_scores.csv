@@ -1,0 +1,9 @@
+method,group,score
+role_no_history,fair_fare,82.4593993134219
+role_no_history,general,77.70005022325135
+role_no_history,seniors_disability,72.6728791956136
+role_no_history,students,-1017.2384375087494
+role_with_history,fair_fare,81.6132646682627
+role_with_history,general,86.34976167439342
+role_with_history,seniors_disability,74.31197176492785
+role_with_history,students,-957.2028129865297

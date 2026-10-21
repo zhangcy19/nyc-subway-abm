@@ -5,8 +5,11 @@ import json
 import os
 import threading
 import time
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import numpy as np
-from openai import OpenAI
+from openai import OpenAI, APIConnectionError, APITimeoutError
+from tqdm import tqdm
 
 MODEL='doubao-seed-2-1-lite-260915'
 CAP=5000000
@@ -14,6 +17,9 @@ BASE_URL=""
 API_MODE="chat"
 API_KEY=""
 EXTRA_BODY={}
+REQUEST_WINDOW=None
+WALKING_POLICY='strict'
+TAXI_POLICY='strict'
 TEMPERATURE=.3
 MAX_OUTPUT=250
 BATCH_OUTPUT=700
@@ -48,6 +54,15 @@ def reused():
 
 def charge(r):return r.get('charged_tokens',r.get('usage',{}).get('total_tokens',0))
 
+def check_request_window(now=None):
+    if REQUEST_WINDOW is None:return
+    now=now or datetime.now(ZoneInfo(REQUEST_WINDOW['timezone']))
+    current=now.strftime('%H:%M')
+    start,end=REQUEST_WINDOW['start'],REQUEST_WINDOW['end']
+    allowed=(start<=current<end) if start<end else (current>=start or current<end)
+    if not allowed:
+        raise RuntimeError('Outside configured API hours '+start+'–'+end+' '+REQUEST_WINDOW['timezone']+'; resume the same command in the next window')
+
 def validate(payload,route,person=None):
     if not isinstance(payload,dict) or not isinstance(payload.get('reason'),str) or not payload['reason'].strip():raise ValueError('Need brief reason')
     if route=='batch':
@@ -61,25 +76,42 @@ def validate(payload,route,person=None):
         p=payload['probabilities']
         if len(p)!=5 or any(isinstance(v,bool) or not isinstance(v,(int,float)) or not np.isfinite(v) or v<0 or v>1 for v in p):raise ValueError('Need five probabilities in [0,1]')
         if abs(sum(p)-1)>.015:raise ValueError('Probabilities must sum to 1')
-        if person['budget_usd']<20 and p[2]>0:raise ValueError('Taxi unavailable under budget')
-        if person['mobility_limited'] and p[3]>0:raise ValueError('Walking unavailable')
+        original=list(p);removed_taxi=0;removed_walk=0
+        if person['budget_usd']<20 and p[2]>0:
+            if TAXI_POLICY=='strict':raise ValueError('Taxi unavailable under budget')
+            removed_taxi=p[2]
+        if person['mobility_limited'] and p[3]>0:
+            if WALKING_POLICY=='strict':raise ValueError('Walking unavailable')
+            removed_walk=p[3]
+        if removed_taxi or removed_walk:
+            p=np.array(p,dtype=float)
+            if removed_taxi:p[2]=0
+            if removed_walk:p[3]=0
+            if p.sum()<=0:raise ValueError('No probability mass remains after removing unavailable modes')
+            p=(p/p.sum()).tolist()
+            adjustment=dict(policy=WALKING_POLICY,original_probabilities=original,removed_walk_probability=removed_walk)
+            if TAXI_POLICY!='strict':adjustment.update(taxi_policy=TAXI_POLICY,removed_taxi_probability=removed_taxi)
+            payload={**payload,'probability_adjustment':adjustment}
         payload={**payload,'probabilities':(np.array(p)/sum(p)).tolist()}
     return payload
 
 def request(route,view,person=None,replicate=0,offline=False):
     global RESERVED,LAST,NETWORK_FAILED
-    if NETWORK_FAILED:raise RuntimeError("Network circuit open; resume after connectivity recovers")
     system=BATCH_SYSTEM if route=='batch' else DIRECT_SYSTEM if route=='direct' else ROLE_SYSTEM
     # Reuse the earliest valid response across ALL format/transport attempts.
     hashes=set()
     for a in range(3):
         d=dict(model=MODEL,route=route,system=system,view=view,replicate=replicate,attempt=a,endpoint=BASE_URL,api_mode=API_MODE,extra_body=EXTRA_BODY,temperature=TEMPERATURE,max_output_tokens=(BATCH_OUTPUT if route=="batch" else MAX_OUTPUT))
+        if WALKING_POLICY!='strict':d['walking_policy']=WALKING_POLICY
+        if TAXI_POLICY!='strict':d['taxi_policy']=TAXI_POLICY
         hashes.add(hashlib.sha256(json.dumps(d,sort_keys=True,separators=(',',':')).encode()).hexdigest())
     with LOCK:
         first=next((r for r in ledger() if r['hash'] in hashes and r['status']=='valid'),None)
     if first:return {**first['parsed'],'hash':first['hash']}
     for attempt in range(3):
         descriptor=dict(model=MODEL,route=route,system=system,view=view,replicate=replicate,attempt=attempt,endpoint=BASE_URL,api_mode=API_MODE,extra_body=EXTRA_BODY,temperature=TEMPERATURE,max_output_tokens=(BATCH_OUTPUT if route=="batch" else MAX_OUTPUT))
+        if WALKING_POLICY!='strict':descriptor['walking_policy']=WALKING_POLICY
+        if TAXI_POLICY!='strict':descriptor['taxi_policy']=TAXI_POLICY
         digest=hashlib.sha256(json.dumps(descriptor,sort_keys=True,separators=(',',':')).encode()).hexdigest()
         with LOCK:
             rows=ledger();matching=[r for r in rows if r['hash']==digest]
@@ -93,6 +125,8 @@ def request(route,view,person=None,replicate=0,offline=False):
             if cached['status']=='valid':return {**cached['parsed'],'hash':digest}
             if not cached.get('error','').startswith(('APIConnectionError:', 'APITimeoutError:')):continue
         if offline:raise RuntimeError('Missing real API response '+digest)
+        if NETWORK_FAILED:raise RuntimeError('Network circuit open after repeated transport failures; resume after connectivity recovers')
+        check_request_window()
         prompt=json.dumps(view,separators=(',',':'),allow_nan=False)
         reserve=len((system+prompt).encode())+(BATCH_OUTPUT if route=="batch" else MAX_OUTPUT)+100
         with LOCK:
@@ -100,8 +134,12 @@ def request(route,view,person=None,replicate=0,offline=False):
             RESERVED+=reserve
         with RATE:
             time.sleep(max(0,.18-(time.monotonic()-LAST)));LAST=time.monotonic()
+        try:check_request_window()
+        except RuntimeError:
+            with LOCK:RESERVED-=reserve
+            raise
         client=OpenAI(api_key=API_KEY,base_url=BASE_URL,timeout=180,max_retries=0)
-        start=time.perf_counter();row={'hash':digest,'request':descriptor}
+        start=time.perf_counter();row={'hash':digest,'request':descriptor};transport_error=False
         try:
             messages=[{'role':'system','content':system},{'role':'user','content':prompt}]
             limit=BATCH_OUTPUT if route=='batch' else MAX_OUTPUT
@@ -126,7 +164,7 @@ def request(route,view,person=None,replicate=0,offline=False):
                 if sorted(expected)!=sorted(got):raise ValueError('Batch target dates differ')
             row['status']='valid'
         except Exception as error:
-            if type(error).__name__ in ['APIConnectionError','APITimeoutError']:NETWORK_FAILED=True
+            transport_error=isinstance(error,(APIConnectionError,APITimeoutError))
             row.update(status='error',error=type(error).__name__+': '+str(error)[:250])
             if 'usage' not in row:row['charged_tokens']=reserve
         finally:
@@ -135,10 +173,16 @@ def request(route,view,person=None,replicate=0,offline=False):
                 rows.append(row)
                 with open(LOGDIR+'/api_calls.jsonl','a') as f:f.write(json.dumps(row,ensure_ascii=False)+'\n')
                 RESERVED-=reserve
-                if len(rows)%50==0:print('Real calls',len(rows),'charged tokens',sum(charge(r) for r in rows),flush=True)
+                if len(rows)%50==0:tqdm.write('Real calls '+str(len(rows))+' charged tokens '+str(sum(charge(r) for r in rows)))
         if row['status']=='valid':return {**row['parsed'],'hash':digest}
-        if NETWORK_FAILED:raise RuntimeError('Transport interruption; response absent, safe to resume the same request later')
-        time.sleep(1)
+        if transport_error:
+            if attempt==2:
+                NETWORK_FAILED=True
+                raise RuntimeError('Transport interruption after three unsuccessful attempts; saved replies are safe, resume later')
+            delay=5*3**attempt
+            tqdm.write('Connection interrupted; retry '+str(attempt+2)+'/3 in '+str(delay)+' seconds (saved replies retained).')
+            time.sleep(delay)
+        elif attempt<2:time.sleep(1)
     raise RuntimeError('Three unsuccessful API attempts; see ledger')
 
 BATCH_SYSTEM = DIRECT_SYSTEM.replace('Predict the target directly', 'Predict every target date directly').replace('Return JSON {"entries": nonnegative number, "reason":"brief explanation, at most 20 words"}.', 'Return JSON {"predictions":[{"date":"YYYY-MM-DD","entries":nonnegative number}],"reason":"brief explanation, at most 20 words"}. Return exactly one record per target date. No target demand is supplied. Do not treat your own predictions as observations.')

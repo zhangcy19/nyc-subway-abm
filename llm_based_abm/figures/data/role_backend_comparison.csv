@@ -1,0 +1,5 @@
+model,score,input_tokens,cached_tokens,output_tokens,api_seconds,placeholder
+Doubao Lite,86.2867623016667,1851945,3896,45737,4349.5087,False
+Doubao Pro,82.91559850774911,1851945,0,45025,4361.6383000000005,False
+DeepSeek,0.0,0,0,0,0.0,True
+Qwen 3.8 Flash,39.35024126966444,1781835,1024,52182,2284.9886,False

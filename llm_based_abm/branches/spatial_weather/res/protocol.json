@@ -1,0 +1,21 @@
+{
+  "source_commit": "714cc5a",
+  "model": "doubao-seed-2-1-lite-260915",
+  "token_cap": 7500000,
+  "stations": [
+    "256",
+    "385"
+  ],
+  "files": {
+    "run_spatial.py": "b0e090d3ed73dd15ccd48d09677415be0709f75aefae5f027308b72f027188ef",
+    "prepare_spatial.py": "d2fac4fecd9042d7aa2688049b4ab5b60af1249eecd44171f1d7f8e7b51c55ff",
+    "check_weather.py": "50ca537708620d6185ba39596f34c85f80168f02d547625698cbb796240da054",
+    "../fresh_lite/api.py": "83ae1a84aa93b0bdb360a1677785495978385d7924a1cbae696850efb464a139",
+    "../fresh_lite/model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "../fresh_lite/experiment.py": "483da2f8ed649aa0849ecfedde00708977f204fef9426cea687843c3f07b5aae",
+    "../fresh_lite/timing.py": "92c181117aab911b23224e960c5b703375f4c860cbaa521db69df879925066f5",
+    "res/panel.csv": "7faf4edd382d209228d6bbdeee0d9482e27d126be244c4bfa218df147ad30750",
+    "res/history_pool.csv": "2fb14a4ea5cfe037f3594ed843555e1b66732a46a2d7457630d148b4e3872ddf",
+    "res/spatial_hourly.csv": "c290076dd6f0b8bb5a28c8d606614a15c69bca88806dec0768d22f7638e53c12"
+  }
+}

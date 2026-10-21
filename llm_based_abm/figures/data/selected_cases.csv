@@ -1,0 +1,3 @@
+regime,method,task,station_complex_id,window_score,selection
+Normal,direct_few,Normal_School,259,99.09520910410716,"Best full-test-window station case for the LLM method with best regime headline score; illustrative, selected after evaluation."
+Extreme,role_with_history,Extreme_0729,42,98.15889142918789,"Best full-test-window station case for the LLM method with best regime headline score; illustrative, selected after evaluation."

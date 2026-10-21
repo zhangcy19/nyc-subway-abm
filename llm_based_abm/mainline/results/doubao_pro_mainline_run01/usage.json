@@ -1,0 +1,10 @@
+{
+  "calls": 4523,
+  "valid_calls": 4512,
+  "error_calls": 11,
+  "charged_tokens": 7839903,
+  "input_tokens": 7567259,
+  "output_tokens": 232864,
+  "api_seconds": 22093.64839999995,
+  "estimated_charge_calls": 9
+}

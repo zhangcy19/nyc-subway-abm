@@ -1,0 +1,15 @@
+{
+  "source": "Accepted 152-station rollback_full reference; numeric baselines split without recalculation",
+  "files": {
+    "model.py": "d3d25e5094736bddd6a4c73f913607b5116fb27916972d78b912b238aab1a0db",
+    "experiment.py": "e70d053563adb74888a91580b0810f4038d27fb40c8e635e7dfe3fa8237a95dd",
+    "timing.py": "c83a769b6f4b890c95e445b83b625448d846d57e0d46ecf1d063be6140dd1588",
+    "prepare.py": "ef0ae8a09c8bec923243c3ba5ed1e47b069f56bb3a7c433b8688dcf93fad4ac2",
+    "inputs/daily.csv": "9805fc4a109342a9948eba4c78258333e8601874d7d787f9858e54550ad7baab",
+    "inputs/dates.csv": "0e0d1ec9c8c88fa7cd2314d2de936dbc88b7e6a4829b167d44d3125fd6a94510",
+    "inputs/station_ids.json": "4aec743ab66789312d91e35a06c348f7fd25808ede5717b2beb92faff99fbac7",
+    "inputs/frozen_parameters.csv": "9d07900e96a550690d89cd969671dc059ee350e9fd316e8c4c73d11967b2029e",
+    "../../data/weather_hourly.csv": "836fae65e65a7bb97da72710f9a7dc362338334832ced404e3402d577a2a0556",
+    "results/shared/predictions.csv": "1123a714bd53d9ad813097ce824c480470c9747737b83e1ed09f080f709cddc8"
+  }
+}

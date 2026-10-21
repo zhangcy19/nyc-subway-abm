@@ -1,0 +1,19 @@
+task,method,alpha,validation_wape,rain_scale,shrink,calendar_prior,selection_source
+Extreme_0729,rule_daily,,0.190254328043935,0.5,,,Three OTHER event centers; frozen Normal populations
+Extreme_0729,rule_timing,,0.2751156336601388,0.0,,,Three OTHER event centers; frozen Normal populations
+Extreme_0813,rule_daily,,0.2095467955580139,0.5,,,Three OTHER event centers; frozen Normal populations
+Extreme_0813,rule_timing,,0.2778533313123562,0.0,,,Three OTHER event centers; frozen Normal populations
+Extreme_0929,rule_daily,,0.1872810179436347,0.5,,,Three OTHER event centers; frozen Normal populations
+Extreme_0929,rule_timing,,0.1795905220015668,0.5,,,Three OTHER event centers; frozen Normal populations
+Extreme_1007,rule_daily,,0.2078929713680642,0.5,,,Three OTHER event centers; frozen Normal populations
+Extreme_1007,rule_timing,,0.2306833568682669,2.0,,,Three OTHER event centers; frozen Normal populations
+Normal_School,ridge,10.0,0.0711435930428111,,,,
+Normal_School,role_no_history,,0.0766767630949295,0.0,0.0,1.0,
+Normal_School,role_with_history,,0.0684556800990732,0.0,0.1,1.0,
+Normal_School,rule_daily,,0.0613202069232024,2.0,0.0,0.0,
+Normal_School,rule_timing,,0.0713869014562923,0.0,1.0,0.0,
+Normal_Summer,ridge,10.0,0.1352769889578902,,,,
+Normal_Summer,role_no_history,,0.1221528471261786,0.0,10.0,0.0,
+Normal_Summer,role_with_history,,0.1055717602648695,0.0,0.1,0.0,
+Normal_Summer,rule_daily,,0.0869972723824683,0.0,0.0,0.0,
+Normal_Summer,rule_timing,,0.0825713414149704,1.0,1.0,0.0,

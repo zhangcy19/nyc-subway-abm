@@ -1,4 +1,5 @@
 /llm_based_abm/key.txt
+/llm_based_abm/key-qwen.txt
 .DS_Store
 __pycache__/
 *.pyc
@@ -10,3 +11,50 @@ __pycache__/
 # Supplemental raw API evidence remains local.
 /llm_based_abm/fresh_lite/res/supplement/api_calls*
 /llm_based_abm/fresh_lite/res/supplement/*private*
+
+# Model secrets, prompts and raw replies stay local, including all historical branches.
+**/api_calls*
+**/*private*
+**/private/
+*.log
+*.pptx
+/llm_based_abm/branches/**/web_data/
+# New model runs are opt-in numerical exports, never automatic git additions.
+/llm_based_abm/mainline/results/*/
+!/llm_based_abm/mainline/results/shared/
+!/llm_based_abm/mainline/results/doubao_lite_reference/
+# Historical scratch outputs are not part of the handoff.
+/llm_based_abm/branches/full_network/*res/
+/llm_based_abm/branches/full_network/res/
+/llm_based_abm/branches/full_network/prepared/
+/llm_based_abm/branches/event_holdout/res/
+# Old policy JSON may include narrative model replies; numeric mainline CSV is public.
+/llm_based_abm/branches/**/*_policy.json
+
+# Local Bailian credentials and workspace exports.
+/llm_based_abm/*apiKey*.csv
+/llm_based_abm/*workspace*
+/llm_based_abm/*workplace*
+/llm_based_abm/mainline/configs/*.local.json
+
+
+# Publish selected numerical results; provider manifests and raw logs remain local.
+!/llm_based_abm/mainline/results/doubao_pro_mainline_run01/
+/llm_based_abm/mainline/results/doubao_pro_mainline_run01/*
+!/llm_based_abm/mainline/results/doubao_pro_mainline_run01/*.csv
+!/llm_based_abm/mainline/results/doubao_pro_mainline_run01/usage.json
+!/llm_based_abm/mainline/results/doubao_pro_mainline_run01/preflight.json
+!/llm_based_abm/mainline/results/doubao_pro_mainline_run01/comparison/
+!/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/
+/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/*
+!/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/*.csv
+!/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/usage.json
+!/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/preflight.json
+!/llm_based_abm/mainline/results/deepseek_flash_available_projected_run01/comparison/
+!/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/
+/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/*
+!/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/*.csv
+!/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/usage.json
+!/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/preflight.json
+!/llm_based_abm/mainline/results/qwen38_flash_mainline_run01/comparison/
+**/reused_api*.jsonl*

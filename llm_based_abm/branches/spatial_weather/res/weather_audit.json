@@ -1,0 +1,56 @@
+{
+  "status": "passed_numerical_reconciliation",
+  "source_sha256": "25d950de9da702e4db814839c94b6570e1b40d05ba61acc8e5f120df3fcd8e43",
+  "rows": 1251648,
+  "stations": 424,
+  "rain_missing_rows": 1696,
+  "missing_timestamps": [
+    "2023-07-14 12:00:00",
+    "2023-07-19 04:00:00",
+    "2023-08-14 06:00:00",
+    "2023-08-14 09:00:00"
+  ],
+  "max_error": 4.999986238374277e-07,
+  "selected_stations": [
+    {
+      "station_complex_id": "256",
+      "nearest": [
+        {
+          "code": "JFK",
+          "km": 8.4165772160334
+        },
+        {
+          "code": "LGA",
+          "km": 10.288376785580722
+        },
+        {
+          "code": "NYC",
+          "km": 16.07370795009465
+        }
+      ]
+    },
+    {
+      "station_complex_id": "385",
+      "nearest": [
+        {
+          "code": "LGA",
+          "km": 8.125924494268869
+        },
+        {
+          "code": "NYC",
+          "km": 9.111703872349677
+        },
+        {
+          "code": "TEB",
+          "km": 12.201101445190831
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Spatial estimates from six gauges, not subway-site observations",
+    "Unflagged JRB rain remains potentially underestimated",
+    "METAR accumulation windows do not exactly coincide with clock hours",
+    "Original research splits retained; Normal/Extreme names refer to original JFK-based task selection"
+  ]
+}

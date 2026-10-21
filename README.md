@@ -1,14 +1,15 @@
-# NYC Subway ABM
+# NYC Subway: LLM-based Agent-Based Modeling
 
-最新实验：[四个新站点的独立Lite重跑](llm_based_abm/fresh_lite/RESULTS.md)，2026-10-18。模型配置保持不变，重新生成训练、验证、测试的LLM回复，并重新拟合全部外层权重。没有加载此前实验的回复、权重或预测结果。
+Daily station-entry prediction under normal weather and four rain-event windows in 2023.
 
-- [最新结果与图](llm_based_abm/fresh_lite/RESULTS.md)
-- [运行与交接](llm_based_abm/fresh_lite/README.md)
-- [固定样本与模型设定](llm_based_abm/fresh_lite/PROTOCOL.md)
-- [共享数据与来源](data/README.md)
+Start with **[the experiment handoff](llm_based_abm/mainline/README.md)** for the supported 152-station pipeline, model configurations, commands, input/output formats, and instructions for another Codex agent. It supports separately stored LLM backends (including local Qwen through an OpenAI-compatible server) and reuses fixed numerical baselines.
 
-四站为176 St（4）、Fulton St（G）、86 St（1）、Parsons Blvd（F）。比较星期均值、Ridge、规则ABM日汇总/时段，以及Lite角色zero-shot、角色few-shot和直接few-shot；LLM统一使用最新时段输入。正常天气分暑假和学期，极端天气按四个事件分别训练/验证/测试。结果同时列出排除9/29后的对照。
+- [`data/`](data/README.md): source data and data documentation.
+- [`llm_based_abm/mainline/`](llm_based_abm/mainline/README.md): current experiment and accepted numerical reference.
+- [`llm_based_abm/branches/`](llm_based_abm/branches/README.md): side studies and historical development.
+- [`llm_based_abm/plots.ipynb`](llm_based_abm/plots.ipynb): figures and their saved source data in `figures/`.
+- [`llm_based_abm/web_data/`](llm_based_abm/web_data/README.md): Doubao Lite decisions and synthetic web-animation data.
 
-统一执行入口为llm_based_abm/fresh_lite/run.py；离线复现只读本轮缓存。此前current目录是上一轮实验，未参与本轮数据加载，不要混合其成绩。历史实现和发布记录可通过Git提交查看。
+Raw API requests/replies, credentials, local workspace settings and presentation files are not included. Selected short decision summaries from synthetic traveler profiles are included in the plotting and web datasets. The shared probability protocol uses two reference stations and fitted effective demand weights; see the handoff for interpretation and limitations.
 
-data是小组共享数据，rule_based_abm是协作者工作区。阶段成果同步llm/main，无需PR。密钥不上传。
+`rule_based_abm/` remains the collaborator's separate workspace; the mainline does not modify it.

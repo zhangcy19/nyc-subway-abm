@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "completed_station_task_methods": 84,
+  "predictions": 462,
+  "decisions": 3168,
+  "api_attempts": 6091,
+  "valid_api_responses": 6042,
+  "charged_tokens": 6880913,
+  "input_tokens": 6563548,
+  "output_tokens": 317365,
+  "checks": [
+    "Identical observed evaluation keys across methods",
+    "Finite nonnegative predictions",
+    "Probability simplex",
+    "Mesa weighted sum equals prediction",
+    "Within-group population shares 10\u201360%",
+    "7500000 token cap"
+  ]
+}

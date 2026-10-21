@@ -1,0 +1,15 @@
+{
+  "calls": 4568,
+  "valid_calls": 4512,
+  "error_calls": 56,
+  "charged_tokens": 7594171,
+  "input_tokens": 7156861,
+  "output_tokens": 304224,
+  "api_seconds": 11568.97700000001,
+  "estimated_charge_calls": 36,
+  "reused_calls": 0,
+  "walking_adjusted_calls": 0,
+  "taxi_adjusted_calls": 0,
+  "removed_taxi_probability_sum": 0,
+  "removed_walk_probability_sum": 0
+}

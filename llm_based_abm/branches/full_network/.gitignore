@@ -1,0 +1,14 @@
+__pycache__/
+*.log
+pilot_res/api_calls*
+res/api_calls*
+smoke_res/
+smoke_config.json
+staged_res/api_calls*
+side_studies_res/api_calls*
+side_studies_res/*private*
+staged_res/prompt_examples/
+role_prompt_diagnosis_res/api_calls*
+role_prompt_diagnosis_res/*private*
+station_role_branch_res/api_calls*
+station_role_branch_res/*private*

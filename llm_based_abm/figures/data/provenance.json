@@ -1,0 +1,95 @@
+{
+  "created": "2026-10-21",
+  "colors": {
+    "green": "#285304",
+    "orange": "#D87540"
+  },
+  "palette_source": "../../../presentation_local/build/extended.mjs:6",
+  "score": "100*(1-WAPE), Normal equally averages two tasks, Extreme equally averages four center days",
+  "accepted_lite_requests": 4512,
+  "decision_prediction_max_abs_difference": 2.9103830456733704e-11,
+  "price_date": "2026-10-21",
+  "price_source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=en&redirect=1",
+  "runtime_note": "C2 adds one measured local numerical replay to SUM of accepted API service seconds, a serial-equivalent estimate, not original parallel wall-clock.",
+  "C5_note": "Rain ablation has center-day predictions only, not 24 hourly ridership forecasts. Activity targets Oct 6\u20138 have no Mets home games; plot is a calendar-information ablation, not a game-day test.",
+  "C6_note": "Role-with-history Extreme center-day score, averaged equally across four tasks. Qwen 3.8 Flash now uses its completed mainline run. The notebook reads the completed DeepSeek summary directly. Fixed chart costs remain the current notebook settings; source usage files are unchanged.",
+  "sources": {
+    "mainline/results/doubao_lite_reference/predictions.csv": "b49806a3c9b36937862c1c60e8949f0d3c891f9371fc31ea495a9c5ca0f29536",
+    "mainline/results/shared/predictions.csv": "1123a714bd53d9ad813097ce824c480470c9747737b83e1ed09f080f709cddc8",
+    "mainline/inputs/dates.csv": "0e0d1ec9c8c88fa7cd2314d2de936dbc88b7e6a4829b167d44d3125fd6a94510",
+    "branches/event_holdout/res/api_calls.jsonl": "bdacca09bd131f44be4fb0bc496790c4fa71d9cf6b67883b4e95c3f49d166ffa",
+    "branches/full_network/staged_res/api_calls.jsonl": "c8c11a771d5ee9e3855f9d4b00deeb10d910127075bfa76ed50e3f802f525c8b",
+    "branches/event_holdout/res/Normal_Summer_role_no_history_policy.json": "5fcc08b091104e19187b1149d0c6ff42ab6fe4c1d571af5a66018122ba0dc38a",
+    "branches/event_holdout/res/Normal_Summer_role_with_history_policy.json": "201d386e993e618855d58a9adfdea23d25f8888e664fbe72dc6120bcdca41edf",
+    "branches/event_holdout/res/Normal_School_role_no_history_policy.json": "5b6f220f378d330dfc8345c5c36923a5f5582b4c03aff7a3d92caeb0fef00904",
+    "branches/event_holdout/res/Normal_School_role_with_history_policy.json": "cf2dc1e9c060bfa085dcb3f52950014572eaffc5b135d33e0c5ab6019e2b3f9e",
+    "branches/event_holdout/res/Extreme_0729_role_no_history_policy.json": "d3e83fe8d7b67622d216778f0c2a2e462e025a365d3f1ae80bc7f92526df3447",
+    "branches/event_holdout/res/Extreme_0729_role_with_history_policy.json": "5219059f7347bb0285203680281782d475e8789b944aa44a7a3e3a4072a2aa6d",
+    "branches/event_holdout/res/Extreme_0813_role_no_history_policy.json": "002e374fe737d22ed7d411060d0cd646fc5bb95f86cbfb37e6d040bc4e1ccf2a",
+    "branches/event_holdout/res/Extreme_0813_role_with_history_policy.json": "73a68b8473bd74e01ceed150cb3011da042165aefee933f2b5d3337d38a1c7b2",
+    "branches/event_holdout/res/Extreme_0929_role_no_history_policy.json": "3dda8b3d9899eb63d3d2d693aa81771a74263452f376c8ca5edd40400b1b35fe",
+    "branches/event_holdout/res/Extreme_0929_role_with_history_policy.json": "798f93f7312eda6f04770242bf1e3913be48cd27a1806a67889ee616f2ae8cbe",
+    "branches/event_holdout/res/Extreme_1007_role_no_history_policy.json": "913e129ffee95b0c47ef555beaab9ad0fc1eb0d84307a0fbd891559186d25667",
+    "branches/event_holdout/res/Extreme_1007_role_with_history_policy.json": "f540b23acb2240239874b8ce70e232efee2bf619cc7597eee513b4099d144363",
+    "mainline/results/doubao_pro_mainline_run01/private/api_calls.jsonl": "f95b9a7fdb43f0ebd42b9de0e23ac9ca9ada06ce531d55db6fe7207b4193cd61",
+    "mainline/results/doubao_pro_mainline_run01/summary.csv": "af9a39d055345a24f65d4fcf33da2a74b6671f85b29f18d02f66423cc8059b16",
+    "branches/full_network/rollback_dev_res/decisions.csv": "031d9b0205816a749962abf4c533964d3d866d3cbe731bcadbf771a9f6f28ee0",
+    "branches/full_network/rollback_full_res/expansion_decisions.csv": "2a2cb8cf5d3486215a48a9dad966982ab7bb14731b8bc99e395f03d5c59984ff",
+    "mainline/inputs/daily.csv": "9805fc4a109342a9948eba4c78258333e8601874d7d787f9858e54550ad7baab",
+    "branches/full_network/side_studies_res/predictions.csv": "62215766d02cd44e0f30a8e3ae48870cc16942459d7e509cecf0d6ee2fd9456e",
+    "branches/full_network/side_studies_res/event_calendar.csv": "02620a55e291ebe8ac3f2d38ae30ce63df5bc0a40846f2cf7a5ab99fa45665e1",
+    "branches/full_network/side_studies_res/panel.csv": "96d884f1e06f05b56259a9aac44b13f1d07556a3491ba9600052cfb9814645ba",
+    "../data/weather_hourly.csv": "836fae65e65a7bb97da72710f9a7dc362338334832ced404e3402d577a2a0556",
+    "../data/stations.csv": "347fb7ac35a7a8f58337f2ed2e8c3b8094d20a187bfc6e75ff64eac15262b883",
+    "branches/full_network/side_studies_res/mlb_schedule_source.json": "2422d222ee20df758c1c91cc7fde7934242b93999bedb112f89fc1dadcc9d3eb"
+  },
+  "history_selection": [
+    {
+      "regime": "Normal",
+      "method": "direct_few",
+      "task": "Normal_School",
+      "station_complex_id": "259",
+      "window_score": 99.09520910410716,
+      "selection": "Best full-test-window station case for the LLM method with best regime headline score; illustrative, selected after evaluation."
+    },
+    {
+      "regime": "Extreme",
+      "method": "role_with_history",
+      "task": "Extreme_0729",
+      "station_complex_id": "42",
+      "window_score": 98.15889142918789,
+      "selection": "Best full-test-window station case for the LLM method with best regime headline score; illustrative, selected after evaluation."
+    }
+  ],
+  "history_sources": {
+    "../data/station_hourly.csv.gz": "2b28a0795d5009da16052040455bf5d6cf8c3c6ead9efa30362e63ca60f36f77",
+    "../data/extensions/station_hourly_2023_07_01.csv.gz": "22b33d9b834fc2a775557c2e4ebbfbf8c34eff8a4156cf47dab91202f657b990",
+    "../data/extensions/station_hourly_2023_07_08.csv.gz": "e5c02bad738c983b8dd313b607db51b0619c8cd1a4fefc2a563a33ab0e2c0dba",
+    "../data/extensions/station_hourly_2023_07_15.csv.gz": "9a3b268c0cfe26f22de4451acda9c13f704ae8368472fdab9459154edcd49c41",
+    "../data/extensions/station_hourly_2023_07_22.csv.gz": "b1bcc57b239761314fdfd3377745aca22c62a906cf386e2c14d96e5b4d4be51a",
+    "../data/extensions/station_hourly_2023_07_29.csv.gz": "272f027c953443910e4c046f574e102606c41e94b281590e36300dc3591541f2",
+    "../data/extensions/station_hourly_2023_10_01.csv.gz": "87064b2d6a6dee0f7792514ab53710353a4e8d5905297b76548fa0a12d780a52",
+    "../data/extensions/station_hourly_2023_10_08.csv.gz": "890013faa24b7fc4b9993c286fd51147f9fe776f2eebabec59d32f88af9f6a01",
+    "../data/extensions/station_hourly_2023_10_15.csv.gz": "4c698efdfffbcd6be2d53f0ca441cf8b7c46bac47e75c0e4996df948a01b48b3",
+    "../data/extensions/station_hourly_2023_10_22.csv.gz": "a9ed80efc270dab02c808c429a8b1a317101bdd0881cfde2d5aafd97995db6ac",
+    "../data/extensions/station_hourly_2023_10_29.csv.gz": "0212d5f5c2c73004d14613f118772bb0ebdaa202bbe0e0d5570c9772df3212f0"
+  },
+  "qwen_update": {
+    "run_id": "qwen38_flash_mainline_run01",
+    "model": "qwen3.8-flash",
+    "prediction_rows": 15504,
+    "stations": 152,
+    "tasks": 6,
+    "methods": 3,
+    "valid_calls": 4512,
+    "error_calls": 56,
+    "role_with_history_requests": 888,
+    "C6_score": 39.35024126966444,
+    "source_sha256": {
+      "mainline/results/qwen38_flash_mainline_run01/predictions.csv": "3bdc22cbeba087f59b0c9c0fb0d9f2b2ef8103a63d5b30eb9b1db3b360a4ece6",
+      "mainline/results/qwen38_flash_mainline_run01/summary.csv": "1916c862f1756965e983f5f8eb04f1d4fb5d61a0fd4e20fb267cf29f94d416bd",
+      "mainline/results/qwen38_flash_mainline_run01/usage.json": "83d1e8e7f7bfa95df46e6514da4b8dbbc1db94e33f808a370f3327f8c5a97d37",
+      "mainline/results/qwen38_flash_mainline_run01/private/api_calls.jsonl": "d6697cad9b107556ee7aeaccfdbd4932741f97067676912ee90a59c2d9a86238"
+    }
+  }
+}

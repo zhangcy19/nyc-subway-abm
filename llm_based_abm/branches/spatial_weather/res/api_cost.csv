@@ -1,0 +1,4 @@
+method,attempts,charged_tokens,input_tokens,output_tokens,summed_request_seconds
+direct_few,66,120323,118277,2046,200.104
+role_no_history,2316,1572751,1448992,123759,8977.5117
+role_with_history,3709,5187839,4996279,191560,12503.3987
